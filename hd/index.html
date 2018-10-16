@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1" />
+	<title>Home Dashboard</title>
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="node_modules/bootstrap-toggle/css/bootstrap-toogle.min.css" />
+	<!--<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />-->
+	<link rel="stylesheet" href="node_modules/select2/dist/css/select2.min.css" />
+	<link rel="stylesheet" href="index.css" />
+</head>
+<body>
+	<div class="container-fluid main_weather">
+		<div class="row">
+			<div class="col-12">
+				<div class="weather_header">
+					<span class="search">Search</span>
+					<input type="text" name="query_text" class="query_text form-control" />
+					<select class="results" name="results"></select>
+					<div class="weather_header_buttons">
+						<button name="search_name" class="btn btn-primary search_name">
+							<img src="images/search.svg" />
+						</button>
+						<button name="search_geolocation" class="btn btn-primary search_geolocation">
+							<img src="images/geolocation.svg" />
+						</button>
+						<button name="refresh" class="btn btn-primary refresh">
+							<img src="images/refresh.svg" />
+						</button>
+						<button name="config" class="btn btn-primary config">
+							<img src="images/config.svg" alt="" />
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12 weather_location_name">
+				<span name="location_name" class="location_name"></span>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-4 weather_icon">
+				<img src="" name="icon" class="icon"/>		
+			</div>
+
+			<div class="col-4 weather_temp">
+				<span name="tenperature" class="tempeature"></span>
+				<span name="tenperature_feel" class="tempeature_feel"></span>
+			</div>
+
+			<div class="col-4 weather_status">
+				<span name="status_main" class="status"></span>	
+				&nbsp;
+				<span name="status_desc" class="status"></span>
+			</div>
+
+			<div class="col-4 weather_uv">
+				<img src="images/uv_icon.svg" />
+				<span name="uv_index" class="uv_index"></span>
+			</div>
+
+			<div class="col-4 weather_humidity">
+				<img src="images/humidity_icon.svg" />
+				<span name="humidity" class="humidity"></span>
+			</div>
+
+			<div class="col-4 weather_wind">
+				<img src="images/wind_icon.svg" />
+				<span name="wind" class="wind"></span>
+			</div>
+
+			<div class="col-3 weather_time">
+				<img src="images/sunrise.svg" />
+				<span class="time" name="sunrise"></span>
+			</div>
+
+			<div class="col-3 weather_time">
+				<img src="images/sunset.svg" />
+				<span class="time" name="sunset"></span>	
+			</div>
+
+			<div class="col-3 weather_time">
+				<img src="images/clock.svg" />
+				<span class="time" name="daylight"></span>
+			</div>
+
+			<div class="col-3 weather_moon">
+				<img src="images/moon.svg" />
+				<span class="moon" name="moon"></span>
+		    </div>
+
+			<div class="col-4 forecast_hour" name="hour_1"></div>
+			<div class="col-4 forecast_hour" name="hour_2"></div>
+			<div class="col-4 forecast_hour" name="hour_3"></div>
+
+			<div class="col-4 forecast_day" name="day_1"></div>
+			<div class="col-4 forecast_day" name="day_2"></div>
+			<div class="col-4 forecast_day" name="day_3"></div>
+		</div>
+
+		<br />
+
+		<div class="row">
+			<div class="col-12 last_update">
+				<span>Last Update:</span>
+				<span name="last_update"></span>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal config_modal" tabindex="-1" role="dialog" id="config_modal">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Weather Underground Configuration</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="form-group row justify-content-around align-items-center">
+					<label for="config_api_key"class="col-11 col-sm-11 col-md-3 col-lg-3 col-xl-3">API Key</label>
+					<input type="text" class="form-control col-11 col-sm-11 col-md-8 col-lg-8 col-xl-8" id="config_api_key" aria-describedby="api_key_help" placeholder="API Key" />
+				</div>
+				<div class="form-group row justify-content-around align-items-center">
+					<label>Debug</label>
+					<input type="checkbox" checked data-toggle="toggle" data-size="small" />
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-primary" name="save_config" >Save changes</button>
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/moment/min/moment.min.js"></script>
+	<script src="node_modules/select2/dist/js/select2.full.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<script src="index.js"></script>
+
+	<template id="forecast_hour">
+		<img class="icon" name="icon" src="" />
+		<span class="time" name="time"></span>
+		<span class="status" name="status"></span>
+		<span class="forecast_temp">
+			<span class="tenperature" name="tenperature"></span>
+			<span class="tenperature_feel" name="tenperature_feel"></span>
+		</span>
+		<span class="forecast_humidity">
+			<img src="images/humidity_icon.svg" />
+			<span class="humidity" name="humidity"></span>
+		</span>
+		<span class="forecast_uv">
+			<img src="images/uv_icon.svg" />
+			<span class="uv" name="uv"></span>
+		</span>
+	</template>
+
+	<template id="forecast_day">
+		<img class="icon" name="icon" src="" />
+		<span class="date" name="date"></span>
+		<span class="status" name="status"></span>
+		<span class="forecast_temp">
+			<span class="temperature_min" name="temperature_min"></span>
+			<span class="temperature_max" name="temperature_max"></span>
+		</span>
+	</template>
+</body>
+</html>
