@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="robots" content="noindex, nofollow" />
+	
+	<title>Phones</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+</head>
+<body>
+	<div class="row form-group mt-5">
+		<div class="col-1">
+			<h2>#</label>
+		</div>	
+		<div class="col-10">
+			<input type="text" id="number" class="w-100 form-control" />		
+		</div>
+		<div class="col-1">
+			<input type="button" value="Go" id="btnGo" class="btn btn-primary" />		
+		</div>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
+	<script>
+		(function(){
+			$('#btnGo').click(function(){
+				let number = $("#number").val();
+				let siteList = ['https://duckduckgo.com/?q={number}','https://www.google.com.mx/search?q={number}','https://twitter.com/search?q={number}','https://www.telefonospam.com.mx/{number}','https://www.listaspam.com/busca.php?Telefono={number}','http://www.quienhabla.mx/{number}','https://quetelefono.com/{number}','https://mx.shouldianswer.net/numero-de-telefono/{number}','http://datostelefonicos.com/info/{number}','https://www.cleverdialer.mx/numero/{number}','https://www.tellows.mx/num/{number}','http://www.miraquienhabla.com.mx/{number}','https://www.telguarder.com/mx/numero/{number}','https://www.numerosdetelefono.mx/numero/{number}','https://www.quienhallamado.es/{number}','https://es.spamphonebook.com/{number}','https://quienllama.org/mexico/telefonos/telefono-{number}','https://www.telspy.org/phonenumber/{number}?lang=es','https://www.showcaller.mx/{number}','https://www.everycaller.com/phone-number/52-{number}/','https://base.ly/mx/01{number}','https://mx.informacion-numero.com/numero/{number}','http://slick.ly/mx/{number}','https://www.numerostelefono.com/mx/?s={number}','http://mx.whocalledme.net/PhoneNumber/{number}'];
+				for (let i = 0; i < siteList.length; i++) {
+					setTimeout(function(){ 
+						let url = siteList[i].replace('{number}', number);
+						window.open(url, '_blank');
+					}, 250);
+				}
+			});
+		})();
+	</script>
+</body>
+</html>
