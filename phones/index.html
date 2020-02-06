@@ -54,34 +54,37 @@
 		(function(){
 			$(document).ready(function(){
 				let siteList = [
+					'-',
 					'https://duckduckgo.com/?q=&quot;{{number}}&quot;',
 					'https://www.google.com.mx/search?q=&quot;{{number}}&quot;',
 					'https://mx.search.yahoo.com/search?p=&quot;{{number}}&quot;',
 					'https://www.bing.com/search?q=&quot;{{number}}&quot;',
 					'https://twitter.com/search?q={{number}}',
 					'https://mx.answers.search.yahoo.com/search?p={{number}}',
+					'-',
 					'https://www.telefonospam.com.mx/{{number}}',
 					'https://www.listaspam.com/busca.php?Telefono={{number}}',
 					'http://www.quienhabla.mx/{{number}}',
 					'https://quetelefono.com/{{number}}',
 					'https://mx.shouldianswer.net/numero-de-telefono/{{number}}',
-					'http://datostelefonicos.com/info/{{number}}',
+					'http://datostelefonicos.com/info/52{{number}}',
 					'https://www.cleverdialer.mx/numero/{{number}}',
 					'https://www.tellows.mx/num/{{number}}',
 					'http://www.miraquienhabla.com.mx/{{number}}',
 					'https://www.telguarder.com/mx/numero/{{number}}',
 					'https://www.numerosdetelefono.mx/numero/{{number}}',
 					'https://www.quienhallamado.es/{{number}}',
-					'https://es.spamphonebook.com/{{number}}',
 					'https://quienllama.org/mexico/telefonos/telefono-{{number}}',
 					'https://www.telspy.org/phonenumber/{{number}}?lang=es',
 					'https://www.showcaller.mx/{{number}}',
 					'https://www.everycaller.com/phone-number/52-{{number}}/',
-					'https://base.ly/mx/01{{number}}',
+					'-',
+					'https://es.spamphonebook.com/{{number}}',
 					'https://mx.informacion-numero.com/numero/{{number}}',
-					'http://slick.ly/mx/{{number}}',
 					'https://www.numerostelefono.com/mx/?s={{number}}',
 					'http://mx.whocalledme.net/PhoneNumber/{{number}}',
+					'https://base.ly/mx/01{{number}}',
+					'http://slick.ly/mx/{{number}}',
 					'https://mean.ly/mx/01{{number}}',
 					'https://www.planetamexico.com.mx/mexico/{{number}}'
 				];
@@ -89,15 +92,20 @@
 				let template = $('#source_template');
 				
 				for (let i = 0; i < siteList.length; i++) {
-					let template_html = template.html();
-					let source_id = ('source_' + (i + 1));
-					
-					template_html = template_html.replace(/(source_id)/mg, source_id);
-					template_html = template_html.replace('source_text', siteList[i]);
-					template_html = template_html.replace(/{{number}}/mg, '');
-					template_html = template_html.replace('source_url', siteList[i]);
-					
-					$('#source_list').append(template_html);
+					if (siteList[i] === '-') {
+						$('#source_list').append('<hr />')
+					}
+					else {
+						let template_html = template.html();
+						let source_id = ('source_' + (i + 1));
+						
+						template_html = template_html.replace(/(source_id)/mg, source_id);
+						template_html = template_html.replace('source_text', siteList[i]);
+						template_html = template_html.replace(/{{number}}/mg, '');
+						template_html = template_html.replace('source_url', siteList[i]);
+						
+						$('#source_list').append(template_html);
+					}
 				}
 				$('#select_all_sources').change(function(){
 					if ($('#select_all_sources').is(':checked') === true) {
