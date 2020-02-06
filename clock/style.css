@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+}
+.time-wrapper {
+    height: 100vh;
+}
+.time {
+    color:white;
+    font-size: 27vw;
+}
