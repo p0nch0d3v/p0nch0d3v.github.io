@@ -1,5 +1,5 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Quantico', sans-serif;
     background-color: black;
 }
 .time-wrapper {
@@ -7,5 +7,5 @@ body{
 }
 .time {
     color:#2EFE2E;
-    font-size: 35vw;
+    font-size: 33vw;
 }
