@@ -5,13 +5,14 @@
 	<meta name="robots" content="noindex, nofollow" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1" />
 	
-	<title>Clock</title>
+    <title>Clock</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" /> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <span class="time-wrapper d-flex flex-column justify-content-center align-items-center align-content-center">
-        <span class="time">99:99:99</span>
+        <span class="time">00:00</span>
     </span>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -20,10 +21,10 @@
     <script>
         (function(){
 			$(document).ready(function(){
-                $('.time').text(moment().format("HH:mm:ss"));
+                $('.time').text(moment().format("HH:mm"));
                 setInterval(() => {
-                    $('.time').text(moment().format("HH:mm:ss"));
-                }, 1001);
+                    $('.time').text(moment().format("HH:mm"));
+                }, 1000);
             });
 		})();
     </script>

@@ -1,10 +1,11 @@
 body{
+    font-family: 'Roboto', sans-serif;
     background-color: black;
 }
 .time-wrapper {
-    height: 100vh;
+    height: 99vh;
 }
 .time {
-    color:white;
-    font-size: 27vw;
+    color:#2EFE2E;
+    font-size: 35vw;
 }
