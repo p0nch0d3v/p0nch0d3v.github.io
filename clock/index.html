@@ -12,7 +12,11 @@
 </head>
 <body>
     <span class="time-wrapper d-flex flex-column justify-content-center align-items-center align-content-center">
-        <span class="time">00:00</span>
+        <span class="time d-flex">
+            <span class="hour"></span>
+            <span class="pulse">:</span>
+            <span class="minute"></span>
+        </span>
     </span>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -21,9 +25,21 @@
     <script>
         (function(){
 			$(document).ready(function(){
-                $('.time').text(moment().format("HH:mm"));
+                $('.time .hour').text(moment().format("HH"));
+                $('.time .minute').text(moment().format("mm"));
                 setInterval(() => {
-                    $('.time').text(moment().format("HH:mm"));
+                    $('.time .hour').text(moment().format("HH"));
+                    $('.time .minute').text(moment().format("mm"));
+                }, 1000);
+                let interval = 1
+                setInterval(() => {
+                    if (interval === 1){
+                        $('.time .pulse').removeClass('black');
+                    }
+                    else if (interval === -1){
+                        $('.time .pulse').addClass('black');
+                    }
+                    interval *= -1;
                 }, 1000);
             });
 		})();

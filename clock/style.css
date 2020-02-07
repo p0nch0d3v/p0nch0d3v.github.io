@@ -9,3 +9,6 @@ body{
     color:#2EFE2E;
     font-size: 33vw;
 }
+.time > .pulse.black {
+    color: black;
+}
