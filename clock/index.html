@@ -25,14 +25,12 @@
     <script>
         (function(){
 			$(document).ready(function(){
+                let interval = 1;
                 $('.time .hour').text(moment().format("HH"));
                 $('.time .minute').text(moment().format("mm"));
                 setInterval(() => {
                     $('.time .hour').text(moment().format("HH"));
                     $('.time .minute').text(moment().format("mm"));
-                }, 1000);
-                let interval = 1
-                setInterval(() => {
                     if (interval === 1){
                         $('.time .pulse').removeClass('black');
                     }
