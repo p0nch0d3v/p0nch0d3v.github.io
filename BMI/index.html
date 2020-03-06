@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="robots" content="noindex, nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" 
+    integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" 
+    crossorigin="anonymous" />
+    <title>Body Mass Index</title>
+</head>
+<body>
+    <h1 class="mx-auto" style="width: 300px;">Body Mass Index</h1>   
+    <div class="container">
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+            <a class="nav-link active" id="height_weight-tab" data-toggle="tab" href="#height_weight" role="tab" aria-controls="height_and_weight" aria-selected="true">Height & Weight</a>
+            </li>
+            
+            <li class="nav-item">
+            <a class="nav-link" id="only_height-tab" data-toggle="tab" href="#only_height" role="tab" aria-controls="only_height" aria-selected="false">Only Height</a>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="tabContent">
+            <div class="tab-pane fade show active" id="height_weight" role="tabpanel" aria-labelledby="height_weight-tab">
+                <div class="row justify-content-center mt-2">
+                    <span class="col-3 text-right">Height</span>
+                    <input class="col-2 height" type="number" min="0.01" max="3.00" step="0.01" />
+                    <span class="col-1">mts</span>
+                </div>
+                <div class="row justify-content-center mt-2">
+                    <span class="col-3 text-right">Weight</span>
+                    <input class="col-2 weight" type="number" min="0.01" max="1000.00" step="0.01" />
+                    <span class="col-1">kgs</span>
+                </div>
+                <div class="row justify-content-center mt-2">
+                    <div class="col-6">
+                        <button class="btn btn-primary" id="process_height_weight">Process</button>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-2">
+                    <span class="col-3 text-right">Result</span>
+                    <span class="col-2 text-right" id="bmi">00.0</span>
+                </div>
+                <hr>
+                <div id="bmi_categories" style="display: none;">
+                    <div class="row justify-content-center mt-2 less_15">
+                        <span class="col-4 text-right">Less than 15</span>
+                        <span class="col-4">Very severely underweight</span>
+                        <span class="col-2 from text-right"></span>
+                        <span class="col-2 to text-right">00.00</span>
+                    </div>
+                    <div class="row justify-content-center mt-2 between_15_16">
+                        <span class="col-4 text-right">Between 15 and 16</span>
+                        <span class="col-4">Severely underweight</span>
+                        <span class="col-2 from text-right">00.00</span>
+                        <span class="col-2 to text-right">00.00</span>
+                    </div>
+                    <div class="row justify-content-center mt-2 between_16_185">
+                        <span class="col-4 text-right">Between 16 and 18.5</span>
+                        <span class="col-4">Underweight</span>
+                        <span class="col-2 from text-right">00.00</span>
+                        <span class="col-2 to text-right">00.00</span>
+                    </div>
+                    <div class="row justify-content-center mt-2 between_185_25">
+                        <span class="col-4 text-right">Between 18.5 and 25</span>
+                        <span class="col-4">Normal (healthy weight)</span>
+                        <span class="col-2 from text-right">00.00</span>
+                        <span class="col-2 to text-right">00.00</span>
+                    </div>
+                    <div class="row justify-content-center mt-2 between_25_30">
+                        <span class="col-4 text-right">Between 25 and 30</span>
+                        <span class="col-4">Overweight</span>
+                        <span class="col-2 from text-right">00.00</span>
+                        <span class="col-2 to text-right">00.00</span>
+                    </div>
+                    <div class="row justify-content-center mt-2 between_30_35">
+                        <span class="col-4 text-right">Between 30 and 35</span>
+                        <span class="col-4">Moderately obese</span>
+                        <span class="col-2 from text-right">00.00</span>
+                        <span class="col-2 to text-right">00.00</span>
+                    </div>
+                    <div class="row justify-content-center mt-2 between_35_40">
+                        <span class="col-4 text-right">Between 35 and 40</span>
+                        <span class="col-4">Severely obese</span>
+                        <span class="col-2 from text-right">00.00</span>
+                        <span class="col-2 to text-right">00.00</span>
+                    </div>
+                    <div class="row justify-content-center mt-2 over_40">
+                        <span class="col-4 text-right">Over 40</span>
+                        <span class="col-4">Very severely obese</span>
+                        <span class="col-2 from text-right">00.00</span>
+                        <span class="col-2 to text-right"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="only_height" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="row justify-content-center mt-2">
+                    <span class="col-3 text-right">Height</span>
+                    <input class="col-2 height" type="number" min="0.01" max="3.00" step="0.01" />
+                    <span class="col-1">mts</span>
+                </div>
+                <div class="row justify-content-center mt-2">
+                    <div class="col-6">
+                        <button class="btn btn-primary" id="process_only_height">Process</button>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-2">
+                    <span class="col-3 text-right">Minimun weight</span>
+                    <span class="col-2 text-right" id="min_weight">00.0</span>
+                    <span class="col-1 text-left">kgs</span>
+                </div>
+                <div class="row justify-content-center mt-2">
+                    <span class="col-3 text-right">Ideal weight</span>
+                    <span class="col-2 text-right" id="ideal_weight">00.0</span>
+                    <span class="col-1 text-left">kgs</span>
+                </div>
+                <div class="row justify-content-center mt-2">
+                    <span class="col-3 text-right">Maximun weight</span>
+                    <span class="col-2 text-right" id="max_weight">00.0</span>
+                    <span class="col-1 text-left">kgs</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
+    <script>
+        let calculate_weight = function (imc, height){
+            return imc * height * height;
+        };
+
+        let process_only_height = function(){
+            let bmi = 18.49;
+            let height = $('#only_height .height').val();
+            let weight = calculate_weight(bmi, height);
+            $('#min_weight').text(weight.toFixed(2));
+
+            bmi = 25 - ((25 - 18.5) / 2);
+            weight = calculate_weight(bmi, height);
+            $('#ideal_weight').text(weight.toFixed(2));
+
+            bmi = 25.01;
+            weight = calculate_weight(bmi, height);
+            $('#max_weight').text(weight.toFixed(2));
+        };
+
+        let process_height_weight = function(){
+            let height = $('#height_weight .height').val();
+            let weight = $('#height_weight .weight').val();
+            let bmi = weight / (height * height);
+            $('#height_weight #bmi').text(bmi.toFixed(2));
+            $('#height_weight #bmi_categories').show();
+
+            $('#height_weight #bmi_categories').find('.font-weight-bold').removeClass('font-weight-bold');
+
+            if (bmi < 15) {
+                $('#height_weight .less_15').addClass('font-weight-bold');
+            }
+            else if (bmi > 15 && bmi < 16) {
+                $('#height_weight .between_15_16').addClass('font-weight-bold');
+            }
+            else if (bmi > 16 && bmi < 18.5) {
+                $('#height_weight .between_16_185').addClass('font-weight-bold');
+            }
+            else if (bmi > 18.5 && bmi < 25) {
+                $('#height_weight .between_185_25').addClass('font-weight-bold');
+            }
+            else if (bmi > 25 && bmi < 30) {
+                $('#height_weight .between_25_30').addClass('font-weight-bold');
+            }
+            else if (bmi > 30 && bmi < 35) {
+                $('#height_weight .between_30_35').addClass('font-weight-bold');
+            }
+            else if (bmi > 35 && bmi < 40) {
+                $('#height_weight .between_35_40').addClass('font-weight-bold');
+            }
+            else if (bmi > 40) {
+                $('#height_weight .over_40').addClass('font-weight-bold');
+            }
+            $('#height_weight .less_15 .to').text(calculate_weight(14.99, height).toFixed(2));
+            
+            $('#height_weight .between_15_16 .from').text(calculate_weight(15, height).toFixed(2));
+            $('#height_weight .between_15_16 .to').text(calculate_weight(16, height).toFixed(2));
+            
+            $('#height_weight .between_16_185 .from').text(calculate_weight(16, height).toFixed(2));
+            $('#height_weight .between_16_185 .to').text(calculate_weight(18.5, height).toFixed(2));
+            
+            $('#height_weight .between_185_25 .from').text(calculate_weight(18.5, height).toFixed(2));
+            $('#height_weight .between_185_25 .to').text(calculate_weight(25, height).toFixed(2));
+
+            $('#height_weight .between_25_30 .from').text(calculate_weight(25, height).toFixed(2));
+            $('#height_weight .between_25_30 .to').text(calculate_weight(30, height).toFixed(2));
+
+            $('#height_weight .between_30_35 .from').text(calculate_weight(30, height).toFixed(2));
+            $('#height_weight .between_30_35 .to').text(calculate_weight(35, height).toFixed(2));
+
+            $('#height_weight .between_35_40 .from').text(calculate_weight(35, height).toFixed(2));
+            $('#height_weight .between_35_40 .to').text(calculate_weight(40, height).toFixed(2));
+
+            $('#height_weight .over_40 .from').text(calculate_weight(40.01, height).toFixed(2));
+        };
+        
+        $(document).ready(function(){
+            $('#only_height .height').val(0.01);
+            $('#only_height').find('#min_weight, #ideal_weight, #max_weight').text("0.0");
+
+            $('#only_height .height').val(0.01);
+            $('#height_weight').find('.height, .weight').val(0.01);
+        });
+        
+        $('#only_height .height').off('change, keyup').on('change, keyup', function(){
+            process_only_height();
+        });
+
+        $('#only_height #process_only_height').off('click').on('click', function(){
+            process_only_height();
+        });
+
+        $('#height_weight').find('.height, .weight').off('change, keyup').on('change, keyup', function(){
+            process_height_weight();
+        });
+
+        $('#height_weight #process_height_weight').off('click').on('click', function(){
+            process_height_weight();
+        });
+    </script>
+</body>
