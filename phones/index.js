@@ -26,6 +26,7 @@
             'https://www.showcaller.mx/{{number}}',
             'https://www.showcaller.global/mx/+52{{number}}',
             'https://www.everycaller.com/phone-number/52-{{number}}/',
+            'https://www.quien-llama.cl/numero/{{number}}',
             '-',
             'https://es.spamphonebook.com/{{number}}',
             'https://mx.informacion-numero.com/numero/{{number}}',
