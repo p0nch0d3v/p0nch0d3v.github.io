@@ -23,7 +23,6 @@
             'https://www.quienhallamado.es/{{number}}',
             'https://quienllama.org/mexico/telefonos/telefono-{{number}}',
             'https://www.telspy.org/phonenumber/{{number}}?lang=es',
-            'https://www.showcaller.mx/{{number}}',
             'https://www.showcaller.global/mx/+52{{number}}',
             'https://www.everycaller.com/phone-number/52-{{number}}/',
             'https://www.quien-llama.cl/numero/{{number}}',
@@ -35,7 +34,6 @@
             'https://base.ly/mx/01{{number}}',
             'http://slick.ly/mx/{{number}}',
             'https://mean.ly/mx/01{{number}}',
-            'https://www.planetamexico.com.mx/mexico/{{number}}',
             '-'
         ];
 
