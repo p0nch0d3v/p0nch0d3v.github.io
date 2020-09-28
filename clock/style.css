@@ -2,13 +2,23 @@ body{
     font-family: 'Quantico', sans-serif;
     background-color: black;
 }
-.time-wrapper {
-    height: 99vh;
+.btn-primary,
+.btn-primary:active{
+    background-color: #00ff00;
+    border-color: #00ff00;
 }
-.time {
+.btn-primary:hover,
+.btn-primary:focus{
+    background-color: #72d900;
+    border-color: #72d900;
+}
+.clock-wrapper {
+    height: 90vh;
+}
+.clock {
     color:#2EFE2E;
     font-size: 33vw;
 }
-.time > .pulse.black {
+.clock > .pulse.black {
     color: black;
 }

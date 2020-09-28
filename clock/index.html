@@ -11,8 +11,16 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <span class="time-wrapper d-flex flex-column justify-content-center align-items-center align-content-center">
-        <span class="time d-flex">
+    <span class="d-flex flex-column justify-content-center align-items-center align-content-center mt-2">
+        <span class="d-flex">
+            <button id="clock" class="btn mr-1">Clock</button>
+            <button id="stopwatch" class="btn mr-1">Stopwatch</button>
+            <button id="timer" class="btn mr-1">Timer</button>
+            <button id="pomodoro" class="btn ">Pomodoro</button>
+        </span>
+    </span>
+    <span class="clock-wrapper d-flex flex-column justify-content-center align-items-center align-content-center">
+        <span class="clock d-flex">
             <span class="hour"></span>
             <span class="pulse">:</span>
             <span class="minute"></span>
@@ -22,24 +30,5 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
     <script src="https://momentjs.com/downloads/moment.js"></script>
-    <script>
-        (function(){
-			$(document).ready(function(){
-                let interval = 1;
-                $('.time .hour').text(moment().format("HH"));
-                $('.time .minute').text(moment().format("mm"));
-                setInterval(() => {
-                    $('.time .hour').text(moment().format("HH"));
-                    $('.time .minute').text(moment().format("mm"));
-                    if (interval === 1){
-                        $('.time .pulse').removeClass('black');
-                    }
-                    else if (interval === -1){
-                        $('.time .pulse').addClass('black');
-                    }
-                    interval *= -1;
-                }, 1000);
-            });
-		})();
-    </script>
+    <script src="index.js"></script>
 </body>
