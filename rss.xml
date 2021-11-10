@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Blog Blog</title>
+        <link>https://sneakykoder.github.io/</link>
+        <description>Blog Blog</description>
+        <lastBuildDate>Fri, 15 Oct 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[My docker CLI's]]></title>
+            <link>https://sneakykoder.github.io/my-docker-clis</link>
+            <guid>my-docker-clis</guid>
+            <pubDate>Fri, 15 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[A collection of custom docker images as CLI's]]></description>
+            <content:encoded><![CDATA[<h2>A collection of custom docker images as CLI&#x27;s</h2><p>I had the need to run different technologies in my local dev environment, such as .net-core, node js, python, ruby, etc. without install them.</p><p>So I took the decision to create a set of docker images with some pre-installed apps/plugins/extensions according to the technology to help with the development process.</p><h2>python:3</h2><h3>Docker image:</h3><blockquote><p><a href="https://hub.docker.com/r/sneakykoder/python-cli">https://hub.docker.com/r/sneakykoder/python-cli</a>.</p><h3>Repository:</h3><p><a href="https://github.com/sneakykoder/python-cli">https://github.com/sneakykoder/python-cli</a></p><h3>How to use it:</h3><pre><code class="language-bash">docker run --rm --interactive --tty --volume ${PWD}:/app sneakykoder/python-cli:3 bash
+</code></pre></blockquote><h2>dotnet core with entity framework</h2><h3>Docker image:</h3><blockquote><p><a href="https://hub.docker.com/r/sneakykoder/dotnet-cli/tags">https://hub.docker.com/r/sneakykoder/dotnet-cli/tags</a></p><h3>Repository:</h3><p><a href="https://github.com/sneakykoder/dotnet-cli">https://github.com/sneakykoder/dotnet-cli</a> </p><h3>How to use it</h3><pre><code class="language-bash">docker run --rm --interactive --tty --volume ${PWD}:/app sneakykoder/dotnet-cli bash
+</code></pre></blockquote><h2>dotnet core with entity framework and node-js</h2><h3>Docker image:</h3><blockquote><p><a href="https://hub.docker.com/r/sneakykoder/dotnet-node-cli">https://hub.docker.com/r/sneakykoder/dotnet-node-cli</a></p><h3>Repository:</h3><p><a href="https://github.com/sneakykoder/dotnet-node-cli">https://github.com/sneakykoder/dotnet-node-cli</a></p><h3>How to use it:</h3><pre><code class="language-bash">docker run --rm --interactive --tty --volume ${PWD}:/app sneakykoder/dotnet-node-cli bash
+</code></pre></blockquote>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
