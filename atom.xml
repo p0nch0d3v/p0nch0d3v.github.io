@@ -23,9 +23,7 @@ docker ps -a
 docker images -a
 docker volume ls
 docker network ls
-</code></pre><blockquote><p><a href="https://raw.githubusercontent.com/sneakykoder/scripts-labs/master/docker_clean_up.sh">Download bash</a>
-|
-<a href="https://raw.githubusercontent.com/sneakykoder/scripts-labs/master/docker_clean_up.ps1">Download powershell</a></p></blockquote>]]></content>
+</code></pre><blockquote><p><a href="https://raw.githubusercontent.com/sneakykoder/scripts-labs/master/docker_clean_up.sh">Download bash</a></p></blockquote><blockquote><p><a href="https://raw.githubusercontent.com/sneakykoder/scripts-labs/master/docker_clean_up.ps1">Download powershell</a></p></blockquote>]]></content>
         <author>
             <name>Sneaky Koder</name>
             <uri>https://github.com/sneakykoder</uri>
@@ -38,7 +36,9 @@ docker network ls
         <updated>2022-01-17T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Here is a set of some git snippets, useful in some way.]]></summary>
         <content type="html"><![CDATA[<blockquote><p>Here is a set of some git snippets, useful in some way.</p></blockquote><h3>Git log</h3><pre><code class="language-bash">git log --pretty=oneline --abbrev-commit --graph
+git log --pretty --oneline --graph --abbrev-commit --relative-date
 </code></pre><h4>Create alias</h4><pre><code class="language-bash">git config --global alias.graph-log &#x27;log --pretty=oneline --abbrev-commit --graph&#x27;
+git config --global alias.graph-log &#x27;git log --pretty --oneline --graph --abbrev-commit --relative-date&#x27;
 </code></pre><hr/><h3>Git config user</h3><pre><code class="language-bash">git config --local user.email &quot;&quot;
 git config --local user.name &quot;&quot;
 </code></pre><h3>Git hook</h3><h4>Git hook to validate branch name</h4><pre><code class="language-bash">#!/bin/sh
