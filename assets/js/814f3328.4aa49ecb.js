@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Some scripts","permalink":"/some-scripts"},{"title":"Git snippets","permalink":"/git-snippets"},{"title":"Docker CLI\'s","permalink":"/docker-clis"}]}')}}]);
