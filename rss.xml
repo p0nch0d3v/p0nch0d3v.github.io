@@ -4,9 +4,30 @@
         <title>Blog Blog</title>
         <link>https://sneakykoder.github.io/</link>
         <description>Blog Blog</description>
-        <lastBuildDate>Sun, 20 Feb 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 02 Mar 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Host domain on local network]]></title>
+            <link>https://sneakykoder.github.io/host-domain-local-net</link>
+            <guid>host-domain-local-net</guid>
+            <pubDate>Wed, 02 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Prefer used a domain parked on namecheap.]]></description>
+            <content:encoded><![CDATA[<p>Prefer used a domain parked on <a href="https://www.namecheap.com/" target="_blank">namecheap</a>.</p><blockquote><p>Install <code>ddclient</code>, debian base linux distro:</p></blockquote><pre><code class="language-bash">sudo apt-get install ddclient -y
+</code></pre><pre><code class="language-bash">sudo vim /etc/ddclient.conf
+</code></pre><p>Use the following content</p><pre><code>ssl=yes
+use=web, web=dynamicdns.park-your-domain.com/getip
+protocol=namecheap
+server=dynamicdns.park-your-domain.com
+login=dummy-domain.tld
+password=''
+@
+*
+</code></pre><p>Get IP info:</p><pre><code class="language-bash">sudo ddclient -query
+</code></pre><p>Restart service:</p><pre><code class="language-bash">sudo service ddclient restart
+</code></pre><p>References:</p><ul><li><a href="https://www.namecheap.com/support/knowledgebase/article.aspx/43/11/how-do-i-set-up-a-host-for-dynamic-dns/">https://www.namecheap.com/support/knowledgebase/article.aspx/43/11/how-do-i-set-up-a-host-for-dynamic-dns/</a></li><li><a href="https://www.namecheap.com/support/knowledgebase/article.aspx/583/11/how-do-i-configure-ddclient/">https://www.namecheap.com/support/knowledgebase/article.aspx/583/11/how-do-i-configure-ddclient/</a></li></ul>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Linux Shell snippets]]></title>
             <link>https://sneakykoder.github.io/linux-shell-snippets</link>
