@@ -4,10 +4,27 @@
         <title>Blog Blog</title>
         <link>https://sneakykoder.github.io/</link>
         <description>Blog Blog</description>
-        <lastBuildDate>Wed, 02 Mar 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 May 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Use Jenkins on Dokku]]></title>
+            <link>https://sneakykoder.github.io/use-jenkins-on-dokku</link>
+            <guid>use-jenkins-on-dokku</guid>
+            <pubDate>Thu, 05 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Create the app on dokku.]]></description>
+            <content:encoded><![CDATA[<p>Create the app on dokku.</p><pre><code class="language-bash">dokku apps:create j
+</code></pre><p>Get <code>Jenkins</code> docker image</p><pre><code class="language-bash">docker pull jenkins/jenkins:lts-jdk11
+</code></pre><p>Tag the pulled image as the current application image</p><pre><code class="language-bash">docker tag jenkins/jenkins:lts-jdk11 dokku/j:latest
+</code></pre><p>Deploy the tagged image to the application</p><pre><code class="language-bash">dokku tags:deploy j latest
+</code></pre><p>Map the exposed port <code>8080</code> from Jenkins to <code>80</code> port</p><pre><code class="language-bash">dokku proxy:set j http:80:8080
+dokku proxy:ports-add j 80:8080
+</code></pre><p>Optional, create a mount point for the whole jenkins configurations.</p><pre><code class="language-bash">dokku storage:mount j /home/sneakykoder/jenkins_home:/var/jenkins_home
+</code></pre>]]></content:encoded>
+            <category>jenkins</category>
+            <category>dokku</category>
+        </item>
         <item>
             <title><![CDATA[Host domain on local network]]></title>
             <link>https://sneakykoder.github.io/host-domain-local-net</link>
@@ -34,12 +51,12 @@ password=''
             <guid>linux-shell-snippets</guid>
             <pubDate>Sun, 20 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Here is a set of some git snippets, useful in some way.]]></description>
-            <content:encoded><![CDATA[<blockquote><p>Here is a set of some git snippets, useful in some way.</p></blockquote><h3 id="list-filesdirectories">List files/directories</h3><pre><code class="language-sh">ls -a -l -h --color=always
-</code></pre><p>Where:</p><pre><code class="language-sh">-a      = show all files included the dots(.)
+            <content:encoded><![CDATA[<blockquote><p>Here is a set of some git snippets, useful in some way.</p></blockquote><h3 id="list-filesdirectories">List files/directories</h3><pre><code class="language-bash">ls -a -l -h --color=always
+</code></pre><p>Where:</p><pre><code class="language-bash">-a      = show all files included the dots(.)
 -l      = show in long format
 -h      = Show in units in humat readable format
 --color = Output colored
-</code></pre><h3 id="find-forlders-recursively">Find forlders recursively</h3><pre><code>find . -name "node_modules" -type d -prune | xargs du -chs
+</code></pre><h3 id="find-forlders-recursively">Find forlders recursively</h3><pre><code class="language-bash">find . -name "node_modules" -type d -prune | xargs du -chs
 </code></pre>]]></content:encoded>
             <category>linux</category>
             <category>bash</category>

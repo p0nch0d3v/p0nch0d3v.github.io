@@ -2,11 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sneakykoder.github.io/</id>
     <title>Blog Blog</title>
-    <updated>2022-03-02T00:00:00.000Z</updated>
+    <updated>2022-05-05T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sneakykoder.github.io/"/>
     <subtitle>Blog Blog</subtitle>
     <icon>https://sneakykoder.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Use Jenkins on Dokku]]></title>
+        <id>use-jenkins-on-dokku</id>
+        <link href="https://sneakykoder.github.io/use-jenkins-on-dokku"/>
+        <updated>2022-05-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Create the app on dokku.]]></summary>
+        <content type="html"><![CDATA[<p>Create the app on dokku.</p><pre><code class="language-bash">dokku apps:create j
+</code></pre><p>Get <code>Jenkins</code> docker image</p><pre><code class="language-bash">docker pull jenkins/jenkins:lts-jdk11
+</code></pre><p>Tag the pulled image as the current application image</p><pre><code class="language-bash">docker tag jenkins/jenkins:lts-jdk11 dokku/j:latest
+</code></pre><p>Deploy the tagged image to the application</p><pre><code class="language-bash">dokku tags:deploy j latest
+</code></pre><p>Map the exposed port <code>8080</code> from Jenkins to <code>80</code> port</p><pre><code class="language-bash">dokku proxy:set j http:80:8080
+dokku proxy:ports-add j 80:8080
+</code></pre><p>Optional, create a mount point for the whole jenkins configurations.</p><pre><code class="language-bash">dokku storage:mount j /home/sneakykoder/jenkins_home:/var/jenkins_home
+</code></pre>]]></content>
+        <author>
+            <name>Sneaky Koder</name>
+            <uri>https://github.com/sneakykoder</uri>
+        </author>
+        <category label="jenkins" term="jenkins"/>
+        <category label="dokku" term="dokku"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Host domain on local network]]></title>
         <id>host-domain-local-net</id>
@@ -37,12 +58,12 @@ password=''
         <link href="https://sneakykoder.github.io/linux-shell-snippets"/>
         <updated>2022-02-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Here is a set of some git snippets, useful in some way.]]></summary>
-        <content type="html"><![CDATA[<blockquote><p>Here is a set of some git snippets, useful in some way.</p></blockquote><h3 id="list-filesdirectories">List files/directories</h3><pre><code class="language-sh">ls -a -l -h --color=always
-</code></pre><p>Where:</p><pre><code class="language-sh">-a      = show all files included the dots(.)
+        <content type="html"><![CDATA[<blockquote><p>Here is a set of some git snippets, useful in some way.</p></blockquote><h3 id="list-filesdirectories">List files/directories</h3><pre><code class="language-bash">ls -a -l -h --color=always
+</code></pre><p>Where:</p><pre><code class="language-bash">-a      = show all files included the dots(.)
 -l      = show in long format
 -h      = Show in units in humat readable format
 --color = Output colored
-</code></pre><h3 id="find-forlders-recursively">Find forlders recursively</h3><pre><code>find . -name "node_modules" -type d -prune | xargs du -chs
+</code></pre><h3 id="find-forlders-recursively">Find forlders recursively</h3><pre><code class="language-bash">find . -name "node_modules" -type d -prune | xargs du -chs
 </code></pre>]]></content>
         <author>
             <name>Sneaky Koder</name>
