@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Blog Blog</title>
-        <link>https://sneakykoder.github.io/</link>
+        <link>https://p0nch0d3v.github.io/</link>
         <description>Blog Blog</description>
         <lastBuildDate>Thu, 05 May 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <language>en</language>
         <item>
             <title><![CDATA[Use Jenkins on Dokku]]></title>
-            <link>https://sneakykoder.github.io/use-jenkins-on-dokku</link>
+            <link>https://p0nch0d3v.github.io/use-jenkins-on-dokku</link>
             <guid>use-jenkins-on-dokku</guid>
             <pubDate>Thu, 05 May 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Create the app on dokku.]]></description>
@@ -27,7 +27,7 @@ dokku proxy:ports-add j 80:8080
         </item>
         <item>
             <title><![CDATA[Host domain on local network]]></title>
-            <link>https://sneakykoder.github.io/host-domain-local-net</link>
+            <link>https://p0nch0d3v.github.io/host-domain-local-net</link>
             <guid>host-domain-local-net</guid>
             <pubDate>Wed, 02 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Prefer used a domain parked on namecheap.]]></description>
@@ -47,7 +47,7 @@ password=''
         </item>
         <item>
             <title><![CDATA[Linux Shell snippets]]></title>
-            <link>https://sneakykoder.github.io/linux-shell-snippets</link>
+            <link>https://p0nch0d3v.github.io/linux-shell-snippets</link>
             <guid>linux-shell-snippets</guid>
             <pubDate>Sun, 20 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Here is a set of some git snippets, useful in some way.]]></description>
@@ -64,7 +64,7 @@ password=''
         </item>
         <item>
             <title><![CDATA[Some scripts]]></title>
-            <link>https://sneakykoder.github.io/some-scripts</link>
+            <link>https://p0nch0d3v.github.io/some-scripts</link>
             <guid>some-scripts</guid>
             <pubDate>Mon, 24 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Here is a set of (useful in some way) scripts in different languages such as bash, powershell, etc.]]></description>
@@ -74,7 +74,7 @@ password=''
         </item>
         <item>
             <title><![CDATA[Git snippets]]></title>
-            <link>https://sneakykoder.github.io/git-snippets</link>
+            <link>https://p0nch0d3v.github.io/git-snippets</link>
             <guid>git-snippets</guid>
             <pubDate>Mon, 17 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Here is a set of some git snippets, useful in some way.]]></description>
@@ -104,7 +104,7 @@ exit 0
         </item>
         <item>
             <title><![CDATA[Docker CLI's]]></title>
-            <link>https://sneakykoder.github.io/docker-clis</link>
+            <link>https://p0nch0d3v.github.io/docker-clis</link>
             <guid>docker-clis</guid>
             <pubDate>Fri, 15 Oct 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[A collection of custom docker images as CLI's]]></description>

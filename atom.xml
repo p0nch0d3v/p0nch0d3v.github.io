@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://sneakykoder.github.io/</id>
+    <id>https://p0nch0d3v.github.io/</id>
     <title>Blog Blog</title>
     <updated>2022-05-05T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://sneakykoder.github.io/"/>
+    <link rel="alternate" href="https://p0nch0d3v.github.io/"/>
     <subtitle>Blog Blog</subtitle>
-    <icon>https://sneakykoder.github.io/img/favicon.ico</icon>
+    <icon>https://p0nch0d3v.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Use Jenkins on Dokku]]></title>
         <id>use-jenkins-on-dokku</id>
-        <link href="https://sneakykoder.github.io/use-jenkins-on-dokku"/>
+        <link href="https://p0nch0d3v.github.io/use-jenkins-on-dokku"/>
         <updated>2022-05-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Create the app on dokku.]]></summary>
         <content type="html"><![CDATA[<p>Create the app on dokku.</p><pre><code class="language-bash">dokku apps:create j
@@ -31,7 +31,7 @@ dokku proxy:ports-add j 80:8080
     <entry>
         <title type="html"><![CDATA[Host domain on local network]]></title>
         <id>host-domain-local-net</id>
-        <link href="https://sneakykoder.github.io/host-domain-local-net"/>
+        <link href="https://p0nch0d3v.github.io/host-domain-local-net"/>
         <updated>2022-03-02T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Prefer used a domain parked on namecheap.]]></summary>
         <content type="html"><![CDATA[<p>Prefer used a domain parked on <a href="https://www.namecheap.com/" target="_blank">namecheap</a>.</p><blockquote><p>Install <code>ddclient</code>, debian base linux distro:</p></blockquote><pre><code class="language-bash">sudo apt-get install ddclient -y
@@ -55,7 +55,7 @@ password=''
     <entry>
         <title type="html"><![CDATA[Linux Shell snippets]]></title>
         <id>linux-shell-snippets</id>
-        <link href="https://sneakykoder.github.io/linux-shell-snippets"/>
+        <link href="https://p0nch0d3v.github.io/linux-shell-snippets"/>
         <updated>2022-02-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Here is a set of some git snippets, useful in some way.]]></summary>
         <content type="html"><![CDATA[<blockquote><p>Here is a set of some git snippets, useful in some way.</p></blockquote><h3 id="list-filesdirectories">List files/directories</h3><pre><code class="language-bash">ls -a -l -h --color=always
@@ -76,7 +76,7 @@ password=''
     <entry>
         <title type="html"><![CDATA[Some scripts]]></title>
         <id>some-scripts</id>
-        <link href="https://sneakykoder.github.io/some-scripts"/>
+        <link href="https://p0nch0d3v.github.io/some-scripts"/>
         <updated>2022-01-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Here is a set of (useful in some way) scripts in different languages such as bash, powershell, etc.]]></summary>
         <content type="html"><![CDATA[<blockquote><p>Here is a set of (useful in some way) scripts in different languages such as bash, powershell, etc.</p></blockquote><h2 id="docker">Docker</h2><h3 id="clean-up-docker">Clean up docker</h3><h4 id="shell">Shell</h4><pre style="max-height:25vh;overflow:scroll"><code lang="shell">fetching file ...</code></pre><a href="https://raw.githubusercontent.com/p0nch0d3v/scripts-labs/master/docker_clean_up.sh" target="_blank">Download</a><br><hr><h4 id="powershell">Powershell</h4><pre style="max-height:25vh;overflow:scroll"><code lang="shell">fetching file ...</code></pre><a href="https://raw.githubusercontent.com/p0nch0d3v/scripts-labs/master/docker_clean_up.ps1" target="_blank">Download</a><br><h3 id="purge-docker">Purge docker</h3><h4 id="shell-1">Shell</h4><pre style="max-height:25vh;overflow:scroll"><code lang="shell">fetching file ...</code></pre><a href="https://raw.githubusercontent.com/p0nch0d3v/scripts-labs/master/docker_purge_all.sh" target="_blank">Download</a><br><hr><h4 id="powershell-1">Powershell</h4><pre style="max-height:25vh;overflow:scroll"><code lang="shell">fetching file ...</code></pre><a href="https://raw.githubusercontent.com/p0nch0d3v/scripts-labs/master/docker_purge_all.ps1" target="_blank">Download</a><br>]]></content>
@@ -90,7 +90,7 @@ password=''
     <entry>
         <title type="html"><![CDATA[Git snippets]]></title>
         <id>git-snippets</id>
-        <link href="https://sneakykoder.github.io/git-snippets"/>
+        <link href="https://p0nch0d3v.github.io/git-snippets"/>
         <updated>2022-01-17T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Here is a set of some git snippets, useful in some way.]]></summary>
         <content type="html"><![CDATA[<blockquote><p>Here is a set of some git snippets, useful in some way.</p></blockquote><h3 id="git-log">Git log</h3><pre><code class="language-bash">git log --pretty=oneline --abbrev-commit --graph
@@ -124,7 +124,7 @@ exit 0
     <entry>
         <title type="html"><![CDATA[Docker CLI's]]></title>
         <id>docker-clis</id>
-        <link href="https://sneakykoder.github.io/docker-clis"/>
+        <link href="https://p0nch0d3v.github.io/docker-clis"/>
         <updated>2021-10-15T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[A collection of custom docker images as CLI's]]></summary>
         <content type="html"><![CDATA[<h2 id="a-collection-of-custom-docker-images-as-clis">A collection of custom docker images as CLI's</h2><p>There was a need to run different technologies in local dev environment, such as .net-core, node js, python, ruby, etc. without install them.</p><p>A decision mas made to create a set of docker images with some pre-installed apps/plugins/extensions according to the technology to help with the development process.</p><h2 id="dotnet-core-with-entity-framework">dotnet core with entity framework</h2><h3 id="docker-image">Docker image:</h3><blockquote><p><a href="https://hub.docker.com/r/p0nch0d3v/dotnet-sdk/tags">https://hub.docker.com/r/p0nch0d3v/dotnet-sdk/tags</a></p><h3 id="repository">Repository:</h3><p><a href="https://github.com/p0nch0d3v/docker-images/blob/master/dotnet-sdk/Dockerfile">https://github.com/p0nch0d3v/docker-images/blob/master/dotnet-sdk/Dockerfile</a></p><h3 id="how-to-use-it">How to use it</h3><pre><code class="language-bash">docker run --rm --interactive --tty --volume ${PWD}:/app p0nch0d3v/dotnet-sdk bash
