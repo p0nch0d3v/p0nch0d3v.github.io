@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://p0nch0d3v.github.io/</id>
-    <title>Blog Blog</title>
+    <title>Just another tech blog by p0nch0d3v</title>
     <updated>2022-09-14T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://p0nch0d3v.github.io/"/>
-    <subtitle>Blog Blog</subtitle>
+    <subtitle>Just another tech blog by p0nch0d3v</subtitle>
     <icon>https://p0nch0d3v.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Coding Problem 2022-09-14 (medium)]]></title>
