@@ -4,10 +4,40 @@
         <title>Blog Blog</title>
         <link>https://p0nch0d3v.github.io/</link>
         <description>Blog Blog</description>
-        <lastBuildDate>Sun, 11 Sep 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 14 Sep 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Coding Problem 2022-09-14 (medium)]]></title>
+            <link>https://p0nch0d3v.github.io/coding-problem-2022-09-14</link>
+            <guid>coding-problem-2022-09-14</guid>
+            <pubDate>Wed, 14 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Problem:]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="problem">Problem:<a class="hash-link" href="#problem" title="Direct link to heading">​</a></h3><p><em>Given the mapping <code>a = 1</code>, <code>b = 2</code>, ... <code>z = 26</code>, and an encoded message, count the number of ways it can be decoded.</em></p><p>For example, the message <code>'111'</code> would give <code>3</code>, since it could be decoded as <code>'aaa'</code>, <code>'ka'</code>, and <code>'ak'</code>.</p><p>You can assume that the messages are decodable. For example, <code>'001'</code> is not allowed.*</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="proposed-solution">Proposed solution:<a class="hash-link" href="#proposed-solution" title="Direct link to heading">​</a></h3><p><code>TBD</code></p>]]></content:encoded>
+            <category>coding-problem</category>
+            <category>medium</category>
+        </item>
+        <item>
+            <title><![CDATA[Coding Problem 2022-09-13 (hard)]]></title>
+            <link>https://p0nch0d3v.github.io/coding-problem-2022-09-13</link>
+            <guid>coding-problem-2022-09-13</guid>
+            <pubDate>Tue, 13 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Problem:]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="problem">Problem:<a class="hash-link" href="#problem" title="Direct link to heading">​</a></h3><p><em>An XOR linked list is a more memory efficient doubly linked list. Instead of each node holding <code>next</code> and <code>prev</code> fields, it holds a field named <code>both</code>, which is an XOR of the next node and the previous node. Implement an XOR linked list; it has an <code>add(element)</code> which adds the element to the end, and a <code>get(index)</code> which returns the node at index.</em></p><p>If using a language that has no pointers (such as <code>Python</code>), you can assume you have access to <code>get_pointer</code> and <code>dereference_pointer</code> functions that converts between nodes and memory addresses.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="proposed-solution">Proposed solution:<a class="hash-link" href="#proposed-solution" title="Direct link to heading">​</a></h3><p><code>TBD</code></p>]]></content:encoded>
+            <category>coding-problem</category>
+            <category>hard</category>
+        </item>
+        <item>
+            <title><![CDATA[Coding Problem 2022-09-12 (medium)]]></title>
+            <link>https://p0nch0d3v.github.io/coding-problem-2022-09-12</link>
+            <guid>coding-problem-2022-09-12</guid>
+            <pubDate>Mon, 12 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Problem:]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="problem">Problem:<a class="hash-link" href="#problem" title="Direct link to heading">​</a></h3><p><em><code>cons(a, b)</code> constructs a pair, and <code>car(pair)</code> and <code>cdr(pair)</code> returns the first and last element of that pair. For example, <code>car(cons(3, 4))</code> returns <code>3</code>, and <code>cdr(cons(3, 4))</code> returns <code>4</code>.</em></p><p><em>Given this implementation of cons:</em></p><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">def cons(a, b):</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    def pair(f):</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        return f(a, b)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    return pair</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><p>Implement <code>car</code> and <code>cdr</code>.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="proposed-solution">Proposed solution:<a class="hash-link" href="#proposed-solution" title="Direct link to heading">​</a></h3><p><code>TBD</code></p>]]></content:encoded>
+            <category>coding-problem</category>
+            <category>medium</category>
+        </item>
         <item>
             <title><![CDATA[Coding Problem 2022-09-11 (hard)]]></title>
             <link>https://p0nch0d3v.github.io/coding-problem-2022-09-11</link>
