@@ -2,81 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://p0nch0d3v.github.io/</id>
     <title>Just another tech blog by p0nch0d3v</title>
-    <updated>2022-09-14T00:00:00.000Z</updated>
+    <updated>2022-09-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://p0nch0d3v.github.io/"/>
     <subtitle>Just another tech blog by p0nch0d3v</subtitle>
     <icon>https://p0nch0d3v.github.io/img/favicon.ico</icon>
-    <entry>
-        <title type="html"><![CDATA[Coding Problem 2022-09-14 (medium)]]></title>
-        <id>coding-problem-2022-09-14</id>
-        <link href="https://p0nch0d3v.github.io/coding-problem-2022-09-14"/>
-        <updated>2022-09-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Problem:]]></summary>
-        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="problem">Problem:<a class="hash-link" href="#problem" title="Direct link to heading">​</a></h3><p><em>Given the mapping <code>a = 1</code>, <code>b = 2</code>, ... <code>z = 26</code>, and an encoded message, count the number of ways it can be decoded.</em></p><p>For example, the message <code>'111'</code> would give <code>3</code>, since it could be decoded as <code>'aaa'</code>, <code>'ka'</code>, and <code>'ak'</code>.</p><p>You can assume that the messages are decodable. For example, <code>'001'</code> is not allowed.*</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="proposed-solution">Proposed solution:<a class="hash-link" href="#proposed-solution" title="Direct link to heading">​</a></h3><p><code>TBD</code></p>]]></content>
-        <author>
-            <name>p0nch0 d3v</name>
-            <uri>https://github.com/p0nch0d3v</uri>
-        </author>
-        <category label="coding-problem" term="coding-problem"/>
-        <category label="medium" term="medium"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coding Problem 2022-09-13 (hard)]]></title>
-        <id>coding-problem-2022-09-13</id>
-        <link href="https://p0nch0d3v.github.io/coding-problem-2022-09-13"/>
-        <updated>2022-09-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Problem:]]></summary>
-        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="problem">Problem:<a class="hash-link" href="#problem" title="Direct link to heading">​</a></h3><p><em>An XOR linked list is a more memory efficient doubly linked list. Instead of each node holding <code>next</code> and <code>prev</code> fields, it holds a field named <code>both</code>, which is an XOR of the next node and the previous node. Implement an XOR linked list; it has an <code>add(element)</code> which adds the element to the end, and a <code>get(index)</code> which returns the node at index.</em></p><p>If using a language that has no pointers (such as <code>Python</code>), you can assume you have access to <code>get_pointer</code> and <code>dereference_pointer</code> functions that converts between nodes and memory addresses.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="proposed-solution">Proposed solution:<a class="hash-link" href="#proposed-solution" title="Direct link to heading">​</a></h3><p><code>TBD</code></p>]]></content>
-        <author>
-            <name>p0nch0 d3v</name>
-            <uri>https://github.com/p0nch0d3v</uri>
-        </author>
-        <category label="coding-problem" term="coding-problem"/>
-        <category label="hard" term="hard"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coding Problem 2022-09-12 (medium)]]></title>
-        <id>coding-problem-2022-09-12</id>
-        <link href="https://p0nch0d3v.github.io/coding-problem-2022-09-12"/>
-        <updated>2022-09-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Problem:]]></summary>
-        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="problem">Problem:<a class="hash-link" href="#problem" title="Direct link to heading">​</a></h3><p><em><code>cons(a, b)</code> constructs a pair, and <code>car(pair)</code> and <code>cdr(pair)</code> returns the first and last element of that pair. For example, <code>car(cons(3, 4))</code> returns <code>3</code>, and <code>cdr(cons(3, 4))</code> returns <code>4</code>.</em></p><p><em>Given this implementation of cons:</em></p><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">def cons(a, b):</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    def pair(f):</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        return f(a, b)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    return pair</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><p>Implement <code>car</code> and <code>cdr</code>.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="proposed-solution">Proposed solution:<a class="hash-link" href="#proposed-solution" title="Direct link to heading">​</a></h3><p><code>TBD</code></p>]]></content>
-        <author>
-            <name>p0nch0 d3v</name>
-            <uri>https://github.com/p0nch0d3v</uri>
-        </author>
-        <category label="coding-problem" term="coding-problem"/>
-        <category label="medium" term="medium"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coding Problem 2022-09-11 (hard)]]></title>
-        <id>coding-problem-2022-09-11</id>
-        <link href="https://p0nch0d3v.github.io/coding-problem-2022-09-11"/>
-        <updated>2022-09-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Problem:]]></summary>
-        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="problem">Problem:<a class="hash-link" href="#problem" title="Direct link to heading">​</a></h3><p><em>Given an array of integers, find the first missing positive integer in linear time and constant space. In other words, find the lowest positive integer that does not exist in the array. The array can contain duplicates and negative numbers as well.</em></p><p><em>For example, the input <code>[3, 4, -1, 1]</code> should give <code>2</code>. The input <code>[1, 2, 0]</code> should give <code>3</code>.</em></p><p><em>You can modify the input array in-place.</em></p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="proposed-solution">Proposed solution:<a class="hash-link" href="#proposed-solution" title="Direct link to heading">​</a></h3><p><code>TBD</code></p>]]></content>
-        <author>
-            <name>p0nch0 d3v</name>
-            <uri>https://github.com/p0nch0d3v</uri>
-        </author>
-        <category label="coding-problem" term="coding-problem"/>
-        <category label="hard" term="hard"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coding Problem 2022-09-10 (medium)]]></title>
-        <id>coding-problem-2022-09-10</id>
-        <link href="https://p0nch0d3v.github.io/coding-problem-2022-09-10"/>
-        <updated>2022-09-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Problem:]]></summary>
-        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="problem">Problem:<a class="hash-link" href="#problem" title="Direct link to heading">​</a></h3><p><em>Given the root to a binary tree, implement <code>serialize(root)</code>, which serializes the tree into a string, and <code>deserialize(s)</code>, which deserializes the string back into the tree.</em></p><p><em>For example, given the following <code>Node</code> class</em></p><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">class Node:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    def __init__(self, val, left=None, right=None):</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        self.val = val</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        self.left = left</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        self.right = right</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><p><em>The following test should pass:</em></p><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">node = Node('root', Node('left', Node('left.left')), Node('right'))</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">assert deserialize(serialize(node)).left.left.val == 'left.left'</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="proposed-solution">Proposed solution:<a class="hash-link" href="#proposed-solution" title="Direct link to heading">​</a></h3><p><code>TBD</code></p>]]></content>
-        <author>
-            <name>p0nch0 d3v</name>
-            <uri>https://github.com/p0nch0d3v</uri>
-        </author>
-        <category label="coding-problem" term="coding-problem"/>
-        <category label="medium" term="medium"/>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Coding Problem 2022-09-09 (hard)]]></title>
         <id>coding-problem-2022-09-09</id>
