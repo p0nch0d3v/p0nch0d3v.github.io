@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[1507],{8336:e=>{e.exports=JSON.parse('{"label":"easy","permalink":"/docs/tags/easy","allTagsPath":"/docs/tags","count":1,"items":[{"id":"coding-problem/2022-09-08-easy","title":"2022-09-08 (easy)","description":"Problem (easy):","permalink":"/docs/coding-problem/2022-09-08-easy"}]}')}}]);
