@@ -4161,7 +4161,7 @@ var lib_default = /*#__PURE__*/__webpack_require__.n(lib);
 // EXTERNAL MODULE: ./.docusaurus/routesChunkNames.json
 var routesChunkNames = __webpack_require__(6887);
 ;// CONCATENATED MODULE: ./.docusaurus/registry.js
-/* harmony default export */ const registry = ({'0032ebb8':[()=>__webpack_require__.e(/* import() | 0032ebb8 */ 6996).then(__webpack_require__.t.bind(__webpack_require__, 660, 19)),'~blog/default/tags-node-js-8bd-list.json',/*require.resolve*/(660)],'01a85c17':[()=>Promise.all(/* import() | 01a85c17 */[__webpack_require__.e(532), __webpack_require__.e(4013)]).then(__webpack_require__.bind(__webpack_require__, 4524)),'@theme/BlogTagsListPage',/*require.resolve*/(4524)],'0281109c':[()=>__webpack_require__.e(/* import() | 0281109c */ 422).then(__webpack_require__.t.bind(__webpack_require__, 5266, 19)),'~blog/default/tags-jenkins-2e5-list.json',/*require.resolve*/(5266)],'048bd1f0':[()=>__webpack_require__.e(/* import() | 048bd1f0 */ 653).then(__webpack_require__.bind(__webpack_require__, 3487)),'@site/docs/coding-problems/medium/2022-09-22-medium.md',/*require.resolve*/(3487)],'075e53af':[()=>__webpack_require__.e(/* import() | 075e53af */ 1204).then(__webpack_require__.t.bind(__webpack_require__, 6934, 19)),'~blog/default/tags-bash-a4f.json',/*require.resolve*/(6934)],'0cf51e6a':[()=>__webpack_require__.e(/* import() | 0cf51e6a */ 361).then(__webpack_require__.t.bind(__webpack_require__, 7114, 19)),'~blog/default/tags-node-js-8bd.json',/*require.resolve*/(7114)],'11db093d':[()=>__webpack_require__.e(/* import() | 11db093d */ 5765).then(__webpack_require__.bind(__webpack_require__, 3260)),'@site/docs/coding-problems/hard/2022-09-11-hard.md',/*require.resolve*/(3260)],'17896441':[()=>Promise.all(/* import() | 17896441 */[__webpack_require__.e(532), __webpack_require__.e(6150), __webpack_require__.e(7918)]).then(__webpack_require__.bind(__webpack_require__, 9055)),'@theme/DocItem',/*require.resolve*/(9055)],'1be78505':[()=>Promise.all(/* import() | 1be78505 */[__webpack_require__.e(532), __webpack_require__.e(9514)]).then(__webpack_require__.bind(__webpack_require__, 9963)),'@theme/DocPage',/*require.resolve*/(9963)],'220be069':[()=>__webpack_require__.e(/* import() | 220be069 */ 2187).then(__webpack_require__.bind(__webpack_require__, 4165)),'@site/blog/2021-10-15-my-docker-clis.md',/*require.resolve*/(4165)],'24752312':[()=>__webpack_require__.e(/* import() | 24752312 */ 2354).then(__webpack_require__.bind(__webpack_require__, 7050)),'@site/blog/2022-01-17-git-snippets.md',/*require.resolve*/(7050)],'2527ed8c':[()=>Promise.all(/* import() | 2527ed8c */[__webpack_require__.e(2967), __webpack_require__.e(221)]).then(__webpack_require__.bind(__webpack_require__, 3648)),'@site/blog/2022-01-24-some-scripts.mdx',/*require.resolve*/(3648)],'25b240ef':[()=>__webpack_require__.e(/* import() | 25b240ef */ 8644).then(__webpack_require__.t.bind(__webpack_require__, 6266, 19)),'~blog/default/tags-sh-093-list.json',/*require.resolve*/(6266)],'28403af1':[()=>__webpack_require__.e(/* import() | 28403af1 */ 3907).then(__webpack_require__.t.bind(__webpack_require__, 5562, 19)),'~blog/default/tags-powershell-630-list.json',/*require.resolve*/(5562)],'2e801cce':[()=>__webpack_require__.e(/* import() | 2e801cce */ 9450).then(__webpack_require__.t.bind(__webpack_require__, 6029, 19)),'~blog/default/archive-3ef.json',/*require.resolve*/(6029)],'304cae89':[()=>__webpack_require__.e(/* import() | 304cae89 */ 3855).then(__webpack_require__.t.bind(__webpack_require__, 529, 19)),'~blog/default/tags-dokku-34b.json',/*require.resolve*/(529)],'36a8e623':[()=>__webpack_require__.e(/* import() | 36a8e623 */ 3130).then(__webpack_require__.bind(__webpack_require__, 4422)),'@site/docs/coding-problems/easy/2022-09-15-easy.md',/*require.resolve*/(4422)],'3720c009':[()=>Promise.all(/* import() | 3720c009 */[__webpack_require__.e(532), __webpack_require__.e(3751)]).then(__webpack_require__.bind(__webpack_require__, 727)),'@theme/DocTagsListPage',/*require.resolve*/(727)],'374da186':[()=>__webpack_require__.e(/* import() | 374da186 */ 6716).then(__webpack_require__.t.bind(__webpack_require__, 3447, 19)),'~blog/default/tags-dot-net-core-4c2-list.json',/*require.resolve*/(3447)],'3b0f99e8':[()=>__webpack_require__.e(/* import() | 3b0f99e8 */ 3553).then(__webpack_require__.t.bind(__webpack_require__, 34, 19)),'~blog/default/tags-jenkins-2e5.json',/*require.resolve*/(34)],'40e7f222':[()=>__webpack_require__.e(/* import() | 40e7f222 */ 8869).then(__webpack_require__.bind(__webpack_require__, 8315)),'@site/docs/coding-problems/easy/2022-09-23-easy.md',/*require.resolve*/(8315)],'455c1236':[()=>__webpack_require__.e(/* import() | 455c1236 */ 4858).then(__webpack_require__.bind(__webpack_require__, 667)),'@site/docs/coding-problems/hard/2022-09-09-hard.md',/*require.resolve*/(667)],'4ecbbb2a':[()=>__webpack_require__.e(/* import() | 4ecbbb2a */ 2615).then(__webpack_require__.bind(__webpack_require__, 2062)),'@site/docs/coding-problems/hard/2022-09-19-hard.md',/*require.resolve*/(2062)],'4f760971':[()=>__webpack_require__.e(/* import() | 4f760971 */ 9594).then(__webpack_require__.bind(__webpack_require__, 6504)),'@site/blog/2022-03-02-domain-in-local-network.md?truncated=true',/*require.resolve*/(6504)],'4fbdb8ff':[()=>__webpack_require__.e(/* import() | 4fbdb8ff */ 4695).then(__webpack_require__.t.bind(__webpack_require__, 671, 19)),'~blog/default/tags-git-5fb.json',/*require.resolve*/(671)],'52e1c95e':[()=>__webpack_require__.e(/* import() | 52e1c95e */ 489).then(__webpack_require__.t.bind(__webpack_require__, 1135, 19)),'~docs/default/tag-docs-tags-hard-8de.json',/*require.resolve*/(1135)],'547045d1':[()=>__webpack_require__.e(/* import() | 547045d1 */ 4623).then(__webpack_require__.bind(__webpack_require__, 2550)),'@site/blog/2022-02-20-linux-shell-snippets.md?truncated=true',/*require.resolve*/(2550)],'55960ee5':[()=>__webpack_require__.e(/* import() | 55960ee5 */ 4121).then(__webpack_require__.t.bind(__webpack_require__, 8070, 19)),'~docs/default/tags-list-current-prop-15a.json',/*require.resolve*/(8070)],'5de85630':[()=>__webpack_require__.e(/* import() | 5de85630 */ 1001).then(__webpack_require__.t.bind(__webpack_require__, 4469, 19)),'/home/runner/work/blog/blog/.docusaurus/docusaurus-plugin-content-blog/default/plugin-route-context-module-100.json',/*require.resolve*/(4469)],'5f8ee95b':[()=>__webpack_require__.e(/* import() | 5f8ee95b */ 4210).then(__webpack_require__.bind(__webpack_require__, 1496)),'@site/docs/coding-problems/medium/2022-09-17-medium.md',/*require.resolve*/(1496)],'6071f285':[()=>__webpack_require__.e(/* import() | 6071f285 */ 1507).then(__webpack_require__.t.bind(__webpack_require__, 8336, 19)),'~docs/default/tag-docs-tags-easy-ef1.json',/*require.resolve*/(8336)],'652842cf':[()=>__webpack_require__.e(/* import() | 652842cf */ 5410).then(__webpack_require__.bind(__webpack_require__, 1956)),'@site/docs/coding-problems/hard/2022-09-25-hard.md',/*require.resolve*/(1956)],'6748d613':[()=>__webpack_require__.e(/* import() | 6748d613 */ 1809).then(__webpack_require__.t.bind(__webpack_require__, 6496, 19)),'~blog/default/tags-powershell-630.json',/*require.resolve*/(6496)],'6875c492':[()=>Promise.all(/* import() | 6875c492 */[__webpack_require__.e(532), __webpack_require__.e(6150), __webpack_require__.e(6048), __webpack_require__.e(8610)]).then(__webpack_require__.bind(__webpack_require__, 1714)),'@theme/BlogTagsPostsPage',/*require.resolve*/(1714)],'68f249db':[()=>__webpack_require__.e(/* import() | 68f249db */ 2139).then(__webpack_require__.bind(__webpack_require__, 7156)),'@site/blog/2022-08-29-change-docker-storage-location.md?truncated=true',/*require.resolve*/(7156)],'6954dcd8':[()=>__webpack_require__.e(/* import() | 6954dcd8 */ 1511).then(__webpack_require__.bind(__webpack_require__, 8615)),'@site/docs/coding-problems/hard/2022-09-20-hard.md',/*require.resolve*/(8615)],'6d473ff5':[()=>__webpack_require__.e(/* import() | 6d473ff5 */ 6616).then(__webpack_require__.t.bind(__webpack_require__, 3713, 19)),'~blog/default/tags-neovim-13c-list.json',/*require.resolve*/(3713)],'70adae3e':[()=>__webpack_require__.e(/* import() | 70adae3e */ 84).then(__webpack_require__.t.bind(__webpack_require__, 3769, 19)),'/home/runner/work/blog/blog/.docusaurus/docusaurus-plugin-content-docs/default/plugin-route-context-module-100.json',/*require.resolve*/(3769)],'714668a8':[()=>__webpack_require__.e(/* import() | 714668a8 */ 384).then(__webpack_require__.bind(__webpack_require__, 9136)),'@site/docs/coding-problems/medium/2022-09-21-medium.md',/*require.resolve*/(9136)],'7664b2b0':[()=>__webpack_require__.e(/* import() | 7664b2b0 */ 8261).then(__webpack_require__.t.bind(__webpack_require__, 5788, 19)),'~blog/default/tags-sh-093.json',/*require.resolve*/(5788)],'7f973973':[()=>Promise.all(/* import() | 7f973973 */[__webpack_require__.e(2967), __webpack_require__.e(4047)]).then(__webpack_require__.bind(__webpack_require__, 1225)),'@site/blog/2022-01-24-some-scripts.mdx?truncated=true',/*require.resolve*/(1225)],'8017defd':[()=>__webpack_require__.e(/* import() | 8017defd */ 9387).then(__webpack_require__.bind(__webpack_require__, 2059)),'@site/blog/2022-08-30-after-install-mint.md',/*require.resolve*/(2059)],'802e6eb6':[()=>__webpack_require__.e(/* import() | 802e6eb6 */ 7656).then(__webpack_require__.bind(__webpack_require__, 1935)),'@site/blog/2021-10-15-my-docker-clis.md?truncated=true',/*require.resolve*/(1935)],'814f3328':[()=>__webpack_require__.e(/* import() | 814f3328 */ 2535).then(__webpack_require__.t.bind(__webpack_require__, 5641, 19)),'~blog/default/blog-post-list-prop-default.json',/*require.resolve*/(5641)],'880710ec':[()=>__webpack_require__.e(/* import() | 880710ec */ 1582).then(__webpack_require__.bind(__webpack_require__, 8950)),'@site/docs/coding-problems/hard/2022-09-24-hard.md',/*require.resolve*/(8950)],'8ce664e8':[()=>__webpack_require__.e(/* import() | 8ce664e8 */ 698).then(__webpack_require__.t.bind(__webpack_require__, 2409, 19)),'~blog/default/tags-docker-28b.json',/*require.resolve*/(2409)],'8fe76ca1':[()=>__webpack_require__.e(/* import() | 8fe76ca1 */ 4130).then(__webpack_require__.bind(__webpack_require__, 2362)),'@site/docs/coding-problems/hard/2022-09-13-hard.md',/*require.resolve*/(2362)],'92fcaf39':[()=>__webpack_require__.e(/* import() | 92fcaf39 */ 6320).then(__webpack_require__.bind(__webpack_require__, 8763)),'@site/docs/coding-problems/medium/2022-09-26-medium.md',/*require.resolve*/(8763)],'935f2afb':[()=>__webpack_require__.e(/* import() | 935f2afb */ 53).then(__webpack_require__.t.bind(__webpack_require__, 1109, 19)),'~docs/default/version-current-metadata-prop-751.json',/*require.resolve*/(1109)],'936af2d4':[()=>__webpack_require__.e(/* import() | 936af2d4 */ 8748).then(__webpack_require__.bind(__webpack_require__, 3671)),'@site/docs/coding-problems/medium/2022-09-14-medium.md',/*require.resolve*/(3671)],'9564a1ad':[()=>__webpack_require__.e(/* import() | 9564a1ad */ 7402).then(__webpack_require__.t.bind(__webpack_require__, 1152, 19)),'~blog/default/tags-dokku-34b-list.json',/*require.resolve*/(1152)],'9bc959cf':[()=>__webpack_require__.e(/* import() | 9bc959cf */ 8488).then(__webpack_require__.t.bind(__webpack_require__, 9084, 19)),'~blog/default/tags-bash-a4f-list.json',/*require.resolve*/(9084)],'9db1ee69':[()=>__webpack_require__.e(/* import() | 9db1ee69 */ 1501).then(__webpack_require__.bind(__webpack_require__, 2235)),'@site/docs/coding-problems/codingbat.com/make_chocolate.md',/*require.resolve*/(2235)],'9e4087bc':[()=>__webpack_require__.e(/* import() | 9e4087bc */ 3608).then(__webpack_require__.bind(__webpack_require__, 3169)),'@theme/BlogArchivePage',/*require.resolve*/(3169)],'a3f2b4f3':[()=>__webpack_require__.e(/* import() | a3f2b4f3 */ 8442).then(__webpack_require__.t.bind(__webpack_require__, 9332, 19)),'~blog/default/tags-linux-15e-list.json',/*require.resolve*/(9332)],'a501857d':[()=>__webpack_require__.e(/* import() | a501857d */ 7107).then(__webpack_require__.bind(__webpack_require__, 2322)),'@site/blog/2022-05-05-deploy-jenkins-in-dokku.md?truncated=true',/*require.resolve*/(2322)],'a5557bb9':[()=>__webpack_require__.e(/* import() | a5557bb9 */ 5991).then(__webpack_require__.t.bind(__webpack_require__, 3885, 19)),'~blog/default/index.json',/*require.resolve*/(3885)],'a6aa9e1f':[()=>Promise.all(/* import() | a6aa9e1f */[__webpack_require__.e(532), __webpack_require__.e(6150), __webpack_require__.e(6048), __webpack_require__.e(3089)]).then(__webpack_require__.bind(__webpack_require__, 46)),'@theme/BlogListPage',/*require.resolve*/(46)],'ac613757':[()=>__webpack_require__.e(/* import() | ac613757 */ 647).then(__webpack_require__.t.bind(__webpack_require__, 3347, 19)),'~blog/default/tags-mint-b8e.json',/*require.resolve*/(3347)],'afd41d16':[()=>__webpack_require__.e(/* import() | afd41d16 */ 9187).then(__webpack_require__.bind(__webpack_require__, 9781)),'@site/docs/coding-problems/medium/2022-09-18-medium.md',/*require.resolve*/(9781)],'b1a838f3':[()=>__webpack_require__.e(/* import() | b1a838f3 */ 4712).then(__webpack_require__.t.bind(__webpack_require__, 661, 19)),'~blog/default/tags-linux-15e.json',/*require.resolve*/(661)],'b2301113':[()=>__webpack_require__.e(/* import() | b2301113 */ 7538).then(__webpack_require__.t.bind(__webpack_require__, 6146, 19)),'~blog/default/tags-docker-28b-list.json',/*require.resolve*/(6146)],'b8b0ace9':[()=>__webpack_require__.e(/* import() | b8b0ace9 */ 3624).then(__webpack_require__.bind(__webpack_require__, 4231)),'@site/blog/2022-03-02-domain-in-local-network.md',/*require.resolve*/(4231)],'bb7f1094':[()=>__webpack_require__.e(/* import() | bb7f1094 */ 9783).then(__webpack_require__.bind(__webpack_require__, 839)),'@site/docs/coding-problems/index.md',/*require.resolve*/(839)],'be2e5167':[()=>__webpack_require__.e(/* import() | be2e5167 */ 7325).then(__webpack_require__.bind(__webpack_require__, 5763)),'@site/docs/coding-problems/medium/2022-09-10-medium.md',/*require.resolve*/(5763)],'be304075':[()=>__webpack_require__.e(/* import() | be304075 */ 7318).then(__webpack_require__.bind(__webpack_require__, 9791)),'@site/docs/about-it.mdx',/*require.resolve*/(9791)],'bed35ac5':[()=>__webpack_require__.e(/* import() | bed35ac5 */ 8195).then(__webpack_require__.bind(__webpack_require__, 3410)),'@site/blog/2022-08-30-after-install-mint.md?truncated=true',/*require.resolve*/(3410)],'c377a04b':[()=>__webpack_require__.e(/* import() | c377a04b */ 6971).then(__webpack_require__.bind(__webpack_require__, 1269)),'@site/docs/index.md',/*require.resolve*/(1269)],'c573638f':[()=>__webpack_require__.e(/* import() | c573638f */ 964).then(__webpack_require__.t.bind(__webpack_require__, 8866, 19)),'~blog/default/tags-tags-c2b.json',/*require.resolve*/(8866)],'c7015929':[()=>__webpack_require__.e(/* import() | c7015929 */ 4185).then(__webpack_require__.t.bind(__webpack_require__, 910, 19)),'~blog/default/tags-python-687.json',/*require.resolve*/(910)],'c85dfa78':[()=>__webpack_require__.e(/* import() | c85dfa78 */ 8636).then(__webpack_require__.bind(__webpack_require__, 6951)),'@site/blog/2022-02-20-linux-shell-snippets.md',/*require.resolve*/(6951)],'c9455749':[()=>__webpack_require__.e(/* import() | c9455749 */ 6068).then(__webpack_require__.t.bind(__webpack_require__, 6427, 19)),'~blog/default/tags-neovim-13c.json',/*require.resolve*/(6427)],'cc697ede':[()=>__webpack_require__.e(/* import() | cc697ede */ 2683).then(__webpack_require__.t.bind(__webpack_require__, 1792, 19)),'~blog/default/tags-dot-net-core-4c2.json',/*require.resolve*/(1792)],'cc7f58b1':[()=>__webpack_require__.e(/* import() | cc7f58b1 */ 5730).then(__webpack_require__.bind(__webpack_require__, 6883)),'@site/docs/coding-problems/hard/2022-09-16-hard.md',/*require.resolve*/(6883)],'ccc49370':[()=>Promise.all(/* import() | ccc49370 */[__webpack_require__.e(532), __webpack_require__.e(6150), __webpack_require__.e(6048), __webpack_require__.e(6103)]).then(__webpack_require__.bind(__webpack_require__, 5203)),'@theme/BlogPostPage',/*require.resolve*/(5203)],'d79cb2b1':[()=>__webpack_require__.e(/* import() | d79cb2b1 */ 4574).then(__webpack_require__.bind(__webpack_require__, 5465)),'@site/docs/coding-problems/easy/2022-09-08-easy.md',/*require.resolve*/(5465)],'d7b29029':[()=>__webpack_require__.e(/* import() | d7b29029 */ 5412).then(__webpack_require__.t.bind(__webpack_require__, 6395, 19)),'~docs/default/tag-docs-tags-coding-problem-0af.json',/*require.resolve*/(6395)],'d8063327':[()=>__webpack_require__.e(/* import() | d8063327 */ 2646).then(__webpack_require__.bind(__webpack_require__, 2201)),'@site/docs/coding-problems/easy/2022-09-28-easy.md',/*require.resolve*/(2201)],'dd7c5dc4':[()=>__webpack_require__.e(/* import() | dd7c5dc4 */ 8970).then(__webpack_require__.bind(__webpack_require__, 8180)),'@site/blog/2022-05-05-deploy-jenkins-in-dokku.md',/*require.resolve*/(8180)],'df203c0f':[()=>__webpack_require__.e(/* import() | df203c0f */ 9924).then(__webpack_require__.bind(__webpack_require__, 491)),'@theme/DocTagDocListPage',/*require.resolve*/(491)],'e1c5f541':[()=>__webpack_require__.e(/* import() | e1c5f541 */ 7298).then(__webpack_require__.t.bind(__webpack_require__, 1930, 19)),'~docs/default/tag-docs-tags-medium-e2b.json',/*require.resolve*/(1930)],'e48f33cf':[()=>__webpack_require__.e(/* import() | e48f33cf */ 6984).then(__webpack_require__.bind(__webpack_require__, 5017)),'@site/blog/2022-01-17-git-snippets.md?truncated=true',/*require.resolve*/(5017)],'e9637d4d':[()=>__webpack_require__.e(/* import() | e9637d4d */ 9418).then(__webpack_require__.bind(__webpack_require__, 4584)),'@site/docs/coding-problems/medium/2022-09-12-medium.md',/*require.resolve*/(4584)],'ebbab0c1':[()=>__webpack_require__.e(/* import() | ebbab0c1 */ 5853).then(__webpack_require__.t.bind(__webpack_require__, 7878, 19)),'~blog/default/tags-git-5fb-list.json',/*require.resolve*/(7878)],'edcc6101':[()=>__webpack_require__.e(/* import() | edcc6101 */ 3250).then(__webpack_require__.t.bind(__webpack_require__, 3294, 19)),'~blog/default/tags-mint-b8e-list.json',/*require.resolve*/(3294)],'f2891d44':[()=>__webpack_require__.e(/* import() | f2891d44 */ 7071).then(__webpack_require__.bind(__webpack_require__, 8361)),'@site/docs/coding-problems/easy/2022-09-27-easy.md',/*require.resolve*/(8361)],'f580a9d0':[()=>__webpack_require__.e(/* import() | f580a9d0 */ 9887).then(__webpack_require__.t.bind(__webpack_require__, 8989, 19)),'~blog/default/tags-python-687-list.json',/*require.resolve*/(8989)],'fbc813bc':[()=>__webpack_require__.e(/* import() | fbc813bc */ 7885).then(__webpack_require__.bind(__webpack_require__, 5189)),'@site/blog/2022-08-29-change-docker-storage-location.md',/*require.resolve*/(5189)]});
+/* harmony default export */ const registry = ({'0032ebb8':[()=>__webpack_require__.e(/* import() | 0032ebb8 */ 6996).then(__webpack_require__.t.bind(__webpack_require__, 660, 19)),'~blog/default/tags-node-js-8bd-list.json',/*require.resolve*/(660)],'01a85c17':[()=>Promise.all(/* import() | 01a85c17 */[__webpack_require__.e(532), __webpack_require__.e(4013)]).then(__webpack_require__.bind(__webpack_require__, 4524)),'@theme/BlogTagsListPage',/*require.resolve*/(4524)],'0281109c':[()=>__webpack_require__.e(/* import() | 0281109c */ 422).then(__webpack_require__.t.bind(__webpack_require__, 5266, 19)),'~blog/default/tags-jenkins-2e5-list.json',/*require.resolve*/(5266)],'048bd1f0':[()=>__webpack_require__.e(/* import() | 048bd1f0 */ 653).then(__webpack_require__.bind(__webpack_require__, 3487)),'@site/docs/coding-problems/medium/2022-09-22-medium.md',/*require.resolve*/(3487)],'075e53af':[()=>__webpack_require__.e(/* import() | 075e53af */ 1204).then(__webpack_require__.t.bind(__webpack_require__, 6934, 19)),'~blog/default/tags-bash-a4f.json',/*require.resolve*/(6934)],'0cf51e6a':[()=>__webpack_require__.e(/* import() | 0cf51e6a */ 361).then(__webpack_require__.t.bind(__webpack_require__, 7114, 19)),'~blog/default/tags-node-js-8bd.json',/*require.resolve*/(7114)],'11db093d':[()=>__webpack_require__.e(/* import() | 11db093d */ 5765).then(__webpack_require__.bind(__webpack_require__, 3260)),'@site/docs/coding-problems/hard/2022-09-11-hard.md',/*require.resolve*/(3260)],'17896441':[()=>Promise.all(/* import() | 17896441 */[__webpack_require__.e(532), __webpack_require__.e(6150), __webpack_require__.e(7918)]).then(__webpack_require__.bind(__webpack_require__, 9055)),'@theme/DocItem',/*require.resolve*/(9055)],'1be78505':[()=>Promise.all(/* import() | 1be78505 */[__webpack_require__.e(532), __webpack_require__.e(9514)]).then(__webpack_require__.bind(__webpack_require__, 9963)),'@theme/DocPage',/*require.resolve*/(9963)],'1d7a49b0':[()=>__webpack_require__.e(/* import() | 1d7a49b0 */ 7820).then(__webpack_require__.bind(__webpack_require__, 827)),'@site/docs/coding-problems/easy/2022-10-04-easy.md',/*require.resolve*/(827)],'220be069':[()=>__webpack_require__.e(/* import() | 220be069 */ 2187).then(__webpack_require__.bind(__webpack_require__, 4165)),'@site/blog/2021-10-15-my-docker-clis.md',/*require.resolve*/(4165)],'24752312':[()=>__webpack_require__.e(/* import() | 24752312 */ 2354).then(__webpack_require__.bind(__webpack_require__, 7050)),'@site/blog/2022-01-17-git-snippets.md',/*require.resolve*/(7050)],'2527ed8c':[()=>Promise.all(/* import() | 2527ed8c */[__webpack_require__.e(2967), __webpack_require__.e(221)]).then(__webpack_require__.bind(__webpack_require__, 3648)),'@site/blog/2022-01-24-some-scripts.mdx',/*require.resolve*/(3648)],'25b240ef':[()=>__webpack_require__.e(/* import() | 25b240ef */ 8644).then(__webpack_require__.t.bind(__webpack_require__, 6266, 19)),'~blog/default/tags-sh-093-list.json',/*require.resolve*/(6266)],'28403af1':[()=>__webpack_require__.e(/* import() | 28403af1 */ 3907).then(__webpack_require__.t.bind(__webpack_require__, 5562, 19)),'~blog/default/tags-powershell-630-list.json',/*require.resolve*/(5562)],'289b634c':[()=>__webpack_require__.e(/* import() | 289b634c */ 4220).then(__webpack_require__.bind(__webpack_require__, 3453)),'@site/docs/coding-problems/hard/2022-10-02-hard.md',/*require.resolve*/(3453)],'2e801cce':[()=>__webpack_require__.e(/* import() | 2e801cce */ 9450).then(__webpack_require__.t.bind(__webpack_require__, 6029, 19)),'~blog/default/archive-3ef.json',/*require.resolve*/(6029)],'304cae89':[()=>__webpack_require__.e(/* import() | 304cae89 */ 3855).then(__webpack_require__.t.bind(__webpack_require__, 529, 19)),'~blog/default/tags-dokku-34b.json',/*require.resolve*/(529)],'36a8e623':[()=>__webpack_require__.e(/* import() | 36a8e623 */ 3130).then(__webpack_require__.bind(__webpack_require__, 4422)),'@site/docs/coding-problems/easy/2022-09-15-easy.md',/*require.resolve*/(4422)],'3720c009':[()=>Promise.all(/* import() | 3720c009 */[__webpack_require__.e(532), __webpack_require__.e(3751)]).then(__webpack_require__.bind(__webpack_require__, 727)),'@theme/DocTagsListPage',/*require.resolve*/(727)],'374da186':[()=>__webpack_require__.e(/* import() | 374da186 */ 6716).then(__webpack_require__.t.bind(__webpack_require__, 3447, 19)),'~blog/default/tags-dot-net-core-4c2-list.json',/*require.resolve*/(3447)],'3b0f99e8':[()=>__webpack_require__.e(/* import() | 3b0f99e8 */ 3553).then(__webpack_require__.t.bind(__webpack_require__, 34, 19)),'~blog/default/tags-jenkins-2e5.json',/*require.resolve*/(34)],'40e7f222':[()=>__webpack_require__.e(/* import() | 40e7f222 */ 8869).then(__webpack_require__.bind(__webpack_require__, 8315)),'@site/docs/coding-problems/easy/2022-09-23-easy.md',/*require.resolve*/(8315)],'455c1236':[()=>__webpack_require__.e(/* import() | 455c1236 */ 4858).then(__webpack_require__.bind(__webpack_require__, 667)),'@site/docs/coding-problems/hard/2022-09-09-hard.md',/*require.resolve*/(667)],'4ecbbb2a':[()=>__webpack_require__.e(/* import() | 4ecbbb2a */ 2615).then(__webpack_require__.bind(__webpack_require__, 2062)),'@site/docs/coding-problems/hard/2022-09-19-hard.md',/*require.resolve*/(2062)],'4f760971':[()=>__webpack_require__.e(/* import() | 4f760971 */ 9594).then(__webpack_require__.bind(__webpack_require__, 6504)),'@site/blog/2022-03-02-domain-in-local-network.md?truncated=true',/*require.resolve*/(6504)],'4fbdb8ff':[()=>__webpack_require__.e(/* import() | 4fbdb8ff */ 4695).then(__webpack_require__.t.bind(__webpack_require__, 671, 19)),'~blog/default/tags-git-5fb.json',/*require.resolve*/(671)],'52e1c95e':[()=>__webpack_require__.e(/* import() | 52e1c95e */ 489).then(__webpack_require__.t.bind(__webpack_require__, 1135, 19)),'~docs/default/tag-docs-tags-hard-8de.json',/*require.resolve*/(1135)],'547045d1':[()=>__webpack_require__.e(/* import() | 547045d1 */ 4623).then(__webpack_require__.bind(__webpack_require__, 2550)),'@site/blog/2022-02-20-linux-shell-snippets.md?truncated=true',/*require.resolve*/(2550)],'55960ee5':[()=>__webpack_require__.e(/* import() | 55960ee5 */ 4121).then(__webpack_require__.t.bind(__webpack_require__, 8070, 19)),'~docs/default/tags-list-current-prop-15a.json',/*require.resolve*/(8070)],'5de85630':[()=>__webpack_require__.e(/* import() | 5de85630 */ 1001).then(__webpack_require__.t.bind(__webpack_require__, 4469, 19)),'/home/runner/work/blog/blog/.docusaurus/docusaurus-plugin-content-blog/default/plugin-route-context-module-100.json',/*require.resolve*/(4469)],'5f8ee95b':[()=>__webpack_require__.e(/* import() | 5f8ee95b */ 4210).then(__webpack_require__.bind(__webpack_require__, 1496)),'@site/docs/coding-problems/medium/2022-09-17-medium.md',/*require.resolve*/(1496)],'6071f285':[()=>__webpack_require__.e(/* import() | 6071f285 */ 1507).then(__webpack_require__.t.bind(__webpack_require__, 8336, 19)),'~docs/default/tag-docs-tags-easy-ef1.json',/*require.resolve*/(8336)],'652842cf':[()=>__webpack_require__.e(/* import() | 652842cf */ 5410).then(__webpack_require__.bind(__webpack_require__, 1956)),'@site/docs/coding-problems/hard/2022-09-25-hard.md',/*require.resolve*/(1956)],'6748d613':[()=>__webpack_require__.e(/* import() | 6748d613 */ 1809).then(__webpack_require__.t.bind(__webpack_require__, 6496, 19)),'~blog/default/tags-powershell-630.json',/*require.resolve*/(6496)],'6875c492':[()=>Promise.all(/* import() | 6875c492 */[__webpack_require__.e(532), __webpack_require__.e(6150), __webpack_require__.e(6048), __webpack_require__.e(8610)]).then(__webpack_require__.bind(__webpack_require__, 1714)),'@theme/BlogTagsPostsPage',/*require.resolve*/(1714)],'68f249db':[()=>__webpack_require__.e(/* import() | 68f249db */ 2139).then(__webpack_require__.bind(__webpack_require__, 7156)),'@site/blog/2022-08-29-change-docker-storage-location.md?truncated=true',/*require.resolve*/(7156)],'6954dcd8':[()=>__webpack_require__.e(/* import() | 6954dcd8 */ 1511).then(__webpack_require__.bind(__webpack_require__, 8615)),'@site/docs/coding-problems/hard/2022-09-20-hard.md',/*require.resolve*/(8615)],'6d473ff5':[()=>__webpack_require__.e(/* import() | 6d473ff5 */ 6616).then(__webpack_require__.t.bind(__webpack_require__, 3713, 19)),'~blog/default/tags-neovim-13c-list.json',/*require.resolve*/(3713)],'70adae3e':[()=>__webpack_require__.e(/* import() | 70adae3e */ 84).then(__webpack_require__.t.bind(__webpack_require__, 3769, 19)),'/home/runner/work/blog/blog/.docusaurus/docusaurus-plugin-content-docs/default/plugin-route-context-module-100.json',/*require.resolve*/(3769)],'714668a8':[()=>__webpack_require__.e(/* import() | 714668a8 */ 384).then(__webpack_require__.bind(__webpack_require__, 9136)),'@site/docs/coding-problems/medium/2022-09-21-medium.md',/*require.resolve*/(9136)],'7659c128':[()=>__webpack_require__.e(/* import() | 7659c128 */ 5865).then(__webpack_require__.bind(__webpack_require__, 6217)),'@site/docs/coding-problems/medium/2022-10-01-medium.md',/*require.resolve*/(6217)],'7664b2b0':[()=>__webpack_require__.e(/* import() | 7664b2b0 */ 8261).then(__webpack_require__.t.bind(__webpack_require__, 5788, 19)),'~blog/default/tags-sh-093.json',/*require.resolve*/(5788)],'7f973973':[()=>Promise.all(/* import() | 7f973973 */[__webpack_require__.e(2967), __webpack_require__.e(4047)]).then(__webpack_require__.bind(__webpack_require__, 1225)),'@site/blog/2022-01-24-some-scripts.mdx?truncated=true',/*require.resolve*/(1225)],'8017defd':[()=>__webpack_require__.e(/* import() | 8017defd */ 9387).then(__webpack_require__.bind(__webpack_require__, 2059)),'@site/blog/2022-08-30-after-install-mint.md',/*require.resolve*/(2059)],'802e6eb6':[()=>__webpack_require__.e(/* import() | 802e6eb6 */ 7656).then(__webpack_require__.bind(__webpack_require__, 1935)),'@site/blog/2021-10-15-my-docker-clis.md?truncated=true',/*require.resolve*/(1935)],'814f3328':[()=>__webpack_require__.e(/* import() | 814f3328 */ 2535).then(__webpack_require__.t.bind(__webpack_require__, 5641, 19)),'~blog/default/blog-post-list-prop-default.json',/*require.resolve*/(5641)],'82672a26':[()=>__webpack_require__.e(/* import() | 82672a26 */ 3291).then(__webpack_require__.bind(__webpack_require__, 9263)),'@site/docs/coding-problems/medium/2022-09-29-medium.md',/*require.resolve*/(9263)],'880710ec':[()=>__webpack_require__.e(/* import() | 880710ec */ 1582).then(__webpack_require__.bind(__webpack_require__, 8950)),'@site/docs/coding-problems/hard/2022-09-24-hard.md',/*require.resolve*/(8950)],'8ce664e8':[()=>__webpack_require__.e(/* import() | 8ce664e8 */ 698).then(__webpack_require__.t.bind(__webpack_require__, 2409, 19)),'~blog/default/tags-docker-28b.json',/*require.resolve*/(2409)],'8fe76ca1':[()=>__webpack_require__.e(/* import() | 8fe76ca1 */ 4130).then(__webpack_require__.bind(__webpack_require__, 2362)),'@site/docs/coding-problems/hard/2022-09-13-hard.md',/*require.resolve*/(2362)],'92fcaf39':[()=>__webpack_require__.e(/* import() | 92fcaf39 */ 6320).then(__webpack_require__.bind(__webpack_require__, 8763)),'@site/docs/coding-problems/medium/2022-09-26-medium.md',/*require.resolve*/(8763)],'935f2afb':[()=>__webpack_require__.e(/* import() | 935f2afb */ 53).then(__webpack_require__.t.bind(__webpack_require__, 1109, 19)),'~docs/default/version-current-metadata-prop-751.json',/*require.resolve*/(1109)],'936af2d4':[()=>__webpack_require__.e(/* import() | 936af2d4 */ 8748).then(__webpack_require__.bind(__webpack_require__, 3671)),'@site/docs/coding-problems/medium/2022-09-14-medium.md',/*require.resolve*/(3671)],'9564a1ad':[()=>__webpack_require__.e(/* import() | 9564a1ad */ 7402).then(__webpack_require__.t.bind(__webpack_require__, 1152, 19)),'~blog/default/tags-dokku-34b-list.json',/*require.resolve*/(1152)],'9bc959cf':[()=>__webpack_require__.e(/* import() | 9bc959cf */ 8488).then(__webpack_require__.t.bind(__webpack_require__, 9084, 19)),'~blog/default/tags-bash-a4f-list.json',/*require.resolve*/(9084)],'9db1ee69':[()=>__webpack_require__.e(/* import() | 9db1ee69 */ 1501).then(__webpack_require__.bind(__webpack_require__, 2235)),'@site/docs/coding-problems/codingbat.com/make_chocolate.md',/*require.resolve*/(2235)],'9e4087bc':[()=>__webpack_require__.e(/* import() | 9e4087bc */ 3608).then(__webpack_require__.bind(__webpack_require__, 3169)),'@theme/BlogArchivePage',/*require.resolve*/(3169)],'a3f2b4f3':[()=>__webpack_require__.e(/* import() | a3f2b4f3 */ 8442).then(__webpack_require__.t.bind(__webpack_require__, 9332, 19)),'~blog/default/tags-linux-15e-list.json',/*require.resolve*/(9332)],'a501857d':[()=>__webpack_require__.e(/* import() | a501857d */ 7107).then(__webpack_require__.bind(__webpack_require__, 2322)),'@site/blog/2022-05-05-deploy-jenkins-in-dokku.md?truncated=true',/*require.resolve*/(2322)],'a5557bb9':[()=>__webpack_require__.e(/* import() | a5557bb9 */ 5991).then(__webpack_require__.t.bind(__webpack_require__, 3885, 19)),'~blog/default/index.json',/*require.resolve*/(3885)],'a6aa9e1f':[()=>Promise.all(/* import() | a6aa9e1f */[__webpack_require__.e(532), __webpack_require__.e(6150), __webpack_require__.e(6048), __webpack_require__.e(3089)]).then(__webpack_require__.bind(__webpack_require__, 46)),'@theme/BlogListPage',/*require.resolve*/(46)],'ac613757':[()=>__webpack_require__.e(/* import() | ac613757 */ 647).then(__webpack_require__.t.bind(__webpack_require__, 3347, 19)),'~blog/default/tags-mint-b8e.json',/*require.resolve*/(3347)],'afd41d16':[()=>__webpack_require__.e(/* import() | afd41d16 */ 9187).then(__webpack_require__.bind(__webpack_require__, 9781)),'@site/docs/coding-problems/medium/2022-09-18-medium.md',/*require.resolve*/(9781)],'b1a838f3':[()=>__webpack_require__.e(/* import() | b1a838f3 */ 4712).then(__webpack_require__.t.bind(__webpack_require__, 661, 19)),'~blog/default/tags-linux-15e.json',/*require.resolve*/(661)],'b2301113':[()=>__webpack_require__.e(/* import() | b2301113 */ 7538).then(__webpack_require__.t.bind(__webpack_require__, 6146, 19)),'~blog/default/tags-docker-28b-list.json',/*require.resolve*/(6146)],'b8b0ace9':[()=>__webpack_require__.e(/* import() | b8b0ace9 */ 3624).then(__webpack_require__.bind(__webpack_require__, 4231)),'@site/blog/2022-03-02-domain-in-local-network.md',/*require.resolve*/(4231)],'bb7f1094':[()=>__webpack_require__.e(/* import() | bb7f1094 */ 9783).then(__webpack_require__.bind(__webpack_require__, 839)),'@site/docs/coding-problems/index.md',/*require.resolve*/(839)],'be2e5167':[()=>__webpack_require__.e(/* import() | be2e5167 */ 7325).then(__webpack_require__.bind(__webpack_require__, 5763)),'@site/docs/coding-problems/medium/2022-09-10-medium.md',/*require.resolve*/(5763)],'be304075':[()=>__webpack_require__.e(/* import() | be304075 */ 7318).then(__webpack_require__.bind(__webpack_require__, 9791)),'@site/docs/about-it.mdx',/*require.resolve*/(9791)],'bed35ac5':[()=>__webpack_require__.e(/* import() | bed35ac5 */ 8195).then(__webpack_require__.bind(__webpack_require__, 3410)),'@site/blog/2022-08-30-after-install-mint.md?truncated=true',/*require.resolve*/(3410)],'c377a04b':[()=>__webpack_require__.e(/* import() | c377a04b */ 6971).then(__webpack_require__.bind(__webpack_require__, 1269)),'@site/docs/index.md',/*require.resolve*/(1269)],'c573638f':[()=>__webpack_require__.e(/* import() | c573638f */ 964).then(__webpack_require__.t.bind(__webpack_require__, 8866, 19)),'~blog/default/tags-tags-c2b.json',/*require.resolve*/(8866)],'c63ee28b':[()=>__webpack_require__.e(/* import() | c63ee28b */ 6664).then(__webpack_require__.bind(__webpack_require__, 6868)),'@site/docs/coding-problems/easy/2022-09-30-easy.md',/*require.resolve*/(6868)],'c7015929':[()=>__webpack_require__.e(/* import() | c7015929 */ 4185).then(__webpack_require__.t.bind(__webpack_require__, 910, 19)),'~blog/default/tags-python-687.json',/*require.resolve*/(910)],'c85dfa78':[()=>__webpack_require__.e(/* import() | c85dfa78 */ 8636).then(__webpack_require__.bind(__webpack_require__, 6951)),'@site/blog/2022-02-20-linux-shell-snippets.md',/*require.resolve*/(6951)],'c9455749':[()=>__webpack_require__.e(/* import() | c9455749 */ 6068).then(__webpack_require__.t.bind(__webpack_require__, 6427, 19)),'~blog/default/tags-neovim-13c.json',/*require.resolve*/(6427)],'cc697ede':[()=>__webpack_require__.e(/* import() | cc697ede */ 2683).then(__webpack_require__.t.bind(__webpack_require__, 1792, 19)),'~blog/default/tags-dot-net-core-4c2.json',/*require.resolve*/(1792)],'cc7f58b1':[()=>__webpack_require__.e(/* import() | cc7f58b1 */ 5730).then(__webpack_require__.bind(__webpack_require__, 6883)),'@site/docs/coding-problems/hard/2022-09-16-hard.md',/*require.resolve*/(6883)],'ccc49370':[()=>Promise.all(/* import() | ccc49370 */[__webpack_require__.e(532), __webpack_require__.e(6150), __webpack_require__.e(6048), __webpack_require__.e(6103)]).then(__webpack_require__.bind(__webpack_require__, 5203)),'@theme/BlogPostPage',/*require.resolve*/(5203)],'d79cb2b1':[()=>__webpack_require__.e(/* import() | d79cb2b1 */ 4574).then(__webpack_require__.bind(__webpack_require__, 5465)),'@site/docs/coding-problems/easy/2022-09-08-easy.md',/*require.resolve*/(5465)],'d7b29029':[()=>__webpack_require__.e(/* import() | d7b29029 */ 5412).then(__webpack_require__.t.bind(__webpack_require__, 6395, 19)),'~docs/default/tag-docs-tags-coding-problem-0af.json',/*require.resolve*/(6395)],'d8063327':[()=>__webpack_require__.e(/* import() | d8063327 */ 2646).then(__webpack_require__.bind(__webpack_require__, 2201)),'@site/docs/coding-problems/easy/2022-09-28-easy.md',/*require.resolve*/(2201)],'dd7c5dc4':[()=>__webpack_require__.e(/* import() | dd7c5dc4 */ 8970).then(__webpack_require__.bind(__webpack_require__, 8180)),'@site/blog/2022-05-05-deploy-jenkins-in-dokku.md',/*require.resolve*/(8180)],'df203c0f':[()=>__webpack_require__.e(/* import() | df203c0f */ 9924).then(__webpack_require__.bind(__webpack_require__, 491)),'@theme/DocTagDocListPage',/*require.resolve*/(491)],'e1c5f541':[()=>__webpack_require__.e(/* import() | e1c5f541 */ 7298).then(__webpack_require__.t.bind(__webpack_require__, 1930, 19)),'~docs/default/tag-docs-tags-medium-e2b.json',/*require.resolve*/(1930)],'e48f33cf':[()=>__webpack_require__.e(/* import() | e48f33cf */ 6984).then(__webpack_require__.bind(__webpack_require__, 5017)),'@site/blog/2022-01-17-git-snippets.md?truncated=true',/*require.resolve*/(5017)],'e9637d4d':[()=>__webpack_require__.e(/* import() | e9637d4d */ 9418).then(__webpack_require__.bind(__webpack_require__, 4584)),'@site/docs/coding-problems/medium/2022-09-12-medium.md',/*require.resolve*/(4584)],'ebbab0c1':[()=>__webpack_require__.e(/* import() | ebbab0c1 */ 5853).then(__webpack_require__.t.bind(__webpack_require__, 7878, 19)),'~blog/default/tags-git-5fb-list.json',/*require.resolve*/(7878)],'edcc6101':[()=>__webpack_require__.e(/* import() | edcc6101 */ 3250).then(__webpack_require__.t.bind(__webpack_require__, 3294, 19)),'~blog/default/tags-mint-b8e-list.json',/*require.resolve*/(3294)],'f2891d44':[()=>__webpack_require__.e(/* import() | f2891d44 */ 7071).then(__webpack_require__.bind(__webpack_require__, 8361)),'@site/docs/coding-problems/easy/2022-09-27-easy.md',/*require.resolve*/(8361)],'f580a9d0':[()=>__webpack_require__.e(/* import() | f580a9d0 */ 9887).then(__webpack_require__.t.bind(__webpack_require__, 8989, 19)),'~blog/default/tags-python-687-list.json',/*require.resolve*/(8989)],'fbc813bc':[()=>__webpack_require__.e(/* import() | fbc813bc */ 7885).then(__webpack_require__.bind(__webpack_require__, 5189)),'@site/blog/2022-08-29-change-docker-storage-location.md',/*require.resolve*/(5189)],'fdebb365':[()=>__webpack_require__.e(/* import() | fdebb365 */ 787).then(__webpack_require__.bind(__webpack_require__, 3499)),'@site/docs/coding-problems/medium/2022-10-03-medium.md',/*require.resolve*/(3499)]});
 ;// CONCATENATED MODULE: ./node_modules/@docusaurus/core/lib/client/theme-fallback/Loading/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -4211,7 +4211,7 @@ if(typeof chunk==='object'||typeof chunk==='function'){Object.keys(loadedModule)
 let val=loadedModules;const keyPaths=keyPath.split('.');keyPaths.slice(0,-1).forEach(k=>{val=val[k];});val[keyPaths[keyPaths.length-1]]=chunk;});/* eslint-disable no-underscore-dangle */const Component=loadedModules.__comp;delete loadedModules.__comp;const routeContext=loadedModules.__context;delete loadedModules.__context;/* eslint-enable no-underscore-dangle */ // Is there any way to put this RouteContextProvider upper in the tree?
 return/*#__PURE__*/react.createElement(client_routeContext/* RouteContextProvider */.z,{value:routeContext},/*#__PURE__*/react.createElement(Component,(0,esm_extends/* default */.Z)({},loadedModules,props)));}});}
 ;// CONCATENATED MODULE: ./.docusaurus/routes.js
-/* harmony default export */ const routes = ([{path:'/after-install-mint-21',component:ComponentCreator('/after-install-mint-21','5f6'),exact:true},{path:'/archive',component:ComponentCreator('/archive','966'),exact:true},{path:'/change-docker-storage-location',component:ComponentCreator('/change-docker-storage-location','cac'),exact:true},{path:'/docker-clis',component:ComponentCreator('/docker-clis','5d6'),exact:true},{path:'/docs/tags',component:ComponentCreator('/docs/tags','de2'),exact:true},{path:'/docs/tags/coding-problem',component:ComponentCreator('/docs/tags/coding-problem','0d7'),exact:true},{path:'/docs/tags/easy',component:ComponentCreator('/docs/tags/easy','16a'),exact:true},{path:'/docs/tags/hard',component:ComponentCreator('/docs/tags/hard','1c9'),exact:true},{path:'/docs/tags/medium',component:ComponentCreator('/docs/tags/medium','bb9'),exact:true},{path:'/git-snippets',component:ComponentCreator('/git-snippets','eda'),exact:true},{path:'/host-domain-local-net',component:ComponentCreator('/host-domain-local-net','324'),exact:true},{path:'/linux-shell-snippets',component:ComponentCreator('/linux-shell-snippets','391'),exact:true},{path:'/some-scripts',component:ComponentCreator('/some-scripts','b6b'),exact:true},{path:'/tags',component:ComponentCreator('/tags','883'),exact:true},{path:'/tags/bash',component:ComponentCreator('/tags/bash','354'),exact:true},{path:'/tags/docker',component:ComponentCreator('/tags/docker','047'),exact:true},{path:'/tags/dokku',component:ComponentCreator('/tags/dokku','3b7'),exact:true},{path:'/tags/dot-net-core',component:ComponentCreator('/tags/dot-net-core','082'),exact:true},{path:'/tags/git',component:ComponentCreator('/tags/git','4d7'),exact:true},{path:'/tags/jenkins',component:ComponentCreator('/tags/jenkins','c75'),exact:true},{path:'/tags/linux',component:ComponentCreator('/tags/linux','002'),exact:true},{path:'/tags/mint',component:ComponentCreator('/tags/mint','a84'),exact:true},{path:'/tags/neovim',component:ComponentCreator('/tags/neovim','74b'),exact:true},{path:'/tags/node-js',component:ComponentCreator('/tags/node-js','b71'),exact:true},{path:'/tags/powershell',component:ComponentCreator('/tags/powershell','233'),exact:true},{path:'/tags/python',component:ComponentCreator('/tags/python','b32'),exact:true},{path:'/tags/sh',component:ComponentCreator('/tags/sh','377'),exact:true},{path:'/use-jenkins-on-dokku',component:ComponentCreator('/use-jenkins-on-dokku','2d2'),exact:true},{path:'/docs',component:ComponentCreator('/docs','bfa'),routes:[{path:'/docs/',component:ComponentCreator('/docs/','a8c'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/about-it',component:ComponentCreator('/docs/about-it','695'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/',component:ComponentCreator('/docs/coding-problems/','c71'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/codingbat.com/codingbat-make_chocolate',component:ComponentCreator('/docs/coding-problems/codingbat.com/codingbat-make_chocolate','c45'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/easy/2022-09-08-easy',component:ComponentCreator('/docs/coding-problems/easy/2022-09-08-easy','44a'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/easy/2022-09-15-easy',component:ComponentCreator('/docs/coding-problems/easy/2022-09-15-easy','cc0'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/easy/2022-09-23-easy',component:ComponentCreator('/docs/coding-problems/easy/2022-09-23-easy','15a'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/easy/2022-09-27-easy',component:ComponentCreator('/docs/coding-problems/easy/2022-09-27-easy','f00'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/easy/2022-09-28-easy',component:ComponentCreator('/docs/coding-problems/easy/2022-09-28-easy','8f6'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/hard/2022-09-09-hard',component:ComponentCreator('/docs/coding-problems/hard/2022-09-09-hard','b50'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/hard/2022-09-11-hard',component:ComponentCreator('/docs/coding-problems/hard/2022-09-11-hard','91c'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/hard/2022-09-13-hard',component:ComponentCreator('/docs/coding-problems/hard/2022-09-13-hard','3d0'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/hard/2022-09-16-hard',component:ComponentCreator('/docs/coding-problems/hard/2022-09-16-hard','dc5'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/hard/2022-09-19-hard',component:ComponentCreator('/docs/coding-problems/hard/2022-09-19-hard','901'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/hard/2022-09-20-hard',component:ComponentCreator('/docs/coding-problems/hard/2022-09-20-hard','c3a'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/hard/2022-09-24-hard',component:ComponentCreator('/docs/coding-problems/hard/2022-09-24-hard','e0b'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/hard/2022-09-25-hard',component:ComponentCreator('/docs/coding-problems/hard/2022-09-25-hard','d60'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/medium/2022-09-10-medium',component:ComponentCreator('/docs/coding-problems/medium/2022-09-10-medium','b60'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/medium/2022-09-12-medium',component:ComponentCreator('/docs/coding-problems/medium/2022-09-12-medium','787'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/medium/2022-09-14-medium',component:ComponentCreator('/docs/coding-problems/medium/2022-09-14-medium','9d6'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/medium/2022-09-17-medium',component:ComponentCreator('/docs/coding-problems/medium/2022-09-17-medium','677'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/medium/2022-09-18-medium',component:ComponentCreator('/docs/coding-problems/medium/2022-09-18-medium','d7d'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/medium/2022-09-21-medium',component:ComponentCreator('/docs/coding-problems/medium/2022-09-21-medium','8e8'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/medium/2022-09-22-medium',component:ComponentCreator('/docs/coding-problems/medium/2022-09-22-medium','4cf'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/medium/2022-09-26-medium',component:ComponentCreator('/docs/coding-problems/medium/2022-09-26-medium','292'),exact:true,sidebar:"tutorialSidebar"}]},{path:'/',component:ComponentCreator('/','7d0'),exact:true},{path:'*',component:ComponentCreator('*')}]);
+/* harmony default export */ const routes = ([{path:'/after-install-mint-21',component:ComponentCreator('/after-install-mint-21','5f6'),exact:true},{path:'/archive',component:ComponentCreator('/archive','966'),exact:true},{path:'/change-docker-storage-location',component:ComponentCreator('/change-docker-storage-location','cac'),exact:true},{path:'/docker-clis',component:ComponentCreator('/docker-clis','5d6'),exact:true},{path:'/docs/tags',component:ComponentCreator('/docs/tags','de2'),exact:true},{path:'/docs/tags/coding-problem',component:ComponentCreator('/docs/tags/coding-problem','0d7'),exact:true},{path:'/docs/tags/easy',component:ComponentCreator('/docs/tags/easy','16a'),exact:true},{path:'/docs/tags/hard',component:ComponentCreator('/docs/tags/hard','1c9'),exact:true},{path:'/docs/tags/medium',component:ComponentCreator('/docs/tags/medium','bb9'),exact:true},{path:'/git-snippets',component:ComponentCreator('/git-snippets','eda'),exact:true},{path:'/host-domain-local-net',component:ComponentCreator('/host-domain-local-net','324'),exact:true},{path:'/linux-shell-snippets',component:ComponentCreator('/linux-shell-snippets','391'),exact:true},{path:'/some-scripts',component:ComponentCreator('/some-scripts','b6b'),exact:true},{path:'/tags',component:ComponentCreator('/tags','883'),exact:true},{path:'/tags/bash',component:ComponentCreator('/tags/bash','354'),exact:true},{path:'/tags/docker',component:ComponentCreator('/tags/docker','047'),exact:true},{path:'/tags/dokku',component:ComponentCreator('/tags/dokku','3b7'),exact:true},{path:'/tags/dot-net-core',component:ComponentCreator('/tags/dot-net-core','082'),exact:true},{path:'/tags/git',component:ComponentCreator('/tags/git','4d7'),exact:true},{path:'/tags/jenkins',component:ComponentCreator('/tags/jenkins','c75'),exact:true},{path:'/tags/linux',component:ComponentCreator('/tags/linux','002'),exact:true},{path:'/tags/mint',component:ComponentCreator('/tags/mint','a84'),exact:true},{path:'/tags/neovim',component:ComponentCreator('/tags/neovim','74b'),exact:true},{path:'/tags/node-js',component:ComponentCreator('/tags/node-js','b71'),exact:true},{path:'/tags/powershell',component:ComponentCreator('/tags/powershell','233'),exact:true},{path:'/tags/python',component:ComponentCreator('/tags/python','b32'),exact:true},{path:'/tags/sh',component:ComponentCreator('/tags/sh','377'),exact:true},{path:'/use-jenkins-on-dokku',component:ComponentCreator('/use-jenkins-on-dokku','2d2'),exact:true},{path:'/docs',component:ComponentCreator('/docs','0e7'),routes:[{path:'/docs/',component:ComponentCreator('/docs/','a8c'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/about-it',component:ComponentCreator('/docs/about-it','695'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/',component:ComponentCreator('/docs/coding-problems/','c71'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/codingbat.com/codingbat-make_chocolate',component:ComponentCreator('/docs/coding-problems/codingbat.com/codingbat-make_chocolate','c45'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/easy/2022-09-08-easy',component:ComponentCreator('/docs/coding-problems/easy/2022-09-08-easy','44a'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/easy/2022-09-15-easy',component:ComponentCreator('/docs/coding-problems/easy/2022-09-15-easy','cc0'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/easy/2022-09-23-easy',component:ComponentCreator('/docs/coding-problems/easy/2022-09-23-easy','15a'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/easy/2022-09-27-easy',component:ComponentCreator('/docs/coding-problems/easy/2022-09-27-easy','f00'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/easy/2022-09-28-easy',component:ComponentCreator('/docs/coding-problems/easy/2022-09-28-easy','8f6'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/easy/2022-09-30-easy',component:ComponentCreator('/docs/coding-problems/easy/2022-09-30-easy','c7f'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/easy/2022-10-04-easy',component:ComponentCreator('/docs/coding-problems/easy/2022-10-04-easy','d39'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/hard/2022-09-09-hard',component:ComponentCreator('/docs/coding-problems/hard/2022-09-09-hard','b50'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/hard/2022-09-11-hard',component:ComponentCreator('/docs/coding-problems/hard/2022-09-11-hard','91c'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/hard/2022-09-13-hard',component:ComponentCreator('/docs/coding-problems/hard/2022-09-13-hard','3d0'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/hard/2022-09-16-hard',component:ComponentCreator('/docs/coding-problems/hard/2022-09-16-hard','dc5'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/hard/2022-09-19-hard',component:ComponentCreator('/docs/coding-problems/hard/2022-09-19-hard','901'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/hard/2022-09-20-hard',component:ComponentCreator('/docs/coding-problems/hard/2022-09-20-hard','c3a'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/hard/2022-09-24-hard',component:ComponentCreator('/docs/coding-problems/hard/2022-09-24-hard','e0b'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/hard/2022-09-25-hard',component:ComponentCreator('/docs/coding-problems/hard/2022-09-25-hard','d60'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/hard/2022-10-02-hard',component:ComponentCreator('/docs/coding-problems/hard/2022-10-02-hard','544'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/medium/2022-09-10-medium',component:ComponentCreator('/docs/coding-problems/medium/2022-09-10-medium','b60'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/medium/2022-09-12-medium',component:ComponentCreator('/docs/coding-problems/medium/2022-09-12-medium','787'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/medium/2022-09-14-medium',component:ComponentCreator('/docs/coding-problems/medium/2022-09-14-medium','9d6'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/medium/2022-09-17-medium',component:ComponentCreator('/docs/coding-problems/medium/2022-09-17-medium','677'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/medium/2022-09-18-medium',component:ComponentCreator('/docs/coding-problems/medium/2022-09-18-medium','d7d'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/medium/2022-09-21-medium',component:ComponentCreator('/docs/coding-problems/medium/2022-09-21-medium','8e8'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/medium/2022-09-22-medium',component:ComponentCreator('/docs/coding-problems/medium/2022-09-22-medium','4cf'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/medium/2022-09-26-medium',component:ComponentCreator('/docs/coding-problems/medium/2022-09-26-medium','292'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/medium/2022-09-29-medium',component:ComponentCreator('/docs/coding-problems/medium/2022-09-29-medium','8bc'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/medium/2022-10-01-medium',component:ComponentCreator('/docs/coding-problems/medium/2022-10-01-medium','ef4'),exact:true,sidebar:"tutorialSidebar"},{path:'/docs/coding-problems/medium/2022-10-03-medium',component:ComponentCreator('/docs/coding-problems/medium/2022-10-03-medium','faf'),exact:true,sidebar:"tutorialSidebar"}]},{path:'/',component:ComponentCreator('/','7d0'),exact:true},{path:'*',component:ComponentCreator('*')}]);
 
 /***/ }),
 
@@ -4259,8 +4259,8 @@ var ExecutionEnvironment = __webpack_require__(412);
 /* harmony default export */ const client_modules = ([__webpack_require__(2497),__webpack_require__(3310),__webpack_require__(8320),__webpack_require__(2295)]);
 // EXTERNAL MODULE: ./.docusaurus/routes.js + 3 modules
 var routes = __webpack_require__(723);
-// EXTERNAL MODULE: ./node_modules/react-router/esm/react-router.js + 1 modules
-var react_router = __webpack_require__(6775);
+// EXTERNAL MODULE: ./node_modules/react-router/esm/react-router.js
+var react_router = __webpack_require__(6550);
 // EXTERNAL MODULE: ./node_modules/react-router-config/esm/react-router-config.js
 var react_router_config = __webpack_require__(8790);
 ;// CONCATENATED MODULE: ./node_modules/@docusaurus/core/lib/client/theme-fallback/Root/index.js
@@ -4518,7 +4518,7 @@ var react = __webpack_require__(7294);
 // EXTERNAL MODULE: ./.docusaurus/docusaurus.config.mjs
 var docusaurus_config = __webpack_require__(6809);
 ;// CONCATENATED MODULE: ./.docusaurus/globalData.json
-const globalData_namespaceObject = JSON.parse('{"docusaurus-plugin-content-docs":{"default":{"path":"/docs","versions":[{"name":"current","label":"Next","isLast":true,"path":"/docs","mainDocId":"index","docs":[{"id":"about-it","path":"/docs/about-it","sidebar":"tutorialSidebar"},{"id":"coding-problems/codingbat.com/make_chocolate","path":"/docs/coding-problems/codingbat.com/codingbat-make_chocolate","sidebar":"tutorialSidebar"},{"id":"coding-problems/easy/2022-09-08-easy","path":"/docs/coding-problems/easy/2022-09-08-easy","sidebar":"tutorialSidebar"},{"id":"coding-problems/easy/2022-09-15-easy","path":"/docs/coding-problems/easy/2022-09-15-easy","sidebar":"tutorialSidebar"},{"id":"coding-problems/easy/2022-09-23-easy","path":"/docs/coding-problems/easy/2022-09-23-easy","sidebar":"tutorialSidebar"},{"id":"coding-problems/easy/2022-09-27-easy","path":"/docs/coding-problems/easy/2022-09-27-easy","sidebar":"tutorialSidebar"},{"id":"coding-problems/easy/2022-09-28-easy","path":"/docs/coding-problems/easy/2022-09-28-easy","sidebar":"tutorialSidebar"},{"id":"coding-problems/hard/2022-09-09-hard","path":"/docs/coding-problems/hard/2022-09-09-hard","sidebar":"tutorialSidebar"},{"id":"coding-problems/hard/2022-09-11-hard","path":"/docs/coding-problems/hard/2022-09-11-hard","sidebar":"tutorialSidebar"},{"id":"coding-problems/hard/2022-09-13-hard","path":"/docs/coding-problems/hard/2022-09-13-hard","sidebar":"tutorialSidebar"},{"id":"coding-problems/hard/2022-09-16-hard","path":"/docs/coding-problems/hard/2022-09-16-hard","sidebar":"tutorialSidebar"},{"id":"coding-problems/hard/2022-09-19-hard","path":"/docs/coding-problems/hard/2022-09-19-hard","sidebar":"tutorialSidebar"},{"id":"coding-problems/hard/2022-09-20-hard","path":"/docs/coding-problems/hard/2022-09-20-hard","sidebar":"tutorialSidebar"},{"id":"coding-problems/hard/2022-09-24-hard","path":"/docs/coding-problems/hard/2022-09-24-hard","sidebar":"tutorialSidebar"},{"id":"coding-problems/hard/2022-09-25-hard","path":"/docs/coding-problems/hard/2022-09-25-hard","sidebar":"tutorialSidebar"},{"id":"coding-problems/index","path":"/docs/coding-problems/","sidebar":"tutorialSidebar"},{"id":"coding-problems/medium/2022-09-10-medium","path":"/docs/coding-problems/medium/2022-09-10-medium","sidebar":"tutorialSidebar"},{"id":"coding-problems/medium/2022-09-12-medium","path":"/docs/coding-problems/medium/2022-09-12-medium","sidebar":"tutorialSidebar"},{"id":"coding-problems/medium/2022-09-14-medium","path":"/docs/coding-problems/medium/2022-09-14-medium","sidebar":"tutorialSidebar"},{"id":"coding-problems/medium/2022-09-17-medium","path":"/docs/coding-problems/medium/2022-09-17-medium","sidebar":"tutorialSidebar"},{"id":"coding-problems/medium/2022-09-18-medium","path":"/docs/coding-problems/medium/2022-09-18-medium","sidebar":"tutorialSidebar"},{"id":"coding-problems/medium/2022-09-21-medium","path":"/docs/coding-problems/medium/2022-09-21-medium","sidebar":"tutorialSidebar"},{"id":"coding-problems/medium/2022-09-22-medium","path":"/docs/coding-problems/medium/2022-09-22-medium","sidebar":"tutorialSidebar"},{"id":"coding-problems/medium/2022-09-26-medium","path":"/docs/coding-problems/medium/2022-09-26-medium","sidebar":"tutorialSidebar"},{"id":"index","path":"/docs/","sidebar":"tutorialSidebar"}],"draftIds":[],"sidebars":{"tutorialSidebar":{"link":{"path":"/docs/","label":"Docs"}}}}],"breadcrumbs":true}}}');
+const globalData_namespaceObject = JSON.parse('{"docusaurus-plugin-content-docs":{"default":{"path":"/docs","versions":[{"name":"current","label":"Next","isLast":true,"path":"/docs","mainDocId":"index","docs":[{"id":"about-it","path":"/docs/about-it","sidebar":"tutorialSidebar"},{"id":"coding-problems/codingbat.com/make_chocolate","path":"/docs/coding-problems/codingbat.com/codingbat-make_chocolate","sidebar":"tutorialSidebar"},{"id":"coding-problems/easy/2022-09-08-easy","path":"/docs/coding-problems/easy/2022-09-08-easy","sidebar":"tutorialSidebar"},{"id":"coding-problems/easy/2022-09-15-easy","path":"/docs/coding-problems/easy/2022-09-15-easy","sidebar":"tutorialSidebar"},{"id":"coding-problems/easy/2022-09-23-easy","path":"/docs/coding-problems/easy/2022-09-23-easy","sidebar":"tutorialSidebar"},{"id":"coding-problems/easy/2022-09-27-easy","path":"/docs/coding-problems/easy/2022-09-27-easy","sidebar":"tutorialSidebar"},{"id":"coding-problems/easy/2022-09-28-easy","path":"/docs/coding-problems/easy/2022-09-28-easy","sidebar":"tutorialSidebar"},{"id":"coding-problems/easy/2022-09-30-easy","path":"/docs/coding-problems/easy/2022-09-30-easy","sidebar":"tutorialSidebar"},{"id":"coding-problems/easy/2022-10-04-easy","path":"/docs/coding-problems/easy/2022-10-04-easy","sidebar":"tutorialSidebar"},{"id":"coding-problems/hard/2022-09-09-hard","path":"/docs/coding-problems/hard/2022-09-09-hard","sidebar":"tutorialSidebar"},{"id":"coding-problems/hard/2022-09-11-hard","path":"/docs/coding-problems/hard/2022-09-11-hard","sidebar":"tutorialSidebar"},{"id":"coding-problems/hard/2022-09-13-hard","path":"/docs/coding-problems/hard/2022-09-13-hard","sidebar":"tutorialSidebar"},{"id":"coding-problems/hard/2022-09-16-hard","path":"/docs/coding-problems/hard/2022-09-16-hard","sidebar":"tutorialSidebar"},{"id":"coding-problems/hard/2022-09-19-hard","path":"/docs/coding-problems/hard/2022-09-19-hard","sidebar":"tutorialSidebar"},{"id":"coding-problems/hard/2022-09-20-hard","path":"/docs/coding-problems/hard/2022-09-20-hard","sidebar":"tutorialSidebar"},{"id":"coding-problems/hard/2022-09-24-hard","path":"/docs/coding-problems/hard/2022-09-24-hard","sidebar":"tutorialSidebar"},{"id":"coding-problems/hard/2022-09-25-hard","path":"/docs/coding-problems/hard/2022-09-25-hard","sidebar":"tutorialSidebar"},{"id":"coding-problems/hard/2022-10-02-hard","path":"/docs/coding-problems/hard/2022-10-02-hard","sidebar":"tutorialSidebar"},{"id":"coding-problems/index","path":"/docs/coding-problems/","sidebar":"tutorialSidebar"},{"id":"coding-problems/medium/2022-09-10-medium","path":"/docs/coding-problems/medium/2022-09-10-medium","sidebar":"tutorialSidebar"},{"id":"coding-problems/medium/2022-09-12-medium","path":"/docs/coding-problems/medium/2022-09-12-medium","sidebar":"tutorialSidebar"},{"id":"coding-problems/medium/2022-09-14-medium","path":"/docs/coding-problems/medium/2022-09-14-medium","sidebar":"tutorialSidebar"},{"id":"coding-problems/medium/2022-09-17-medium","path":"/docs/coding-problems/medium/2022-09-17-medium","sidebar":"tutorialSidebar"},{"id":"coding-problems/medium/2022-09-18-medium","path":"/docs/coding-problems/medium/2022-09-18-medium","sidebar":"tutorialSidebar"},{"id":"coding-problems/medium/2022-09-21-medium","path":"/docs/coding-problems/medium/2022-09-21-medium","sidebar":"tutorialSidebar"},{"id":"coding-problems/medium/2022-09-22-medium","path":"/docs/coding-problems/medium/2022-09-22-medium","sidebar":"tutorialSidebar"},{"id":"coding-problems/medium/2022-09-26-medium","path":"/docs/coding-problems/medium/2022-09-26-medium","sidebar":"tutorialSidebar"},{"id":"coding-problems/medium/2022-09-29-medium","path":"/docs/coding-problems/medium/2022-09-29-medium","sidebar":"tutorialSidebar"},{"id":"coding-problems/medium/2022-10-01-medium","path":"/docs/coding-problems/medium/2022-10-01-medium","sidebar":"tutorialSidebar"},{"id":"coding-problems/medium/2022-10-03-medium","path":"/docs/coding-problems/medium/2022-10-03-medium","sidebar":"tutorialSidebar"},{"id":"index","path":"/docs/","sidebar":"tutorialSidebar"}],"draftIds":[],"sidebars":{"tutorialSidebar":{"link":{"path":"/docs/","label":"Docs"}}}}],"breadcrumbs":true}}}');
 ;// CONCATENATED MODULE: ./.docusaurus/i18n.json
 const i18n_namespaceObject = JSON.parse('{"defaultLocale":"en","locales":["en"],"path":"i18n","currentLocale":"en","localeConfigs":{"en":{"label":"English","direction":"ltr","htmlLang":"en","calendar":"gregory","path":"en"}}}');
 // EXTERNAL MODULE: ./.docusaurus/codeTranslations.json
@@ -4885,8 +4885,8 @@ __webpack_require__.d(__webpack_exports__, {
 
 // UNUSED EXPORTS: useActivePluginAndVersion, useActiveVersion
 
-// EXTERNAL MODULE: ./node_modules/react-router/esm/react-router.js + 1 modules
-var react_router = __webpack_require__(6775);
+// EXTERNAL MODULE: ./node_modules/react-router/esm/react-router.js
+var react_router = __webpack_require__(6550);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/useDocusaurusContext.js
 var useDocusaurusContext = __webpack_require__(2263);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/constants.js
@@ -5035,8 +5035,8 @@ var ThemeClassNames = __webpack_require__(5281);
 var useKeyboardNavigation = __webpack_require__(9727);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/Translate.js + 1 modules
 var Translate = __webpack_require__(5999);
-// EXTERNAL MODULE: ./node_modules/react-router/esm/react-router.js + 1 modules
-var react_router = __webpack_require__(6775);
+// EXTERNAL MODULE: ./node_modules/react-router/esm/react-router.js
+var react_router = __webpack_require__(6550);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-common/lib/utils/useLocationChange.js
 var useLocationChange = __webpack_require__(5936);
 ;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-common/lib/hooks/useSkipToContent.js
@@ -5852,8 +5852,8 @@ var react = __webpack_require__(7294);
 var content = __webpack_require__(3102);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-common/lib/hooks/useWindowSize.js
 var useWindowSize = __webpack_require__(7524);
-// EXTERNAL MODULE: ./node_modules/react-router/esm/react-router.js + 1 modules
-var react_router = __webpack_require__(6775);
+// EXTERNAL MODULE: ./node_modules/react-router/esm/react-router.js
+var react_router = __webpack_require__(6550);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-common/lib/utils/reactUtils.js
 var reactUtils = __webpack_require__(902);
 ;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-common/lib/utils/historyUtils.js
@@ -6035,8 +6035,8 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: ./node_modules/react/index.js
 var react = __webpack_require__(7294);
-// EXTERNAL MODULE: ./node_modules/react-router/esm/react-router.js + 1 modules
-var react_router = __webpack_require__(6775);
+// EXTERNAL MODULE: ./node_modules/react-router/esm/react-router.js
+var react_router = __webpack_require__(6550);
 // EXTERNAL MODULE: ./node_modules/react-router-config/esm/react-router-config.js
 var react_router_config = __webpack_require__(8790);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/plugin-content-docs/lib/client/index.js + 2 modules
@@ -6450,7 +6450,7 @@ Please only call storage APIs in effects and event handlers.`);}return{get:throw
 /* harmony export */   "l": () => (/* binding */ useAlternatePageUtils)
 /* harmony export */ });
 /* harmony import */ var _docusaurus_useDocusaurusContext__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2263);
-/* harmony import */ var _docusaurus_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6775);
+/* harmony import */ var _docusaurus_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6550);
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -6475,7 +6475,7 @@ function createUrl(_ref){let{locale,fullyQualified}=_ref;return`${fullyQualified
 /* harmony export */   "S": () => (/* binding */ useLocationChange)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7294);
-/* harmony import */ var _docusaurus_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6775);
+/* harmony import */ var _docusaurus_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6550);
 /* harmony import */ var _reactUtils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(902);
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -10397,7 +10397,7 @@ module.exports = Loadable;
 /* harmony export */   "H": () => (/* binding */ renderRoutes),
 /* harmony export */   "f": () => (/* binding */ matchRoutes)
 /* harmony export */ });
-/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6775);
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6550);
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7462);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7294);
 
@@ -10473,7 +10473,7 @@ function renderRoutes(routes, extraProps, switchProps) {
 /* harmony export */   "rU": () => (/* binding */ Link)
 /* harmony export */ });
 /* unused harmony export HashRouter */
-/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6775);
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6550);
 /* harmony import */ var _babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5068);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7294);
 /* harmony import */ var history__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(9318);
@@ -10750,51 +10750,64 @@ if (false) { var ariaCurrentType; }
 
 /***/ }),
 
-/***/ 6775:
+/***/ 6550:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "AW": () => (/* binding */ Route),
+/* harmony export */   "F0": () => (/* binding */ Router),
+/* harmony export */   "LX": () => (/* binding */ matchPath),
+/* harmony export */   "TH": () => (/* binding */ useLocation),
+/* harmony export */   "k6": () => (/* binding */ useHistory),
+/* harmony export */   "rs": () => (/* binding */ Switch),
+/* harmony export */   "s6": () => (/* binding */ context)
+/* harmony export */ });
+/* unused harmony exports MemoryRouter, Prompt, Redirect, StaticRouter, __HistoryContext, generatePath, useParams, useRouteMatch, withRouter */
+/* harmony import */ var _babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(5068);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7294);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(5697);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var history__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(9318);
+/* harmony import */ var tiny_invariant__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(8776);
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(7462);
+/* harmony import */ var path_to_regexp__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4779);
+/* harmony import */ var path_to_regexp__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(path_to_regexp__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_is__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(9864);
+/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(3366);
+/* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(8679);
+/* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_3__);
 
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "AW": () => (/* binding */ Route),
-  "F0": () => (/* binding */ Router),
-  "rs": () => (/* binding */ Switch),
-  "s6": () => (/* binding */ context),
-  "LX": () => (/* binding */ matchPath),
-  "k6": () => (/* binding */ useHistory),
-  "TH": () => (/* binding */ useLocation)
-});
 
-// UNUSED EXPORTS: MemoryRouter, Prompt, Redirect, StaticRouter, __HistoryContext, generatePath, useParams, useRouteMatch, withRouter
 
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js + 1 modules
-var inheritsLoose = __webpack_require__(5068);
-// EXTERNAL MODULE: ./node_modules/react/index.js
-var react = __webpack_require__(7294);
-// EXTERNAL MODULE: ./node_modules/history/esm/history.js + 1 modules
-var esm_history = __webpack_require__(9318);
-// EXTERNAL MODULE: ./node_modules/prop-types/index.js
-var prop_types = __webpack_require__(5697);
-var prop_types_default = /*#__PURE__*/__webpack_require__.n(prop_types);
-;// CONCATENATED MODULE: ./node_modules/mini-create-react-context/dist/esm/index.js
+
+
+
+
 
 
 
 
 
 var MAX_SIGNED_31_BIT_INT = 1073741823;
-var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof __webpack_require__.g !== 'undefined' ? __webpack_require__.g : {};
+var commonjsGlobal = typeof globalThis !== "undefined" // 'global proper'
+? // eslint-disable-next-line no-undef
+globalThis : typeof window !== "undefined" ? window // Browser
+: typeof __webpack_require__.g !== "undefined" ? __webpack_require__.g // node.js
+: {};
 
 function getUniqueId() {
-  var key = '__global_unique_id__';
+  var key = "__global_unique_id__";
   return commonjsGlobal[key] = (commonjsGlobal[key] || 0) + 1;
-}
+} // Inlined Object.is polyfill.
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
+
 
 function objectIs(x, y) {
   if (x === y) {
     return x !== 0 || 1 / x === 1 / y;
   } else {
+    // eslint-disable-next-line no-self-compare
     return x !== x && y !== y;
   }
 }
@@ -10829,15 +10842,19 @@ function onlyChild(children) {
 function createReactContext(defaultValue, calculateChangedBits) {
   var _Provider$childContex, _Consumer$contextType;
 
-  var contextProp = '__create-react-context-' + getUniqueId() + '__';
+  var contextProp = "__create-react-context-" + getUniqueId() + "__";
 
-  var Provider = /*#__PURE__*/function (_Component) {
-    (0,inheritsLoose/* default */.Z)(Provider, _Component);
+  var Provider = /*#__PURE__*/function (_React$Component) {
+    (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z)(Provider, _React$Component);
 
     function Provider() {
       var _this;
 
-      _this = _Component.apply(this, arguments) || this;
+      for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+        args[_key] = arguments[_key];
+      }
+
+      _this = _React$Component.call.apply(_React$Component, [this].concat(args)) || this;
       _this.emitter = createEventEmitter(_this.props.value);
       return _this;
     }
@@ -10857,9 +10874,9 @@ function createReactContext(defaultValue, calculateChangedBits) {
         var changedBits;
 
         if (objectIs(oldValue, newValue)) {
-          changedBits = 0;
+          changedBits = 0; // No change
         } else {
-          changedBits = typeof calculateChangedBits === 'function' ? calculateChangedBits(oldValue, newValue) : MAX_SIGNED_31_BIT_INT;
+          changedBits = typeof calculateChangedBits === "function" ? calculateChangedBits(oldValue, newValue) : MAX_SIGNED_31_BIT_INT;
 
           if (false) {}
 
@@ -10877,17 +10894,22 @@ function createReactContext(defaultValue, calculateChangedBits) {
     };
 
     return Provider;
-  }(react.Component);
+  }(react__WEBPACK_IMPORTED_MODULE_0__.Component);
 
-  Provider.childContextTypes = (_Provider$childContex = {}, _Provider$childContex[contextProp] = (prop_types_default()).object.isRequired, _Provider$childContex);
+  Provider.childContextTypes = (_Provider$childContex = {}, _Provider$childContex[contextProp] = (prop_types__WEBPACK_IMPORTED_MODULE_5___default().object.isRequired), _Provider$childContex);
 
-  var Consumer = /*#__PURE__*/function (_Component2) {
-    (0,inheritsLoose/* default */.Z)(Consumer, _Component2);
+  var Consumer = /*#__PURE__*/function (_React$Component2) {
+    (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z)(Consumer, _React$Component2);
 
     function Consumer() {
       var _this2;
 
-      _this2 = _Component2.apply(this, arguments) || this;
+      for (var _len2 = arguments.length, args = new Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
+        args[_key2] = arguments[_key2];
+      }
+
+      _this2 = _React$Component2.call.apply(_React$Component2, [this].concat(args)) || this;
+      _this2.observedBits = void 0;
       _this2.state = {
         value: _this2.getValue()
       };
@@ -10909,7 +10931,8 @@ function createReactContext(defaultValue, calculateChangedBits) {
 
     _proto2.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
       var observedBits = nextProps.observedBits;
-      this.observedBits = observedBits === undefined || observedBits === null ? MAX_SIGNED_31_BIT_INT : observedBits;
+      this.observedBits = observedBits === undefined || observedBits === null ? MAX_SIGNED_31_BIT_INT // Subscribe to all changes by default
+      : observedBits;
     };
 
     _proto2.componentDidMount = function componentDidMount() {
@@ -10918,7 +10941,8 @@ function createReactContext(defaultValue, calculateChangedBits) {
       }
 
       var observedBits = this.props.observedBits;
-      this.observedBits = observedBits === undefined || observedBits === null ? MAX_SIGNED_31_BIT_INT : observedBits;
+      this.observedBits = observedBits === undefined || observedBits === null ? MAX_SIGNED_31_BIT_INT // Subscribe to all changes by default
+      : observedBits;
     };
 
     _proto2.componentWillUnmount = function componentWillUnmount() {
@@ -10940,50 +10964,22 @@ function createReactContext(defaultValue, calculateChangedBits) {
     };
 
     return Consumer;
-  }(react.Component);
+  }(react__WEBPACK_IMPORTED_MODULE_0__.Component);
 
-  Consumer.contextTypes = (_Consumer$contextType = {}, _Consumer$contextType[contextProp] = (prop_types_default()).object, _Consumer$contextType);
+  Consumer.contextTypes = (_Consumer$contextType = {}, _Consumer$contextType[contextProp] = (prop_types__WEBPACK_IMPORTED_MODULE_5___default().object), _Consumer$contextType);
   return {
     Provider: Provider,
     Consumer: Consumer
   };
 }
 
-var index = react.createContext || createReactContext;
-
-/* harmony default export */ const esm = (index);
-
-// EXTERNAL MODULE: ./node_modules/tiny-invariant/dist/esm/tiny-invariant.js
-var tiny_invariant = __webpack_require__(8776);
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
-var esm_extends = __webpack_require__(7462);
-// EXTERNAL MODULE: ./node_modules/path-to-regexp/index.js
-var path_to_regexp = __webpack_require__(4779);
-var path_to_regexp_default = /*#__PURE__*/__webpack_require__.n(path_to_regexp);
-// EXTERNAL MODULE: ./node_modules/react-is/index.js
-var react_is = __webpack_require__(9864);
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js
-var objectWithoutPropertiesLoose = __webpack_require__(3366);
-// EXTERNAL MODULE: ./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js
-var hoist_non_react_statics_cjs = __webpack_require__(8679);
-;// CONCATENATED MODULE: ./node_modules/react-router/esm/react-router.js
-
-
-
-
-
-
-
-
-
-
-
-
+// MIT License
+var createContext = react__WEBPACK_IMPORTED_MODULE_0__.createContext || createReactContext;
 
 // TODO: Replace with React.createContext once we can assume React 16+
 
 var createNamedContext = function createNamedContext(name) {
-  var context = esm();
+  var context = createContext();
   context.displayName = name;
   return context;
 };
@@ -10997,7 +10993,7 @@ var context = /*#__PURE__*/createNamedContext("Router");
  */
 
 var Router = /*#__PURE__*/function (_React$Component) {
-  (0,inheritsLoose/* default */.Z)(Router, _React$Component);
+  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z)(Router, _React$Component);
 
   Router.computeRootMatch = function computeRootMatch(pathname) {
     return {
@@ -11071,21 +11067,21 @@ var Router = /*#__PURE__*/function (_React$Component) {
   };
 
   _proto.render = function render() {
-    return /*#__PURE__*/react.createElement(context.Provider, {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(context.Provider, {
       value: {
         history: this.props.history,
         location: this.state.location,
         match: Router.computeRootMatch(this.state.location.pathname),
         staticContext: this.props.staticContext
       }
-    }, /*#__PURE__*/react.createElement(historyContext.Provider, {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(historyContext.Provider, {
       children: this.props.children || null,
       value: this.props.history
     }));
   };
 
   return Router;
-}(react.Component);
+}(react__WEBPACK_IMPORTED_MODULE_0__.Component);
 
 if (false) {}
 
@@ -11094,7 +11090,7 @@ if (false) {}
  */
 
 var MemoryRouter = /*#__PURE__*/function (_React$Component) {
-  (0,inheritsLoose/* default */.Z)(MemoryRouter, _React$Component);
+  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z)(MemoryRouter, _React$Component);
 
   function MemoryRouter() {
     var _this;
@@ -11104,26 +11100,26 @@ var MemoryRouter = /*#__PURE__*/function (_React$Component) {
     }
 
     _this = _React$Component.call.apply(_React$Component, [this].concat(args)) || this;
-    _this.history = (0,esm_history/* createMemoryHistory */.PP)(_this.props);
+    _this.history = (0,history__WEBPACK_IMPORTED_MODULE_6__/* .createMemoryHistory */ .PP)(_this.props);
     return _this;
   }
 
   var _proto = MemoryRouter.prototype;
 
   _proto.render = function render() {
-    return /*#__PURE__*/react.createElement(Router, {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Router, {
       history: this.history,
       children: this.props.children
     });
   };
 
   return MemoryRouter;
-}(react.Component);
+}(react__WEBPACK_IMPORTED_MODULE_0__.Component);
 
 if (false) {}
 
 var Lifecycle = /*#__PURE__*/function (_React$Component) {
-  (0,inheritsLoose/* default */.Z)(Lifecycle, _React$Component);
+  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z)(Lifecycle, _React$Component);
 
   function Lifecycle() {
     return _React$Component.apply(this, arguments) || this;
@@ -11148,7 +11144,7 @@ var Lifecycle = /*#__PURE__*/function (_React$Component) {
   };
 
   return Lifecycle;
-}(react.Component);
+}(react__WEBPACK_IMPORTED_MODULE_0__.Component);
 
 /**
  * The public API for prompting the user before navigating away from a screen.
@@ -11269,7 +11265,7 @@ function compilePath$1(path, options) {
   var pathCache = cache$1[cacheKey] || (cache$1[cacheKey] = {});
   if (pathCache[path]) return pathCache[path];
   var keys = [];
-  var regexp = path_to_regexp_default()(path, keys, options);
+  var regexp = path_to_regexp__WEBPACK_IMPORTED_MODULE_1___default()(path, keys, options);
   var result = {
     regexp: regexp,
     keys: keys
@@ -11341,7 +11337,7 @@ function matchPath(pathname, options) {
 }
 
 function isEmptyChildren(children) {
-  return react.Children.count(children) === 0;
+  return react__WEBPACK_IMPORTED_MODULE_0__.Children.count(children) === 0;
 }
 
 function evalChildrenDev(children, props, path) {
@@ -11355,7 +11351,7 @@ function evalChildrenDev(children, props, path) {
 
 
 var Route = /*#__PURE__*/function (_React$Component) {
-  (0,inheritsLoose/* default */.Z)(Route, _React$Component);
+  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z)(Route, _React$Component);
 
   function Route() {
     return _React$Component.apply(this, arguments) || this;
@@ -11366,13 +11362,13 @@ var Route = /*#__PURE__*/function (_React$Component) {
   _proto.render = function render() {
     var _this = this;
 
-    return /*#__PURE__*/react.createElement(context.Consumer, null, function (context$1) {
-      !context$1 ?  false ? 0 : (0,tiny_invariant/* default */.Z)(false) : void 0;
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(context.Consumer, null, function (context$1) {
+      !context$1 ?  false ? 0 : (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z)(false) : void 0;
       var location = _this.props.location || context$1.location;
       var match = _this.props.computedMatch ? _this.props.computedMatch // <Switch> already computed the match for us
       : _this.props.path ? matchPath(location.pathname, _this.props) : context$1.match;
 
-      var props = (0,esm_extends/* default */.Z)({}, context$1, {
+      var props = (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z)({}, context$1, {
         location: location,
         match: match
       });
@@ -11387,14 +11383,14 @@ var Route = /*#__PURE__*/function (_React$Component) {
         children = null;
       }
 
-      return /*#__PURE__*/react.createElement(context.Provider, {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(context.Provider, {
         value: props
-      }, props.match ? children ? typeof children === "function" ?  false ? 0 : children(props) : children : component ? /*#__PURE__*/react.createElement(component, props) : render ? render(props) : null : typeof children === "function" ?  false ? 0 : children(props) : null);
+      }, props.match ? children ? typeof children === "function" ?  false ? 0 : children(props) : children : component ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(component, props) : render ? render(props) : null : typeof children === "function" ?  false ? 0 : children(props) : null);
     });
   };
 
   return Route;
-}(react.Component);
+}(react__WEBPACK_IMPORTED_MODULE_0__.Component);
 
 if (false) {}
 
@@ -11404,7 +11400,7 @@ function addLeadingSlash(path) {
 
 function addBasename(basename, location) {
   if (!basename) return location;
-  return (0,esm_extends/* default */.Z)({}, location, {
+  return (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z)({}, location, {
     pathname: addLeadingSlash(basename) + location.pathname
   });
 }
@@ -11413,18 +11409,18 @@ function stripBasename(basename, location) {
   if (!basename) return location;
   var base = addLeadingSlash(basename);
   if (location.pathname.indexOf(base) !== 0) return location;
-  return (0,esm_extends/* default */.Z)({}, location, {
+  return (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z)({}, location, {
     pathname: location.pathname.substr(base.length)
   });
 }
 
 function createURL(location) {
-  return typeof location === "string" ? location : (0,esm_history/* createPath */.Ep)(location);
+  return typeof location === "string" ? location : (0,history__WEBPACK_IMPORTED_MODULE_6__/* .createPath */ .Ep)(location);
 }
 
 function staticHandler(methodName) {
   return function () {
-      false ? 0 : (0,tiny_invariant/* default */.Z)(false) ;
+      false ? 0 : (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z)(false) ;
   };
 }
 
@@ -11438,7 +11434,7 @@ function noop() {}
 
 
 var StaticRouter = /*#__PURE__*/function (_React$Component) {
-  (0,inheritsLoose/* default */.Z)(StaticRouter, _React$Component);
+  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z)(StaticRouter, _React$Component);
 
   function StaticRouter() {
     var _this;
@@ -11477,7 +11473,7 @@ var StaticRouter = /*#__PURE__*/function (_React$Component) {
         _this$props$context = _this$props.context,
         context = _this$props$context === void 0 ? {} : _this$props$context;
     context.action = action;
-    context.location = addBasename(basename, (0,esm_history/* createLocation */.ob)(location));
+    context.location = addBasename(basename, (0,history__WEBPACK_IMPORTED_MODULE_6__/* .createLocation */ .ob)(location));
     context.url = createURL(context.location);
   };
 
@@ -11489,14 +11485,14 @@ var StaticRouter = /*#__PURE__*/function (_React$Component) {
         context = _this$props2$context === void 0 ? {} : _this$props2$context,
         _this$props2$location = _this$props2.location,
         location = _this$props2$location === void 0 ? "/" : _this$props2$location,
-        rest = (0,objectWithoutPropertiesLoose/* default */.Z)(_this$props2, ["basename", "context", "location"]);
+        rest = (0,_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_9__/* ["default"] */ .Z)(_this$props2, ["basename", "context", "location"]);
 
     var history = {
       createHref: function createHref(path) {
         return addLeadingSlash(basename + createURL(path));
       },
       action: "POP",
-      location: stripBasename(basename, (0,esm_history/* createLocation */.ob)(location)),
+      location: stripBasename(basename, (0,history__WEBPACK_IMPORTED_MODULE_6__/* .createLocation */ .ob)(location)),
       push: this.handlePush,
       replace: this.handleReplace,
       go: staticHandler("go"),
@@ -11505,14 +11501,14 @@ var StaticRouter = /*#__PURE__*/function (_React$Component) {
       listen: this.handleListen,
       block: this.handleBlock
     };
-    return /*#__PURE__*/react.createElement(Router, (0,esm_extends/* default */.Z)({}, rest, {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Router, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z)({}, rest, {
       history: history,
       staticContext: context
     }));
   };
 
   return StaticRouter;
-}(react.Component);
+}(react__WEBPACK_IMPORTED_MODULE_0__.Component);
 
 if (false) {}
 
@@ -11521,7 +11517,7 @@ if (false) {}
  */
 
 var Switch = /*#__PURE__*/function (_React$Component) {
-  (0,inheritsLoose/* default */.Z)(Switch, _React$Component);
+  (0,_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z)(Switch, _React$Component);
 
   function Switch() {
     return _React$Component.apply(this, arguments) || this;
@@ -11532,24 +11528,24 @@ var Switch = /*#__PURE__*/function (_React$Component) {
   _proto.render = function render() {
     var _this = this;
 
-    return /*#__PURE__*/react.createElement(context.Consumer, null, function (context) {
-      !context ?  false ? 0 : (0,tiny_invariant/* default */.Z)(false) : void 0;
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(context.Consumer, null, function (context) {
+      !context ?  false ? 0 : (0,tiny_invariant__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z)(false) : void 0;
       var location = _this.props.location || context.location;
       var element, match; // We use React.Children.forEach instead of React.Children.toArray().find()
       // here because toArray adds keys to all child elements and we do not want
       // to trigger an unmount/remount for two <Route>s that render the same
       // component at different URLs.
 
-      react.Children.forEach(_this.props.children, function (child) {
-        if (match == null && /*#__PURE__*/react.isValidElement(child)) {
+      react__WEBPACK_IMPORTED_MODULE_0__.Children.forEach(_this.props.children, function (child) {
+        if (match == null && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.isValidElement(child)) {
           element = child;
           var path = child.props.path || child.props.from;
-          match = path ? matchPath(location.pathname, (0,esm_extends/* default */.Z)({}, child.props, {
+          match = path ? matchPath(location.pathname, (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z)({}, child.props, {
             path: path
           })) : context.match;
         }
       });
-      return match ? /*#__PURE__*/react.cloneElement(element, {
+      return match ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.cloneElement(element, {
         location: location,
         computedMatch: match
       }) : null;
@@ -11557,7 +11553,7 @@ var Switch = /*#__PURE__*/function (_React$Component) {
   };
 
   return Switch;
-}(react.Component);
+}(react__WEBPACK_IMPORTED_MODULE_0__.Component);
 
 if (false) {}
 
@@ -11588,7 +11584,7 @@ function withRouter(Component) {
   return hoistStatics(C, Component);
 }
 
-var useContext = react.useContext;
+var useContext = react__WEBPACK_IMPORTED_MODULE_0__.useContext;
 function useHistory() {
   if (false) {}
 
@@ -11613,7 +11609,7 @@ function useRouteMatch(path) {
   return path ? matchPath(location.pathname, path) : match;
 }
 
-if (false) { var secondaryBuildName, initialBuildName, buildNames, key, global; }
+if (false) { var secondaryBuildName, initialBuildName, buildNames, key, global$1; }
 
 
 //# sourceMappingURL=react-router.js.map
@@ -12250,7 +12246,7 @@ module.exports = {};
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"/after-install-mint-21-5f6":{"__comp":"ccc49370","__context":{"plugin":"5de85630"},"sidebar":"814f3328","content":"8017defd"},"/archive-966":{"__comp":"9e4087bc","__context":{"plugin":"5de85630"},"archive":"2e801cce"},"/change-docker-storage-location-cac":{"__comp":"ccc49370","__context":{"plugin":"5de85630"},"sidebar":"814f3328","content":"fbc813bc"},"/docker-clis-5d6":{"__comp":"ccc49370","__context":{"plugin":"5de85630"},"sidebar":"814f3328","content":"220be069"},"/docs/tags-de2":{"__comp":"3720c009","__context":{"plugin":"70adae3e"},"tags":"55960ee5"},"/docs/tags/coding-problem-0d7":{"__comp":"df203c0f","__context":{"plugin":"70adae3e"},"tag":"d7b29029"},"/docs/tags/easy-16a":{"__comp":"df203c0f","__context":{"plugin":"70adae3e"},"tag":"6071f285"},"/docs/tags/hard-1c9":{"__comp":"df203c0f","__context":{"plugin":"70adae3e"},"tag":"52e1c95e"},"/docs/tags/medium-bb9":{"__comp":"df203c0f","__context":{"plugin":"70adae3e"},"tag":"e1c5f541"},"/git-snippets-eda":{"__comp":"ccc49370","__context":{"plugin":"5de85630"},"sidebar":"814f3328","content":"24752312"},"/host-domain-local-net-324":{"__comp":"ccc49370","__context":{"plugin":"5de85630"},"sidebar":"814f3328","content":"b8b0ace9"},"/linux-shell-snippets-391":{"__comp":"ccc49370","__context":{"plugin":"5de85630"},"sidebar":"814f3328","content":"c85dfa78"},"/some-scripts-b6b":{"__comp":"ccc49370","__context":{"plugin":"5de85630"},"sidebar":"814f3328","content":"2527ed8c"},"/tags-883":{"__comp":"01a85c17","__context":{"plugin":"5de85630"},"sidebar":"814f3328","tags":"c573638f"},"/tags/bash-354":{"__comp":"6875c492","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"547045d1"},{"content":"7f973973"},{"content":"e48f33cf"},{"content":"802e6eb6"}],"tag":"075e53af","listMetadata":"9bc959cf"},"/tags/docker-047":{"__comp":"6875c492","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"bed35ac5"},{"content":"68f249db"},{"content":"802e6eb6"}],"tag":"8ce664e8","listMetadata":"b2301113"},"/tags/dokku-3b7":{"__comp":"6875c492","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"a501857d"}],"tag":"304cae89","listMetadata":"9564a1ad"},"/tags/dot-net-core-082":{"__comp":"6875c492","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"802e6eb6"}],"tag":"cc697ede","listMetadata":"374da186"},"/tags/git-4d7":{"__comp":"6875c492","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"e48f33cf"}],"tag":"4fbdb8ff","listMetadata":"ebbab0c1"},"/tags/jenkins-c75":{"__comp":"6875c492","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"a501857d"}],"tag":"3b0f99e8","listMetadata":"0281109c"},"/tags/linux-002":{"__comp":"6875c492","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"bed35ac5"},{"content":"547045d1"}],"tag":"b1a838f3","listMetadata":"a3f2b4f3"},"/tags/mint-a84":{"__comp":"6875c492","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"bed35ac5"}],"tag":"ac613757","listMetadata":"edcc6101"},"/tags/neovim-74b":{"__comp":"6875c492","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"bed35ac5"}],"tag":"c9455749","listMetadata":"6d473ff5"},"/tags/node-js-b71":{"__comp":"6875c492","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"802e6eb6"}],"tag":"0cf51e6a","listMetadata":"0032ebb8"},"/tags/powershell-233":{"__comp":"6875c492","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"7f973973"}],"tag":"6748d613","listMetadata":"28403af1"},"/tags/python-b32":{"__comp":"6875c492","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"802e6eb6"}],"tag":"c7015929","listMetadata":"f580a9d0"},"/tags/sh-377":{"__comp":"6875c492","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"547045d1"},{"content":"e48f33cf"}],"tag":"7664b2b0","listMetadata":"25b240ef"},"/use-jenkins-on-dokku-2d2":{"__comp":"ccc49370","__context":{"plugin":"5de85630"},"sidebar":"814f3328","content":"dd7c5dc4"},"/docs-bfa":{"__comp":"1be78505","__context":{"plugin":"70adae3e"},"versionMetadata":"935f2afb"},"/docs/-a8c":{"__comp":"17896441","content":"c377a04b"},"/docs/about-it-695":{"__comp":"17896441","content":"be304075"},"/docs/coding-problems/-c71":{"__comp":"17896441","content":"bb7f1094"},"/docs/coding-problems/codingbat.com/codingbat-make_chocolate-c45":{"__comp":"17896441","content":"9db1ee69"},"/docs/coding-problems/easy/2022-09-08-easy-44a":{"__comp":"17896441","content":"d79cb2b1"},"/docs/coding-problems/easy/2022-09-15-easy-cc0":{"__comp":"17896441","content":"36a8e623"},"/docs/coding-problems/easy/2022-09-23-easy-15a":{"__comp":"17896441","content":"40e7f222"},"/docs/coding-problems/easy/2022-09-27-easy-f00":{"__comp":"17896441","content":"f2891d44"},"/docs/coding-problems/easy/2022-09-28-easy-8f6":{"__comp":"17896441","content":"d8063327"},"/docs/coding-problems/hard/2022-09-09-hard-b50":{"__comp":"17896441","content":"455c1236"},"/docs/coding-problems/hard/2022-09-11-hard-91c":{"__comp":"17896441","content":"11db093d"},"/docs/coding-problems/hard/2022-09-13-hard-3d0":{"__comp":"17896441","content":"8fe76ca1"},"/docs/coding-problems/hard/2022-09-16-hard-dc5":{"__comp":"17896441","content":"cc7f58b1"},"/docs/coding-problems/hard/2022-09-19-hard-901":{"__comp":"17896441","content":"4ecbbb2a"},"/docs/coding-problems/hard/2022-09-20-hard-c3a":{"__comp":"17896441","content":"6954dcd8"},"/docs/coding-problems/hard/2022-09-24-hard-e0b":{"__comp":"17896441","content":"880710ec"},"/docs/coding-problems/hard/2022-09-25-hard-d60":{"__comp":"17896441","content":"652842cf"},"/docs/coding-problems/medium/2022-09-10-medium-b60":{"__comp":"17896441","content":"be2e5167"},"/docs/coding-problems/medium/2022-09-12-medium-787":{"__comp":"17896441","content":"e9637d4d"},"/docs/coding-problems/medium/2022-09-14-medium-9d6":{"__comp":"17896441","content":"936af2d4"},"/docs/coding-problems/medium/2022-09-17-medium-677":{"__comp":"17896441","content":"5f8ee95b"},"/docs/coding-problems/medium/2022-09-18-medium-d7d":{"__comp":"17896441","content":"afd41d16"},"/docs/coding-problems/medium/2022-09-21-medium-8e8":{"__comp":"17896441","content":"714668a8"},"/docs/coding-problems/medium/2022-09-22-medium-4cf":{"__comp":"17896441","content":"048bd1f0"},"/docs/coding-problems/medium/2022-09-26-medium-292":{"__comp":"17896441","content":"92fcaf39"},"/-7d0":{"__comp":"a6aa9e1f","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"bed35ac5"},{"content":"68f249db"},{"content":"a501857d"},{"content":"4f760971"},{"content":"547045d1"},{"content":"7f973973"},{"content":"e48f33cf"},{"content":"802e6eb6"}],"metadata":"a5557bb9"}}');
+module.exports = JSON.parse('{"/after-install-mint-21-5f6":{"__comp":"ccc49370","__context":{"plugin":"5de85630"},"sidebar":"814f3328","content":"8017defd"},"/archive-966":{"__comp":"9e4087bc","__context":{"plugin":"5de85630"},"archive":"2e801cce"},"/change-docker-storage-location-cac":{"__comp":"ccc49370","__context":{"plugin":"5de85630"},"sidebar":"814f3328","content":"fbc813bc"},"/docker-clis-5d6":{"__comp":"ccc49370","__context":{"plugin":"5de85630"},"sidebar":"814f3328","content":"220be069"},"/docs/tags-de2":{"__comp":"3720c009","__context":{"plugin":"70adae3e"},"tags":"55960ee5"},"/docs/tags/coding-problem-0d7":{"__comp":"df203c0f","__context":{"plugin":"70adae3e"},"tag":"d7b29029"},"/docs/tags/easy-16a":{"__comp":"df203c0f","__context":{"plugin":"70adae3e"},"tag":"6071f285"},"/docs/tags/hard-1c9":{"__comp":"df203c0f","__context":{"plugin":"70adae3e"},"tag":"52e1c95e"},"/docs/tags/medium-bb9":{"__comp":"df203c0f","__context":{"plugin":"70adae3e"},"tag":"e1c5f541"},"/git-snippets-eda":{"__comp":"ccc49370","__context":{"plugin":"5de85630"},"sidebar":"814f3328","content":"24752312"},"/host-domain-local-net-324":{"__comp":"ccc49370","__context":{"plugin":"5de85630"},"sidebar":"814f3328","content":"b8b0ace9"},"/linux-shell-snippets-391":{"__comp":"ccc49370","__context":{"plugin":"5de85630"},"sidebar":"814f3328","content":"c85dfa78"},"/some-scripts-b6b":{"__comp":"ccc49370","__context":{"plugin":"5de85630"},"sidebar":"814f3328","content":"2527ed8c"},"/tags-883":{"__comp":"01a85c17","__context":{"plugin":"5de85630"},"sidebar":"814f3328","tags":"c573638f"},"/tags/bash-354":{"__comp":"6875c492","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"547045d1"},{"content":"7f973973"},{"content":"e48f33cf"},{"content":"802e6eb6"}],"tag":"075e53af","listMetadata":"9bc959cf"},"/tags/docker-047":{"__comp":"6875c492","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"bed35ac5"},{"content":"68f249db"},{"content":"802e6eb6"}],"tag":"8ce664e8","listMetadata":"b2301113"},"/tags/dokku-3b7":{"__comp":"6875c492","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"a501857d"}],"tag":"304cae89","listMetadata":"9564a1ad"},"/tags/dot-net-core-082":{"__comp":"6875c492","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"802e6eb6"}],"tag":"cc697ede","listMetadata":"374da186"},"/tags/git-4d7":{"__comp":"6875c492","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"e48f33cf"}],"tag":"4fbdb8ff","listMetadata":"ebbab0c1"},"/tags/jenkins-c75":{"__comp":"6875c492","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"a501857d"}],"tag":"3b0f99e8","listMetadata":"0281109c"},"/tags/linux-002":{"__comp":"6875c492","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"bed35ac5"},{"content":"547045d1"}],"tag":"b1a838f3","listMetadata":"a3f2b4f3"},"/tags/mint-a84":{"__comp":"6875c492","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"bed35ac5"}],"tag":"ac613757","listMetadata":"edcc6101"},"/tags/neovim-74b":{"__comp":"6875c492","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"bed35ac5"}],"tag":"c9455749","listMetadata":"6d473ff5"},"/tags/node-js-b71":{"__comp":"6875c492","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"802e6eb6"}],"tag":"0cf51e6a","listMetadata":"0032ebb8"},"/tags/powershell-233":{"__comp":"6875c492","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"7f973973"}],"tag":"6748d613","listMetadata":"28403af1"},"/tags/python-b32":{"__comp":"6875c492","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"802e6eb6"}],"tag":"c7015929","listMetadata":"f580a9d0"},"/tags/sh-377":{"__comp":"6875c492","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"547045d1"},{"content":"e48f33cf"}],"tag":"7664b2b0","listMetadata":"25b240ef"},"/use-jenkins-on-dokku-2d2":{"__comp":"ccc49370","__context":{"plugin":"5de85630"},"sidebar":"814f3328","content":"dd7c5dc4"},"/docs-0e7":{"__comp":"1be78505","__context":{"plugin":"70adae3e"},"versionMetadata":"935f2afb"},"/docs/-a8c":{"__comp":"17896441","content":"c377a04b"},"/docs/about-it-695":{"__comp":"17896441","content":"be304075"},"/docs/coding-problems/-c71":{"__comp":"17896441","content":"bb7f1094"},"/docs/coding-problems/codingbat.com/codingbat-make_chocolate-c45":{"__comp":"17896441","content":"9db1ee69"},"/docs/coding-problems/easy/2022-09-08-easy-44a":{"__comp":"17896441","content":"d79cb2b1"},"/docs/coding-problems/easy/2022-09-15-easy-cc0":{"__comp":"17896441","content":"36a8e623"},"/docs/coding-problems/easy/2022-09-23-easy-15a":{"__comp":"17896441","content":"40e7f222"},"/docs/coding-problems/easy/2022-09-27-easy-f00":{"__comp":"17896441","content":"f2891d44"},"/docs/coding-problems/easy/2022-09-28-easy-8f6":{"__comp":"17896441","content":"d8063327"},"/docs/coding-problems/easy/2022-09-30-easy-c7f":{"__comp":"17896441","content":"c63ee28b"},"/docs/coding-problems/easy/2022-10-04-easy-d39":{"__comp":"17896441","content":"1d7a49b0"},"/docs/coding-problems/hard/2022-09-09-hard-b50":{"__comp":"17896441","content":"455c1236"},"/docs/coding-problems/hard/2022-09-11-hard-91c":{"__comp":"17896441","content":"11db093d"},"/docs/coding-problems/hard/2022-09-13-hard-3d0":{"__comp":"17896441","content":"8fe76ca1"},"/docs/coding-problems/hard/2022-09-16-hard-dc5":{"__comp":"17896441","content":"cc7f58b1"},"/docs/coding-problems/hard/2022-09-19-hard-901":{"__comp":"17896441","content":"4ecbbb2a"},"/docs/coding-problems/hard/2022-09-20-hard-c3a":{"__comp":"17896441","content":"6954dcd8"},"/docs/coding-problems/hard/2022-09-24-hard-e0b":{"__comp":"17896441","content":"880710ec"},"/docs/coding-problems/hard/2022-09-25-hard-d60":{"__comp":"17896441","content":"652842cf"},"/docs/coding-problems/hard/2022-10-02-hard-544":{"__comp":"17896441","content":"289b634c"},"/docs/coding-problems/medium/2022-09-10-medium-b60":{"__comp":"17896441","content":"be2e5167"},"/docs/coding-problems/medium/2022-09-12-medium-787":{"__comp":"17896441","content":"e9637d4d"},"/docs/coding-problems/medium/2022-09-14-medium-9d6":{"__comp":"17896441","content":"936af2d4"},"/docs/coding-problems/medium/2022-09-17-medium-677":{"__comp":"17896441","content":"5f8ee95b"},"/docs/coding-problems/medium/2022-09-18-medium-d7d":{"__comp":"17896441","content":"afd41d16"},"/docs/coding-problems/medium/2022-09-21-medium-8e8":{"__comp":"17896441","content":"714668a8"},"/docs/coding-problems/medium/2022-09-22-medium-4cf":{"__comp":"17896441","content":"048bd1f0"},"/docs/coding-problems/medium/2022-09-26-medium-292":{"__comp":"17896441","content":"92fcaf39"},"/docs/coding-problems/medium/2022-09-29-medium-8bc":{"__comp":"17896441","content":"82672a26"},"/docs/coding-problems/medium/2022-10-01-medium-ef4":{"__comp":"17896441","content":"7659c128"},"/docs/coding-problems/medium/2022-10-03-medium-faf":{"__comp":"17896441","content":"fdebb365"},"/-7d0":{"__comp":"a6aa9e1f","__context":{"plugin":"5de85630"},"sidebar":"814f3328","items":[{"content":"bed35ac5"},{"content":"68f249db"},{"content":"a501857d"},{"content":"4f760971"},{"content":"547045d1"},{"content":"7f973973"},{"content":"e48f33cf"},{"content":"802e6eb6"}],"metadata":"a5557bb9"}}');
 
 /***/ })
 

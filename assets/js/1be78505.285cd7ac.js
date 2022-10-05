@@ -60,8 +60,8 @@ setShown(false);}else if(scrollTop+window.innerHeight<document.documentElement.s
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function BackToTopButton(){const{shown,scrollToTop}=useBackToTopButton({threshold:300});return/*#__PURE__*/react.createElement("button",{"aria-label":(0,Translate/* translate */.I)({id:'theme.BackToTopButton.buttonAriaLabel',message:'Scroll back to top',description:'The ARIA label for the back to top button'}),className:(0,clsx_m/* default */.Z)('clean-btn',ThemeClassNames/* ThemeClassNames.common.backToTopButton */.k.common.backToTopButton,styles_module.backToTopButton,shown&&styles_module.backToTopButtonShow),type:"button",onClick:scrollToTop});}
-// EXTERNAL MODULE: ./node_modules/react-router/esm/react-router.js + 1 modules
-var react_router = __webpack_require__(6775);
+// EXTERNAL MODULE: ./node_modules/react-router/esm/react-router.js
+var react_router = __webpack_require__(6550);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-common/lib/hooks/useWindowSize.js
 var useWindowSize = __webpack_require__(7524);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-common/lib/utils/useThemeConfig.js
