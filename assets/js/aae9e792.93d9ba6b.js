@@ -1,5 +1,5 @@
 "use strict";
-(self["webpackChunkblog"] = self["webpackChunkblog"] || []).push([[9783],{
+(self["webpackChunkblog"] = self["webpackChunkblog"] || []).push([[7667],{
 
 /***/ 3905:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
@@ -212,32 +212,22 @@ function createElement (type, props) {
 
 /***/ }),
 
-/***/ 839:
+/***/ 3981:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "assets": () => (/* binding */ assets),
-  "contentTitle": () => (/* binding */ contentTitle),
-  "default": () => (/* binding */ MDXContent),
-  "frontMatter": () => (/* binding */ frontMatter),
-  "metadata": () => (/* binding */ metadata),
-  "toc": () => (/* binding */ toc)
-});
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
-var esm_extends = __webpack_require__(7462);
-// EXTERNAL MODULE: ./node_modules/react/index.js
-var react = __webpack_require__(7294);
-// EXTERNAL MODULE: ./node_modules/@mdx-js/react/dist/esm.js
-var esm = __webpack_require__(3905);
-;// CONCATENATED MODULE: ./src/components/CodingProblemList.jsx
-function CodingProblemList(_ref){let{items}=_ref;const wrapperStyle={display:'flex',flexDirection:'row',flexWrap:'wrap',alignContent:'center',alignItems:'center',justifyItems:'center'};function itemStyle(solved){return{flexShrink:1,flexBasis:'175px',marginTop:'0.75rem',marginBottom:'0.75rem',overflowWrap:'break-word',flexWrap:'wrap',whiteSpace:'break-spaces'};}function linkStyle(solved){return{color:'var(--ifm-link-color)',textDecoration:'var(--ifm-link-decoration)',background:'none',border:'1px solid transparent',cursor:'pointer',fontSize:'unset',fontWeight:solved?'100':'400',fontStyle:solved?'italic':'unset'};};return/*#__PURE__*/react.createElement("div",{className:"container"},/*#__PURE__*/react.createElement("ul",{className:"row",style:wrapperStyle},items.map((value,index)=>{return/*#__PURE__*/react.createElement("li",{style:itemStyle(value.solved)},/*#__PURE__*/react.createElement("a",{style:linkStyle(value.solved),href:value.link},value.text),value.solved?/*#__PURE__*/react.createElement(react.Fragment,null,"\xA0[\xA0\u2714\xA0]"):/*#__PURE__*/react.createElement(react.Fragment,null));})));}
-;// CONCATENATED MODULE: ./docs/coding-problems/index.md
-/* @jsxRuntime classic */ /* @jsx mdx */ /* @jsxFrag React.Fragment */const frontMatter={title:'Coding Problems',pagination_prev:'index',pagination_next:null};const contentTitle=undefined;const metadata={"unversionedId":"coding-problems/index","id":"coding-problems/index","title":"Coding Problems","description":"dailycodingproblem.com","source":"@site/docs/coding-problems/index.md","sourceDirName":"coding-problems","slug":"/coding-problems/","permalink":"/docs/coding-problems/","draft":false,"tags":[],"version":"current","frontMatter":{"title":"Coding Problems","pagination_prev":"index","pagination_next":null},"sidebar":"tutorialSidebar","previous":{"title":"Docs","permalink":"/docs/"}};const assets={};const toc=[{value:'dailycodingproblem.com',id:'dailycodingproblemcom',level:2},{value:'Easy',id:'easy',level:3},{value:'Medium',id:'medium',level:3},{value:'Hard',id:'hard',level:3},{value:'codingbat.com',id:'codingbatcom',level:2},{value:'Logic',id:'logic',level:3}];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent(_ref){let{components,...props}=_ref;return (0,esm/* mdx */.kt)(MDXLayout,(0,esm_extends/* default */.Z)({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),(0,esm/* mdx */.kt)("h2",{"id":"dailycodingproblemcom"},(0,esm/* mdx */.kt)("a",{parentName:"h2","href":"https://www.dailycodingproblem.com/"},`dailycodingproblem.com`)),(0,esm/* mdx */.kt)("h3",{"id":"easy"},`Easy`),(0,esm/* mdx */.kt)(CodingProblemList,{items:[{text:'2022-09-08',link:'/docs/coding-problems/easy/2022-09-08-easy',solved:true},{text:'2022-09-15',link:'/docs/coding-problems/easy/2022-09-15-easy'},{text:'2022-09-23',link:'/docs/coding-problems/easy/2022-09-23-easy'},{text:'2022-09-27',link:'/docs/coding-problems/easy/2022-09-27-easy'},{text:'2022-09-28',link:'/docs/coding-problems/easy/2022-09-28-easy'},{text:'2022-09-30',link:'/docs/coding-problems/easy/2022-09-30-easy'},{text:'2022-10-04',link:'/docs/coding-problems/easy/2022-10-04-easy'}],mdxType:"CodingProblemList"}),(0,esm/* mdx */.kt)("h3",{"id":"medium"},`Medium`),(0,esm/* mdx */.kt)(CodingProblemList,{items:[{text:'2022-09-10',link:'/docs/coding-problems/medium/2022-09-10-medium',solved:true},{text:'2022-09-12',link:'/docs/coding-problems/medium/2022-09-12-medium'},{text:'2022-09-14',link:'/docs/coding-problems/medium/2022-09-14-medium'},{text:'2022-09-17',link:'/docs/coding-problems/medium/2022-09-17-medium'},{text:'2022-09-18',link:'/docs/coding-problems/medium/2022-09-18-medium'},{text:'2022-09-21',link:'/docs/coding-problems/medium/2022-09-21-medium'},{text:'2022-09-22',link:'/docs/coding-problems/medium/2022-09-22-medium'},{text:'2022-09-26',link:'/docs/coding-problems/medium/2022-09-26-medium'},{text:'2022-09-29',link:'/docs/coding-problems/medium/2022-09-29-medium'},{text:'2022-10-01',link:'/docs/coding-problems/medium/2022-10-01-medium'},{text:'2022-10-03',link:'/docs/coding-problems/medium/2022-10-03-medium'}],mdxType:"CodingProblemList"}),(0,esm/* mdx */.kt)("h3",{"id":"hard"},`Hard`),(0,esm/* mdx */.kt)(CodingProblemList,{items:[{text:'2022-09-09',link:'/docs/coding-problems/hard/2022-09-09-hard',solved:true},{text:'2022-09-11',link:'/docs/coding-problems/hard/2022-09-11-hard'},{text:'2022-09-13',link:'/docs/coding-problems/hard/2022-09-13-hard'},{text:'2022-09-16',link:'/docs/coding-problems/hard/2022-09-16-hard'},{text:'2022-09-19',link:'/docs/coding-problems/hard/2022-09-19-hard'},{text:'2022-09-20',link:'/docs/coding-problems/hard/2022-09-20-hard'},{text:'2022-09-24',link:'/docs/coding-problems/hard/2022-09-24-hard'},{text:'2022-09-25',link:'/docs/coding-problems/hard/2022-09-25-hard'},{text:'2022-10-02',link:'/docs/coding-problems/hard/2022-10-02-hard'}],mdxType:"CodingProblemList"}),(0,esm/* mdx */.kt)("h2",{"id":"codingbatcom"},(0,esm/* mdx */.kt)("a",{parentName:"h2","href":"https://codingbat.com/prob/p190859"},`codingbat.com`)),(0,esm/* mdx */.kt)("h3",{"id":"logic"},`Logic`),(0,esm/* mdx */.kt)(CodingProblemList,{items:[{text:'Make chocolate',link:'/docs/coding-problems/codingbat.com/codingbat-make_chocolate',solved:true}],mdxType:"CodingProblemList"}));};MDXContent.isMDXComponent=true;
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "assets": () => (/* binding */ assets),
+/* harmony export */   "contentTitle": () => (/* binding */ contentTitle),
+/* harmony export */   "default": () => (/* binding */ MDXContent),
+/* harmony export */   "frontMatter": () => (/* binding */ frontMatter),
+/* harmony export */   "metadata": () => (/* binding */ metadata),
+/* harmony export */   "toc": () => (/* binding */ toc)
+/* harmony export */ });
+/* harmony import */ var _home_runner_work_blog_blog_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7462);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7294);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3905);
+/* @jsxRuntime classic */ /* @jsx mdx */ /* @jsxFrag React.Fragment */const frontMatter={title:'2022-10-07 (medium)',slug:'2022-10-07-medium',tags:['coding-problem','medium'],authors:['p0nch0d3v'],pagination_prev:'coding-problems/index',pagination_next:null};const contentTitle=undefined;const metadata={"unversionedId":"coding-problems/medium/2022-10-07-medium","id":"coding-problems/medium/2022-10-07-medium","title":"2022-10-07 (medium)","description":"Problem:","source":"@site/docs/coding-problems/medium/2022-10-07-medium.md","sourceDirName":"coding-problems/medium","slug":"/coding-problems/medium/2022-10-07-medium","permalink":"/docs/coding-problems/medium/2022-10-07-medium","draft":false,"tags":[{"label":"coding-problem","permalink":"/docs/tags/coding-problem"},{"label":"medium","permalink":"/docs/tags/medium"}],"version":"current","frontMatter":{"title":"2022-10-07 (medium)","slug":"2022-10-07-medium","tags":["coding-problem","medium"],"authors":["p0nch0d3v"],"pagination_prev":"coding-problems/index","pagination_next":null},"sidebar":"tutorialSidebar","previous":{"title":"Coding Problems","permalink":"/docs/coding-problems/"}};const assets={};const toc=[{value:'Problem:',id:'problem',level:3}];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent(_ref){let{components,...props}=_ref;return (0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)(MDXLayout,(0,_home_runner_work_blog_blog_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z)({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h3",{"id":"problem"},`Problem:`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("em",{parentName:"p"},`You are given an array of non-negative integers that represents a two-dimensional elevation map where each element is unit-width wall and the integer is the height. Suppose it will rain and all spots between two walls get filled up.`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("em",{parentName:"p"},`Compute how many units of water remain trapped on the map in O(N) time and O(1) space.`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("em",{parentName:"p"},`For example, given the input `,`[2, 1, 2]`,`, we can hold 1 unit of water in the middle.`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("em",{parentName:"p"},`Given the input `,`[3, 0, 1, 3, 0, 5]`,`, we can hold 3 units in the first index, 2 in the second, and 3 in the fourth index (we cannot hold 5 since it would run off to the left), so we can trap 8 units of water.`)));};MDXContent.isMDXComponent=true;
 
 /***/ })
 
