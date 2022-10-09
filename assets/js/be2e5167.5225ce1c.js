@@ -1,5 +1,5 @@
 "use strict";
-(self["webpackChunkblog"] = self["webpackChunkblog"] || []).push([[4858],{
+(self["webpackChunkblog"] = self["webpackChunkblog"] || []).push([[7325],{
 
 /***/ 3905:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
@@ -212,7 +212,7 @@ function createElement (type, props) {
 
 /***/ }),
 
-/***/ 667:
+/***/ 5763:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -227,50 +227,61 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home_runner_work_blog_blog_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7462);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7294);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3905);
-/* @jsxRuntime classic */ /* @jsx mdx */ /* @jsxFrag React.Fragment */const frontMatter={title:'2022-09-09 (hard)',slug:'2022-09-09-hard',tags:['coding-problem','hard'],authors:['p0nch0d3v'],pagination_prev:'coding-problems/index',pagination_next:null};const contentTitle=undefined;const metadata={"unversionedId":"coding-problems/hard/2022-09-09-hard","id":"coding-problems/hard/2022-09-09-hard","title":"2022-09-09 (hard)","description":"Problem:","source":"@site/docs/coding-problems/hard/2022-09-09-hard.md","sourceDirName":"coding-problems/hard","slug":"/coding-problems/hard/2022-09-09-hard","permalink":"/docs/coding-problems/hard/2022-09-09-hard","draft":false,"tags":[{"label":"coding-problem","permalink":"/docs/tags/coding-problem"},{"label":"hard","permalink":"/docs/tags/hard"}],"version":"current","frontMatter":{"title":"2022-09-09 (hard)","slug":"2022-09-09-hard","tags":["coding-problem","hard"],"authors":["p0nch0d3v"],"pagination_prev":"coding-problems/index","pagination_next":null},"sidebar":"tutorialSidebar","previous":{"title":"Coding Problems","permalink":"/docs/coding-problems/"}};const assets={};const toc=[{value:'Problem:',id:'problem',level:3}];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent(_ref){let{components,...props}=_ref;return (0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)(MDXLayout,(0,_home_runner_work_blog_blog_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z)({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h3",{"id":"problem"},`Problem:`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("em",{parentName:"p"},`Given an array of integers, return a new array such that each element at index `,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("inlineCode",{parentName:"em"},`i`),` of the new array is the product of all the numbers in the original array except the one at `,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("inlineCode",{parentName:"em"},`i`),`.`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("em",{parentName:"p"},`For example, if our input was `,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("inlineCode",{parentName:"em"},`[1, 2, 3, 4, 5]`),`, the expected output would be `,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("inlineCode",{parentName:"em"},`[120, 60, 40, 30, 24]`),`. If our input was `,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("inlineCode",{parentName:"em"},`[3, 2, 1]`),`, the expected output would be `,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("inlineCode",{parentName:"em"},`[2, 3, 6]`),`.`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("em",{parentName:"p"},`Follow-up: what if you can't use division?`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("details",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("summary",null,"Proposed solution # 1 - (Python)"),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-python"},`def main(the_list, expected):
-    print('List: ', the_list)
-    print('Expected:', expected)
+/* @jsxRuntime classic */ /* @jsx mdx */ /* @jsxFrag React.Fragment */const frontMatter={title:'2022-09-10 (medium) [✔️]',slug:'2022-09-10-medium',tags:['coding-problem','medium'],authors:['p0nch0d3v'],pagination_prev:'coding-problems/index',pagination_next:null};const contentTitle=undefined;const metadata={"unversionedId":"coding-problems/medium/2022-09-10-medium","id":"coding-problems/medium/2022-09-10-medium","title":"2022-09-10 (medium) [✔️]","description":"Problem:","source":"@site/docs/coding-problems/medium/2022-09-10-medium.md","sourceDirName":"coding-problems/medium","slug":"/coding-problems/medium/2022-09-10-medium","permalink":"/docs/coding-problems/medium/2022-09-10-medium","draft":false,"tags":[{"label":"coding-problem","permalink":"/docs/tags/coding-problem"},{"label":"medium","permalink":"/docs/tags/medium"}],"version":"current","frontMatter":{"title":"2022-09-10 (medium) [✔️]","slug":"2022-09-10-medium","tags":["coding-problem","medium"],"authors":["p0nch0d3v"],"pagination_prev":"coding-problems/index","pagination_next":null},"sidebar":"tutorialSidebar","previous":{"title":"Coding Problems","permalink":"/docs/coding-problems/"}};const assets={};const toc=[{value:'Problem:',id:'problem',level:3}];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent(_ref){let{components,...props}=_ref;return (0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)(MDXLayout,(0,_home_runner_work_blog_blog_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z)({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h3",{"id":"problem"},`Problem:`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("em",{parentName:"p"},`Given the root to a binary tree, implement `,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("inlineCode",{parentName:"em"},`serialize(root)`),`, which serializes the tree into a string, and `,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("inlineCode",{parentName:"em"},`deserialize(s)`),`, which deserializes the string back into the tree.`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("em",{parentName:"p"},`For example, given the following `,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("inlineCode",{parentName:"em"},`Node`),` class`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre"},`class Node:
+    def __init__(self, val, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("em",{parentName:"p"},`The following test should pass:`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre"},`node = Node('root', Node('left', Node('left.left')), Node('right'))
+assert deserialize(serialize(node)).left.left.val == 'left.left'
+`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("details",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("summary",null,"Proposed solution # 1 - (Python)"),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-python"},`class Node:
+    def __init__(self, val, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
 
-    factor = 1
-    for item in the_list:
-        factor = factor * item
-    print('Factor:', factor)    
+def serialize(node):
+    serialized = "{"
+    if (node != None):
+        if (node.val != None):
+            serialized = serialized + ('v: "' + node.val + '"')
+        if (node.left != None):
+            serialized = serialized + (', l: ' + serialize(node.left))
+        if (node.right != None):
+            serialized = serialized + (', r: ' + serialize(node.right))
+        serialized = serialized + "}"
+    return serialized
+
+def deserialize(node_str):
+    val_token = "{v:"
+    left_token = "l:"
+    right_token = "r:"
+    close_token = "}"
     
-    result = []
-    for item in the_list:
-        i = 0
-        while (i < factor):
-            i = i + 1
-            if (i * item == factor):
-                result.append(i)
-                
-    print('Result:', result)
+    val_token_pos = node_str.find(val_token)
+    left_token_pos = node_str.find(left_token)
+    right_token_pos = node_str.find(right_token)
 
-    return 0
+    val_start_pos = val_token_pos + len(val_token) + 2
 
-if __name__ == "__main__":
-    main([1, 2, 3, 4, 5], [120, 60, 40, 30, 24])
-    main([3, 2, 1], [2, 3, 6])
-`)))),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("details",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("summary",null,"Proposed solution # 2 - (Python)"),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-python"},`def main(my_array):
-    result = [1] * len(my_array)
-    i = 0
-    j = 0
-    
-    while True:
-        if i != j:
-            result[i] = result[i]  * my_array[j]
-        j = j + 1
-        if j >= len(my_array):
-            j = 0
-            i = i + 1
-        if i >= len(my_array):
-            break
-        
-    print(result)
+    val = node_str[val_start_pos:node_str.find('"', val_start_pos)]
+    left = None
+    right = None
 
-if __name__ == "__main__":
-    main([1, 2, 3, 4, 5])
-    main([3, 2, 1])
+    if (left_token_pos >= 0):
+        left_start_pos = left_token_pos + len(left_token) + 1
+        left_str = node_str[left_start_pos:node_str.find('}', left_start_pos) + 1]
+        left = deserialize(left_str)
+    if (right_token_pos >= 0):
+        right_start_pos = right_token_pos + len(right_token) + 1
+        right_str = node_str[right_start_pos:node_str.find('}', right_start_pos) + 1]
+        right = deserialize(right_str)
+
+    return Node(val, left, right)
+
+node = Node('root', Node('left', Node('left.left')), Node('right'))
+print(serialize(node))
+assert deserialize(serialize(node)).left.left.val == 'left.left'
 `)))));};MDXContent.isMDXComponent=true;
 
 /***/ })

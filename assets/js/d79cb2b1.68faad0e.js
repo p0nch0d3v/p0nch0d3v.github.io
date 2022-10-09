@@ -1,5 +1,5 @@
 "use strict";
-(self["webpackChunkblog"] = self["webpackChunkblog"] || []).push([[7325],{
+(self["webpackChunkblog"] = self["webpackChunkblog"] || []).push([[4574],{
 
 /***/ 3905:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
@@ -212,7 +212,7 @@ function createElement (type, props) {
 
 /***/ }),
 
-/***/ 5763:
+/***/ 5465:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -227,61 +227,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home_runner_work_blog_blog_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7462);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7294);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3905);
-/* @jsxRuntime classic */ /* @jsx mdx */ /* @jsxFrag React.Fragment */const frontMatter={title:'2022-09-10 (medium)',slug:'2022-09-10-medium',tags:['coding-problem','medium'],authors:['p0nch0d3v'],pagination_prev:'coding-problems/index',pagination_next:null};const contentTitle=undefined;const metadata={"unversionedId":"coding-problems/medium/2022-09-10-medium","id":"coding-problems/medium/2022-09-10-medium","title":"2022-09-10 (medium)","description":"Problem:","source":"@site/docs/coding-problems/medium/2022-09-10-medium.md","sourceDirName":"coding-problems/medium","slug":"/coding-problems/medium/2022-09-10-medium","permalink":"/docs/coding-problems/medium/2022-09-10-medium","draft":false,"tags":[{"label":"coding-problem","permalink":"/docs/tags/coding-problem"},{"label":"medium","permalink":"/docs/tags/medium"}],"version":"current","frontMatter":{"title":"2022-09-10 (medium)","slug":"2022-09-10-medium","tags":["coding-problem","medium"],"authors":["p0nch0d3v"],"pagination_prev":"coding-problems/index","pagination_next":null},"sidebar":"tutorialSidebar","previous":{"title":"Coding Problems","permalink":"/docs/coding-problems/"}};const assets={};const toc=[{value:'Problem:',id:'problem',level:3}];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent(_ref){let{components,...props}=_ref;return (0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)(MDXLayout,(0,_home_runner_work_blog_blog_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z)({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h3",{"id":"problem"},`Problem:`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("em",{parentName:"p"},`Given the root to a binary tree, implement `,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("inlineCode",{parentName:"em"},`serialize(root)`),`, which serializes the tree into a string, and `,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("inlineCode",{parentName:"em"},`deserialize(s)`),`, which deserializes the string back into the tree.`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("em",{parentName:"p"},`For example, given the following `,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("inlineCode",{parentName:"em"},`Node`),` class`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre"},`class Node:
-    def __init__(self, val, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
-`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("em",{parentName:"p"},`The following test should pass:`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre"},`node = Node('root', Node('left', Node('left.left')), Node('right'))
-assert deserialize(serialize(node)).left.left.val == 'left.left'
-`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("details",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("summary",null,"Proposed solution # 1 - (Python)"),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-python"},`class Node:
-    def __init__(self, val, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
+/* @jsxRuntime classic */ /* @jsx mdx */ /* @jsxFrag React.Fragment */const frontMatter={title:'2022-09-08 (easy) [✔️]',slug:'2022-09-08-easy',tags:['coding-problem','easy'],authors:['p0nch0d3v'],pagination_prev:'coding-problems/index',pagination_next:null};const contentTitle=undefined;const metadata={"unversionedId":"coding-problems/easy/2022-09-08-easy","id":"coding-problems/easy/2022-09-08-easy","title":"2022-09-08 (easy) [✔️]","description":"Problem:","source":"@site/docs/coding-problems/easy/2022-09-08-easy.md","sourceDirName":"coding-problems/easy","slug":"/coding-problems/easy/2022-09-08-easy","permalink":"/docs/coding-problems/easy/2022-09-08-easy","draft":false,"tags":[{"label":"coding-problem","permalink":"/docs/tags/coding-problem"},{"label":"easy","permalink":"/docs/tags/easy"}],"version":"current","frontMatter":{"title":"2022-09-08 (easy) [✔️]","slug":"2022-09-08-easy","tags":["coding-problem","easy"],"authors":["p0nch0d3v"],"pagination_prev":"coding-problems/index","pagination_next":null},"sidebar":"tutorialSidebar","previous":{"title":"Coding Problems","permalink":"/docs/coding-problems/"}};const assets={};const toc=[{value:'Problem:',id:'problem',level:3}];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent(_ref){let{components,...props}=_ref;return (0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)(MDXLayout,(0,_home_runner_work_blog_blog_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z)({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h3",{"id":"problem"},`Problem:`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("em",{parentName:"p"},`Given a list of numbers and a number `,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("inlineCode",{parentName:"em"},`k`),`, return whether any two numbers from the list add up to `,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("inlineCode",{parentName:"em"},`k`),`.`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("em",{parentName:"p"},`For example, given `,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("inlineCode",{parentName:"em"},`[10, 15, 3, 7]`),` and `,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("inlineCode",{parentName:"em"},`k`),` of `,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("inlineCode",{parentName:"em"},`17`),`, return true since `,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("inlineCode",{parentName:"em"},`10 + 7`),` is `,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("inlineCode",{parentName:"em"},`17`),`.`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("em",{parentName:"p"},`Bonus: Can you do this in one pass?`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("details",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("summary",null,"Proposed solution # 1 - (Python)"),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-python"},`def main (the_list, k):
+    i = 0
+    j = 0
+    success = False
+    while (i < len(the_list)):
+        while (j < len(the_list)):
+            if (i != j):
+                if (the_list[i] + the_list[j] == k):
+                    print(the_list[i])
+                    print(the_list[j])
+                    success = True
+            j = j + 1
+            if (success):
+                break
+        j = 0
+        i = i + 1
+        if (success):
+            break
+    print(success)
 
-def serialize(node):
-    serialized = "{"
-    if (node != None):
-        if (node.val != None):
-            serialized = serialized + ('v: "' + node.val + '"')
-        if (node.left != None):
-            serialized = serialized + (', l: ' + serialize(node.left))
-        if (node.right != None):
-            serialized = serialized + (', r: ' + serialize(node.right))
-        serialized = serialized + "}"
-    return serialized
-
-def deserialize(node_str):
-    val_token = "{v:"
-    left_token = "l:"
-    right_token = "r:"
-    close_token = "}"
-    
-    val_token_pos = node_str.find(val_token)
-    left_token_pos = node_str.find(left_token)
-    right_token_pos = node_str.find(right_token)
-
-    val_start_pos = val_token_pos + len(val_token) + 2
-
-    val = node_str[val_start_pos:node_str.find('"', val_start_pos)]
-    left = None
-    right = None
-
-    if (left_token_pos >= 0):
-        left_start_pos = left_token_pos + len(left_token) + 1
-        left_str = node_str[left_start_pos:node_str.find('}', left_start_pos) + 1]
-        left = deserialize(left_str)
-    if (right_token_pos >= 0):
-        right_start_pos = right_token_pos + len(right_token) + 1
-        right_str = node_str[right_start_pos:node_str.find('}', right_start_pos) + 1]
-        right = deserialize(right_str)
-
-    return Node(val, left, right)
-
-node = Node('root', Node('left', Node('left.left')), Node('right'))
-print(serialize(node))
-assert deserialize(serialize(node)).left.left.val == 'left.left'
+if __name__ == "__main__":
+    main([10, 15, 3, 7], 17)
 `)))));};MDXContent.isMDXComponent=true;
 
 /***/ })
