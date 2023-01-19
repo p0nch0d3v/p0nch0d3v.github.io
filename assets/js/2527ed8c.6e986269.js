@@ -8,7 +8,7 @@
 /* harmony export */   "Z": () => (/* binding */ CodeFilePreview)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7294);
-/* harmony import */ var react_syntax_highlighter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(9014);
+/* harmony import */ var react_syntax_highlighter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(9324);
 /* harmony import */ var react_syntax_highlighter_dist_esm_styles_hljs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7158);
 function CodeFilePreview(_ref){let{url,lang,urlDescription}=_ref;const[content,set_content]=(0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('fetching file ...');(0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(async()=>{set_content(await getContent());},[]);const getContent=async()=>{const response=await fetch(url);const content=await response.text();return content;};return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_syntax_highlighter__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z,{language:lang,style:react_syntax_highlighter_dist_esm_styles_hljs__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z,showLineNumbers:true,wrapLines:true},content),urlDescription?/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a",{href:url,target:"_blank"},urlDescription):/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment,null),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br",null));};
 
