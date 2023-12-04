@@ -7,7 +7,7 @@
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ BlogLayout)
+  Z: () => (/* binding */ BlogLayout)
 });
 
 // EXTERNAL MODULE: ./node_modules/react/index.js
@@ -114,7 +114,7 @@ var SearchMetadata = __webpack_require__(197);
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */function BlogTagsListPage(_ref){let{tags,sidebar}=_ref;const title=translateTagsPageTitle();return/*#__PURE__*/react.createElement(metadataUtils/* HtmlClassNameProvider */.FG,{className:(0,clsx_m/* default */.Z)(ThemeClassNames/* ThemeClassNames.wrapper.blogPages */.k.wrapper.blogPages,ThemeClassNames/* ThemeClassNames.page.blogTagsListPage */.k.page.blogTagsListPage)},/*#__PURE__*/react.createElement(metadataUtils/* PageMetadata */.d,{title:title}),/*#__PURE__*/react.createElement(SearchMetadata/* default */.Z,{tag:"blog_tags_list"}),/*#__PURE__*/react.createElement(BlogLayout/* default */.Z,{sidebar:sidebar},/*#__PURE__*/react.createElement("h1",null,title),/*#__PURE__*/react.createElement(TagsListByLetter,{tags:tags})));}
+ */function BlogTagsListPage(_ref){let{tags,sidebar}=_ref;const title=translateTagsPageTitle();return/*#__PURE__*/react.createElement(metadataUtils/* HtmlClassNameProvider */.FG,{className:(0,clsx_m/* default */.Z)(ThemeClassNames/* ThemeClassNames */.k.wrapper.blogPages,ThemeClassNames/* ThemeClassNames */.k.page.blogTagsListPage)},/*#__PURE__*/react.createElement(metadataUtils/* PageMetadata */.d,{title:title}),/*#__PURE__*/react.createElement(SearchMetadata/* default */.Z,{tag:"blog_tags_list"}),/*#__PURE__*/react.createElement(BlogLayout/* default */.Z,{sidebar:sidebar},/*#__PURE__*/react.createElement("h1",null,title),/*#__PURE__*/react.createElement(TagsListByLetter,{tags:tags})));}
 
 /***/ }),
 
@@ -124,7 +124,7 @@ var SearchMetadata = __webpack_require__(197);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ Tag)
+  Z: () => (/* binding */ Tag)
 });
 
 // EXTERNAL MODULE: ./node_modules/react/index.js

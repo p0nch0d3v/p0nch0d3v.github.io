@@ -1,12 +1,12 @@
 "use strict";
-(self["webpackChunkblog"] = self["webpackChunkblog"] || []).push([[2139],{
+(self["webpackChunkblog"] = self["webpackChunkblog"] || []).push([[4623],{
 
 /***/ 3905:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Zo": () => (/* binding */ MDXProvider),
-/* harmony export */   "kt": () => (/* binding */ createElement)
+/* harmony export */   Zo: () => (/* binding */ MDXProvider),
+/* harmony export */   kt: () => (/* binding */ createElement)
 /* harmony export */ });
 /* unused harmony exports MDXContext, useMDXComponents, withMDXComponents */
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7294);
@@ -212,28 +212,27 @@ function createElement (type, props) {
 
 /***/ }),
 
-/***/ 7156:
+/***/ 2550:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "assets": () => (/* binding */ assets),
-/* harmony export */   "contentTitle": () => (/* binding */ contentTitle),
+/* harmony export */   assets: () => (/* binding */ assets),
+/* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
-/* harmony export */   "frontMatter": () => (/* binding */ frontMatter),
-/* harmony export */   "metadata": () => (/* binding */ metadata),
-/* harmony export */   "toc": () => (/* binding */ toc)
+/* harmony export */   frontMatter: () => (/* binding */ frontMatter),
+/* harmony export */   metadata: () => (/* binding */ metadata),
+/* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
 /* harmony import */ var _home_runner_work_blog_blog_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7462);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7294);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3905);
-/* @jsxRuntime classic */ /* @jsx mdx */ /* @jsxFrag React.Fragment */const frontMatter={title:'Change Docker storage location',slug:'change-docker-storage-location',tags:['docker'],authors:['p0nch0d3v']};const contentTitle=undefined;const metadata={"permalink":"/change-docker-storage-location","source":"@site/blog/2022-08-29-change-docker-storage-location.md","title":"Change Docker storage location","description":"Stop docker service and socket","date":"2022-08-29T00:00:00.000Z","formattedDate":"August 29, 2022","tags":[{"label":"docker","permalink":"/tags/docker"}],"hasTruncateMarker":false,"authors":[{"name":"p0nch0 d3v","title":"Software Engineer","url":"https://github.com/p0nch0d3v","imageURL":"https://github.com/p0nch0d3v.png","key":"p0nch0d3v"}],"frontMatter":{"title":"Change Docker storage location","slug":"change-docker-storage-location","tags":["docker"],"authors":["p0nch0d3v"]},"prevItem":{"title":"After Install Mint 21","permalink":"/after-install-mint-21"},"nextItem":{"title":"Use Jenkins on Dokku","permalink":"/use-jenkins-on-dokku"}};const assets={"authorsImageUrls":[undefined]};const toc=[{value:'Stop docker service and socket',id:'stop-docker-service-and-socket',level:4},{value:'Edit the current configuration',id:'edit-the-current-configuration',level:4},{value:'Locate: <code>ExecStart</code>',id:'locate-execstart',level:4},{value:'and add the follwing line: <code>-g /some/other/location</code>',id:'and-add-the-follwing-line--g-someotherlocation',level:4},{value:'Ensure that the directory exits',id:'ensure-that-the-directory-exits',level:4},{value:'Sync pre-existing content',id:'sync-pre-existing-content',level:4},{value:'Start docker service and socket',id:'start-docker-service-and-socket',level:4}];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent(_ref){let{components,...props}=_ref;return (0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)(MDXLayout,(0,_home_runner_work_blog_blog_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z)({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h4",{"id":"stop-docker-service-and-socket"},`Stop docker service and socket`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`sudo systemctl stop docker.service && \\
-sudo systemctl stop docker.socket
-`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h4",{"id":"edit-the-current-configuration"},`Edit the current configuration`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`sudo nano /lib/systemd/system/docker.service
-`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h4",{"id":"locate-execstart"},`Locate: `,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("inlineCode",{parentName:"h4"},`ExecStart`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h4",{"id":"and-add-the-follwing-line--g-someotherlocation"},`and add the follwing line: `,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("inlineCode",{parentName:"h4"},`-g /some/other/location`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h4",{"id":"ensure-that-the-directory-exits"},`Ensure that the directory exits`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`sudo mkdir -p /some/other/location
-`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h4",{"id":"sync-pre-existing-content"},`Sync pre-existing content`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`sudo rsync -aqxP /var/lib/docker/ /some/other/location
-`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h4",{"id":"start-docker-service-and-socket"},`Start docker service and socket`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`sudo systemctl daemon-reload && \\
-sudo systemctl start docker
+/* @jsxRuntime classic */ /* @jsx mdx */ /* @jsxFrag React.Fragment */const frontMatter={title:'Linux Shell snippets',slug:'linux-shell-snippets',tags:['linux','bash','sh'],authors:['p0nch0d3v']};const contentTitle='Linux shell snippets';const metadata={"permalink":"/linux-shell-snippets","source":"@site/blog/2022-02-20-linux-shell-snippets.md","title":"Linux Shell snippets","description":"Here is a set of some git snippets, useful in some way.","date":"2022-02-20T00:00:00.000Z","formattedDate":"February 20, 2022","tags":[{"label":"linux","permalink":"/tags/linux"},{"label":"bash","permalink":"/tags/bash"},{"label":"sh","permalink":"/tags/sh"}],"hasTruncateMarker":false,"authors":[{"name":"p0nch0 d3v","title":"Software Engineer","url":"https://github.com/p0nch0d3v","imageURL":"https://github.com/p0nch0d3v.png","key":"p0nch0d3v"}],"frontMatter":{"title":"Linux Shell snippets","slug":"linux-shell-snippets","tags":["linux","bash","sh"],"authors":["p0nch0d3v"]},"prevItem":{"title":"Host domain on local network","permalink":"/host-domain-local-net"},"nextItem":{"title":"Some scripts","permalink":"/some-scripts"}};const assets={"authorsImageUrls":[undefined]};const toc=[{value:'List files/directories',id:'list-filesdirectories',level:3},{value:'Find forlders recursively',id:'find-forlders-recursively',level:3}];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent(_ref){let{components,...props}=_ref;return (0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)(MDXLayout,(0,_home_runner_work_blog_blog_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z)({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("blockquote",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",{parentName:"blockquote"},`Here is a set of some git snippets, useful in some way.`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h3",{"id":"list-filesdirectories"},`List files/directories`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`ls -a -l -h --color=always
+`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,`Where:`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`-a      = show all files included the dots(.)
+-l      = show in long format
+-h      = Show in units in humat readable format
+--color = Output colored
+`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h3",{"id":"find-forlders-recursively"},`Find forlders recursively`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`find . -name "node_modules" -type d -prune | xargs du -chs
 `)));};MDXContent.isMDXComponent=true;
 
 /***/ })

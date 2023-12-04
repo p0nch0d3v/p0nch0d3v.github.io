@@ -54,7 +54,7 @@ var TOC = __webpack_require__(9407);
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */function BlogPostPageContent(_ref){let{sidebar,children}=_ref;const{metadata,toc}=(0,blogPost/* useBlogPost */.C)();const{nextItem,prevItem,frontMatter}=metadata;const{hide_table_of_contents:hideTableOfContents,toc_min_heading_level:tocMinHeadingLevel,toc_max_heading_level:tocMaxHeadingLevel}=frontMatter;return/*#__PURE__*/react.createElement(BlogLayout/* default */.Z,{sidebar:sidebar,toc:!hideTableOfContents&&toc.length>0?/*#__PURE__*/react.createElement(TOC/* default */.Z,{toc:toc,minHeadingLevel:tocMinHeadingLevel,maxHeadingLevel:tocMaxHeadingLevel}):undefined},/*#__PURE__*/react.createElement(BlogPostItem/* default */.Z,null,children),(nextItem||prevItem)&&/*#__PURE__*/react.createElement(BlogPostPaginator,{nextItem:nextItem,prevItem:prevItem}));}function BlogPostPage(props){const BlogPostContent=props.content;return/*#__PURE__*/react.createElement(blogPost/* BlogPostProvider */.n,{content:props.content,isBlogPostPage:true},/*#__PURE__*/react.createElement(metadataUtils/* HtmlClassNameProvider */.FG,{className:(0,clsx_m/* default */.Z)(ThemeClassNames/* ThemeClassNames.wrapper.blogPages */.k.wrapper.blogPages,ThemeClassNames/* ThemeClassNames.page.blogPostPage */.k.page.blogPostPage)},/*#__PURE__*/react.createElement(BlogPostPageMetadata,null),/*#__PURE__*/react.createElement(BlogPostPageContent,{sidebar:props.sidebar},/*#__PURE__*/react.createElement(BlogPostContent,null))));}
+ */function BlogPostPageContent(_ref){let{sidebar,children}=_ref;const{metadata,toc}=(0,blogPost/* useBlogPost */.C)();const{nextItem,prevItem,frontMatter}=metadata;const{hide_table_of_contents:hideTableOfContents,toc_min_heading_level:tocMinHeadingLevel,toc_max_heading_level:tocMaxHeadingLevel}=frontMatter;return/*#__PURE__*/react.createElement(BlogLayout/* default */.Z,{sidebar:sidebar,toc:!hideTableOfContents&&toc.length>0?/*#__PURE__*/react.createElement(TOC/* default */.Z,{toc:toc,minHeadingLevel:tocMinHeadingLevel,maxHeadingLevel:tocMaxHeadingLevel}):undefined},/*#__PURE__*/react.createElement(BlogPostItem/* default */.Z,null,children),(nextItem||prevItem)&&/*#__PURE__*/react.createElement(BlogPostPaginator,{nextItem:nextItem,prevItem:prevItem}));}function BlogPostPage(props){const BlogPostContent=props.content;return/*#__PURE__*/react.createElement(blogPost/* BlogPostProvider */.n,{content:props.content,isBlogPostPage:true},/*#__PURE__*/react.createElement(metadataUtils/* HtmlClassNameProvider */.FG,{className:(0,clsx_m/* default */.Z)(ThemeClassNames/* ThemeClassNames */.k.wrapper.blogPages,ThemeClassNames/* ThemeClassNames */.k.page.blogPostPage)},/*#__PURE__*/react.createElement(BlogPostPageMetadata,null),/*#__PURE__*/react.createElement(BlogPostPageContent,{sidebar:props.sidebar},/*#__PURE__*/react.createElement(BlogPostContent,null))));}
 
 /***/ }),
 
@@ -64,7 +64,7 @@ var TOC = __webpack_require__(9407);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ TOC)
+  Z: () => (/* binding */ TOC)
 });
 
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
@@ -96,7 +96,7 @@ const LINK_CLASS_NAME='table-of-contents__link toc-highlight';const LINK_ACTIVE_
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ TOCItems)
+  Z: () => (/* binding */ TOCItems)
 });
 
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js

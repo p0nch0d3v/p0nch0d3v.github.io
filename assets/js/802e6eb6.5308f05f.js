@@ -1,12 +1,12 @@
 "use strict";
-(self["webpackChunkblog"] = self["webpackChunkblog"] || []).push([[2187],{
+(self["webpackChunkblog"] = self["webpackChunkblog"] || []).push([[7656],{
 
 /***/ 3905:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Zo": () => (/* binding */ MDXProvider),
-/* harmony export */   "kt": () => (/* binding */ createElement)
+/* harmony export */   Zo: () => (/* binding */ MDXProvider),
+/* harmony export */   kt: () => (/* binding */ createElement)
 /* harmony export */ });
 /* unused harmony exports MDXContext, useMDXComponents, withMDXComponents */
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7294);
@@ -212,50 +212,22 @@ function createElement (type, props) {
 
 /***/ }),
 
-/***/ 4165:
+/***/ 1935:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "assets": () => (/* binding */ assets),
-/* harmony export */   "contentTitle": () => (/* binding */ contentTitle),
+/* harmony export */   assets: () => (/* binding */ assets),
+/* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
-/* harmony export */   "frontMatter": () => (/* binding */ frontMatter),
-/* harmony export */   "metadata": () => (/* binding */ metadata),
-/* harmony export */   "toc": () => (/* binding */ toc)
+/* harmony export */   frontMatter: () => (/* binding */ frontMatter),
+/* harmony export */   metadata: () => (/* binding */ metadata),
+/* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
 /* harmony import */ var _home_runner_work_blog_blog_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7462);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7294);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3905);
-/* @jsxRuntime classic */ /* @jsx mdx */ /* @jsxFrag React.Fragment */const frontMatter={title:'Docker CLI\'s',slug:'docker-clis',tags:['docker','bash','python','go-lang','rust','node-js'],authors:['p0nch0d3v']};const contentTitle='Docker CLI\'s';const metadata={"permalink":"/docker-clis","source":"@site/blog/2021-10-15-my-docker-clis.md","title":"Docker CLI's","description":"A collection of custom docker code snipets as CLI's","date":"2021-10-15T00:00:00.000Z","formattedDate":"October 15, 2021","tags":[{"label":"docker","permalink":"/tags/docker"},{"label":"bash","permalink":"/tags/bash"},{"label":"python","permalink":"/tags/python"},{"label":"go-lang","permalink":"/tags/go-lang"},{"label":"rust","permalink":"/tags/rust"},{"label":"node-js","permalink":"/tags/node-js"}],"hasTruncateMarker":true,"authors":[{"name":"p0nch0 d3v","title":"Software Engineer","url":"https://github.com/p0nch0d3v","imageURL":"https://github.com/p0nch0d3v.png","key":"p0nch0d3v"}],"frontMatter":{"title":"Docker CLI's","slug":"docker-clis","tags":["docker","bash","python","go-lang","rust","node-js"],"authors":["p0nch0d3v"]},"prevItem":{"title":"Git snippets","permalink":"/git-snippets"}};const assets={"authorsImageUrls":[undefined]};const toc=[{value:'A collection of custom docker code snipets as CLI&#39;s',id:'a-collection-of-custom-docker-code-snipets-as-clis',level:3},{value:'Node js LTS',id:'node-js-lts',level:3},{value:'Python 3',id:'python-3',level:3},{value:'Go lang',id:'go-lang',level:3},{value:'Rust',id:'rust',level:3}];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent(_ref){let{components,...props}=_ref;return (0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)(MDXLayout,(0,_home_runner_work_blog_blog_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z)({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h3",{"id":"a-collection-of-custom-docker-code-snipets-as-clis"},`A collection of custom docker code snipets as CLI's`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,`There was a need to run different technologies in local dev environment, such as .net-core, node js, python, ruby, go-lang, etc. without install them.`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,`A decision mas made to create a set of docker code snippets according to the technology to help with the development process.`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h3",{"id":"node-js-lts"},`Node js LTS`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`docker run \\
-    --rm \\
-    --interactive \\
-    --tty \\
-    --volume \${PWD}/:/app \\
-    --workdir "/app" \\
-    node:lts bash
-`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h3",{"id":"python-3"},`Python 3`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`docker run \\
-    --rm \\
-    --interactive \\
-    --tty \\
-    --volume \${PWD}/:/app \\
-    --workdir "/app" \\
-    python:3 bash
-`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h3",{"id":"go-lang"},`Go lang`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`docker run \\
-    --rm \\
-    --interactive \\
-    --tty \\
-    --volume \${PWD}/:/app \\
-    --workdir "/app" \\
-    golang bash
-`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h3",{"id":"rust"},`Rust`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`docker run \\
-    --rm \\
-    --interactive \\
-    --tty \\
-    --volume \${PWD}/:/app \\
-    --workdir "/app" \\
-    rust bash
-`)));};MDXContent.isMDXComponent=true;
+/* @jsxRuntime classic */ /* @jsx mdx */ /* @jsxFrag React.Fragment */const frontMatter={title:'Docker CLI\'s',slug:'docker-clis',tags:['docker','bash','python','go-lang','rust','node-js'],authors:['p0nch0d3v']};const contentTitle='Docker CLI\'s';const metadata={"permalink":"/docker-clis","source":"@site/blog/2021-10-15-my-docker-clis.md","title":"Docker CLI's","description":"A collection of custom docker code snipets as CLI's","date":"2021-10-15T00:00:00.000Z","formattedDate":"October 15, 2021","tags":[{"label":"docker","permalink":"/tags/docker"},{"label":"bash","permalink":"/tags/bash"},{"label":"python","permalink":"/tags/python"},{"label":"go-lang","permalink":"/tags/go-lang"},{"label":"rust","permalink":"/tags/rust"},{"label":"node-js","permalink":"/tags/node-js"}],"hasTruncateMarker":true,"authors":[{"name":"p0nch0 d3v","title":"Software Engineer","url":"https://github.com/p0nch0d3v","imageURL":"https://github.com/p0nch0d3v.png","key":"p0nch0d3v"}],"frontMatter":{"title":"Docker CLI's","slug":"docker-clis","tags":["docker","bash","python","go-lang","rust","node-js"],"authors":["p0nch0d3v"]},"prevItem":{"title":"Git snippets","permalink":"/git-snippets"}};const assets={"authorsImageUrls":[undefined]};const toc=[{value:'A collection of custom docker code snipets as CLI&#39;s',id:'a-collection-of-custom-docker-code-snipets-as-clis',level:3}];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent(_ref){let{components,...props}=_ref;return (0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)(MDXLayout,(0,_home_runner_work_blog_blog_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z)({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h3",{"id":"a-collection-of-custom-docker-code-snipets-as-clis"},`A collection of custom docker code snipets as CLI's`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,`There was a need to run different technologies in local dev environment, such as .net-core, node js, python, ruby, go-lang, etc. without install them.`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,`A decision mas made to create a set of docker code snippets according to the technology to help with the development process.`));};MDXContent.isMDXComponent=true;
 
 /***/ })
 

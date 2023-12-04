@@ -1,12 +1,12 @@
 "use strict";
-(self["webpackChunkblog"] = self["webpackChunkblog"] || []).push([[7656],{
+(self["webpackChunkblog"] = self["webpackChunkblog"] || []).push([[6984],{
 
 /***/ 3905:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Zo": () => (/* binding */ MDXProvider),
-/* harmony export */   "kt": () => (/* binding */ createElement)
+/* harmony export */   Zo: () => (/* binding */ MDXProvider),
+/* harmony export */   kt: () => (/* binding */ createElement)
 /* harmony export */ });
 /* unused harmony exports MDXContext, useMDXComponents, withMDXComponents */
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7294);
@@ -212,22 +212,41 @@ function createElement (type, props) {
 
 /***/ }),
 
-/***/ 1935:
+/***/ 5017:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "assets": () => (/* binding */ assets),
-/* harmony export */   "contentTitle": () => (/* binding */ contentTitle),
+/* harmony export */   assets: () => (/* binding */ assets),
+/* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
-/* harmony export */   "frontMatter": () => (/* binding */ frontMatter),
-/* harmony export */   "metadata": () => (/* binding */ metadata),
-/* harmony export */   "toc": () => (/* binding */ toc)
+/* harmony export */   frontMatter: () => (/* binding */ frontMatter),
+/* harmony export */   metadata: () => (/* binding */ metadata),
+/* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
 /* harmony import */ var _home_runner_work_blog_blog_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7462);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7294);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3905);
-/* @jsxRuntime classic */ /* @jsx mdx */ /* @jsxFrag React.Fragment */const frontMatter={title:'Docker CLI\'s',slug:'docker-clis',tags:['docker','bash','python','go-lang','rust','node-js'],authors:['p0nch0d3v']};const contentTitle='Docker CLI\'s';const metadata={"permalink":"/docker-clis","source":"@site/blog/2021-10-15-my-docker-clis.md","title":"Docker CLI's","description":"A collection of custom docker code snipets as CLI's","date":"2021-10-15T00:00:00.000Z","formattedDate":"October 15, 2021","tags":[{"label":"docker","permalink":"/tags/docker"},{"label":"bash","permalink":"/tags/bash"},{"label":"python","permalink":"/tags/python"},{"label":"go-lang","permalink":"/tags/go-lang"},{"label":"rust","permalink":"/tags/rust"},{"label":"node-js","permalink":"/tags/node-js"}],"hasTruncateMarker":true,"authors":[{"name":"p0nch0 d3v","title":"Software Engineer","url":"https://github.com/p0nch0d3v","imageURL":"https://github.com/p0nch0d3v.png","key":"p0nch0d3v"}],"frontMatter":{"title":"Docker CLI's","slug":"docker-clis","tags":["docker","bash","python","go-lang","rust","node-js"],"authors":["p0nch0d3v"]},"prevItem":{"title":"Git snippets","permalink":"/git-snippets"}};const assets={"authorsImageUrls":[undefined]};const toc=[{value:'A collection of custom docker code snipets as CLI&#39;s',id:'a-collection-of-custom-docker-code-snipets-as-clis',level:3}];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent(_ref){let{components,...props}=_ref;return (0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)(MDXLayout,(0,_home_runner_work_blog_blog_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z)({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h3",{"id":"a-collection-of-custom-docker-code-snipets-as-clis"},`A collection of custom docker code snipets as CLI's`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,`There was a need to run different technologies in local dev environment, such as .net-core, node js, python, ruby, go-lang, etc. without install them.`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,`A decision mas made to create a set of docker code snippets according to the technology to help with the development process.`));};MDXContent.isMDXComponent=true;
+/* @jsxRuntime classic */ /* @jsx mdx */ /* @jsxFrag React.Fragment */const frontMatter={title:'Git snippets',slug:'git-snippets',tags:['git','bash','sh'],authors:['p0nch0d3v']};const contentTitle='Git snippets';const metadata={"permalink":"/git-snippets","source":"@site/blog/2022-01-17-git-snippets.md","title":"Git snippets","description":"Here is a set of some git snippets, useful in some way.","date":"2022-01-17T00:00:00.000Z","formattedDate":"January 17, 2022","tags":[{"label":"git","permalink":"/tags/git"},{"label":"bash","permalink":"/tags/bash"},{"label":"sh","permalink":"/tags/sh"}],"hasTruncateMarker":false,"authors":[{"name":"p0nch0 d3v","title":"Software Engineer","url":"https://github.com/p0nch0d3v","imageURL":"https://github.com/p0nch0d3v.png","key":"p0nch0d3v"}],"frontMatter":{"title":"Git snippets","slug":"git-snippets","tags":["git","bash","sh"],"authors":["p0nch0d3v"]},"prevItem":{"title":"Some scripts","permalink":"/some-scripts"},"nextItem":{"title":"Docker CLI's","permalink":"/docker-clis"}};const assets={"authorsImageUrls":[undefined]};const toc=[{value:'Git log',id:'git-log',level:3},{value:'Create alias',id:'create-alias',level:4},{value:'Git config user',id:'git-config-user',level:3},{value:'Git hook',id:'git-hook',level:3},{value:'Git hook to validate branch name',id:'git-hook-to-validate-branch-name',level:4}];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent(_ref){let{components,...props}=_ref;return (0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)(MDXLayout,(0,_home_runner_work_blog_blog_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z)({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("blockquote",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",{parentName:"blockquote"},`Here is a set of some git snippets, useful in some way.`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h3",{"id":"git-log"},`Git log`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`git log --pretty=oneline --abbrev-commit --graph
+`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`git log --pretty --oneline --graph --abbrev-commit --relative-date
+`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h4",{"id":"create-alias"},`Create alias`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`git config --global alias.graph-log 'log --pretty=oneline --abbrev-commit --graph'
+`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`git config --global alias.graph-log 'git log --pretty --oneline --graph --abbrev-commit --relative-date'
+`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("hr",null),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h3",{"id":"git-config-user"},`Git config user`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`git config --local user.email ""
+`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`git config --local user.name ""
+`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h3",{"id":"git-hook"},`Git hook`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h4",{"id":"git-hook-to-validate-branch-name"},`Git hook to validate branch name`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`#!/bin/sh
+remote="$1"
+url="$2"
+LC_ALL=C
+local_branch="$(git rev-parse --abbrev-ref HEAD)"
+valid_branch_regex="^(main|master|develop|development|((feature|bugfix|bug-fix|bug|fix|release|hotfix|hot-fix)+\\/{1,1}[a-zA-Z0-9_.-]+))$"
+message="The branch name \\"$local_branch\\" is not correct. Branch names must accomplish the following convention: \\"$valid_branch_regex\\". The branch should be renamed a valid name and try again."
+if [[ ! $local_branch =~ $valid_branch_regex ]]
+then
+    echo "$message"
+    exit 1
+fi
+exit 0
+`)));};MDXContent.isMDXComponent=true;
 
 /***/ })
 

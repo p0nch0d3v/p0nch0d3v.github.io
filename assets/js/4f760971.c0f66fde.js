@@ -1,12 +1,12 @@
 "use strict";
-(self["webpackChunkblog"] = self["webpackChunkblog"] || []).push([[6984],{
+(self["webpackChunkblog"] = self["webpackChunkblog"] || []).push([[9594],{
 
 /***/ 3905:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Zo": () => (/* binding */ MDXProvider),
-/* harmony export */   "kt": () => (/* binding */ createElement)
+/* harmony export */   Zo: () => (/* binding */ MDXProvider),
+/* harmony export */   kt: () => (/* binding */ createElement)
 /* harmony export */ });
 /* unused harmony exports MDXContext, useMDXComponents, withMDXComponents */
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7294);
@@ -212,41 +212,34 @@ function createElement (type, props) {
 
 /***/ }),
 
-/***/ 5017:
+/***/ 6504:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "assets": () => (/* binding */ assets),
-/* harmony export */   "contentTitle": () => (/* binding */ contentTitle),
+/* harmony export */   assets: () => (/* binding */ assets),
+/* harmony export */   contentTitle: () => (/* binding */ contentTitle),
 /* harmony export */   "default": () => (/* binding */ MDXContent),
-/* harmony export */   "frontMatter": () => (/* binding */ frontMatter),
-/* harmony export */   "metadata": () => (/* binding */ metadata),
-/* harmony export */   "toc": () => (/* binding */ toc)
+/* harmony export */   frontMatter: () => (/* binding */ frontMatter),
+/* harmony export */   metadata: () => (/* binding */ metadata),
+/* harmony export */   toc: () => (/* binding */ toc)
 /* harmony export */ });
 /* harmony import */ var _home_runner_work_blog_blog_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7462);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7294);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3905);
-/* @jsxRuntime classic */ /* @jsx mdx */ /* @jsxFrag React.Fragment */const frontMatter={title:'Git snippets',slug:'git-snippets',tags:['git','bash','sh'],authors:['p0nch0d3v']};const contentTitle='Git snippets';const metadata={"permalink":"/git-snippets","source":"@site/blog/2022-01-17-git-snippets.md","title":"Git snippets","description":"Here is a set of some git snippets, useful in some way.","date":"2022-01-17T00:00:00.000Z","formattedDate":"January 17, 2022","tags":[{"label":"git","permalink":"/tags/git"},{"label":"bash","permalink":"/tags/bash"},{"label":"sh","permalink":"/tags/sh"}],"hasTruncateMarker":false,"authors":[{"name":"p0nch0 d3v","title":"Software Engineer","url":"https://github.com/p0nch0d3v","imageURL":"https://github.com/p0nch0d3v.png","key":"p0nch0d3v"}],"frontMatter":{"title":"Git snippets","slug":"git-snippets","tags":["git","bash","sh"],"authors":["p0nch0d3v"]},"prevItem":{"title":"Some scripts","permalink":"/some-scripts"},"nextItem":{"title":"Docker CLI's","permalink":"/docker-clis"}};const assets={"authorsImageUrls":[undefined]};const toc=[{value:'Git log',id:'git-log',level:3},{value:'Create alias',id:'create-alias',level:4},{value:'Git config user',id:'git-config-user',level:3},{value:'Git hook',id:'git-hook',level:3},{value:'Git hook to validate branch name',id:'git-hook-to-validate-branch-name',level:4}];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent(_ref){let{components,...props}=_ref;return (0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)(MDXLayout,(0,_home_runner_work_blog_blog_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z)({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("blockquote",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",{parentName:"blockquote"},`Here is a set of some git snippets, useful in some way.`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h3",{"id":"git-log"},`Git log`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`git log --pretty=oneline --abbrev-commit --graph
-git log --pretty --oneline --graph --abbrev-commit --relative-date
-`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h4",{"id":"create-alias"},`Create alias`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`git config --global alias.graph-log 'log --pretty=oneline --abbrev-commit --graph'
-git config --global alias.graph-log 'git log --pretty --oneline --graph --abbrev-commit --relative-date'
-`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("hr",null),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h3",{"id":"git-config-user"},`Git config user`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`git config --local user.email ""
-git config --local user.name ""
-`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h3",{"id":"git-hook"},`Git hook`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h4",{"id":"git-hook-to-validate-branch-name"},`Git hook to validate branch name`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`#!/bin/sh
-remote="$1"
-url="$2"
-LC_ALL=C
-local_branch="$(git rev-parse --abbrev-ref HEAD)"
-valid_branch_regex="^(main|master|develop|development|((feature|bugfix|bug-fix|bug|fix|release|hotfix|hot-fix)+\\/{1,1}[a-zA-Z0-9_.-]+))$"
-message="The branch name \\"$local_branch\\" is not correct. Branch names must accomplish the following convention: \\"$valid_branch_regex\\". The branch should be renamed a valid name and try again."
-if [[ ! $local_branch =~ $valid_branch_regex ]]
-then
-    echo "$message"
-    exit 1
-fi
-exit 0
-`)));};MDXContent.isMDXComponent=true;
+/* @jsxRuntime classic */ /* @jsx mdx */ /* @jsxFrag React.Fragment */const frontMatter={title:'Host domain on local network',slug:'host-domain-local-net',tags:[],authors:['p0nch0d3v']};const contentTitle=undefined;const metadata={"permalink":"/host-domain-local-net","source":"@site/blog/2022-03-02-domain-in-local-network.md","title":"Host domain on local network","description":"Prefer used a domain parked on namecheap.","date":"2022-03-02T00:00:00.000Z","formattedDate":"March 2, 2022","tags":[],"hasTruncateMarker":false,"authors":[{"name":"p0nch0 d3v","title":"Software Engineer","url":"https://github.com/p0nch0d3v","imageURL":"https://github.com/p0nch0d3v.png","key":"p0nch0d3v"}],"frontMatter":{"title":"Host domain on local network","slug":"host-domain-local-net","tags":[],"authors":["p0nch0d3v"]},"prevItem":{"title":"Use Jenkins on Dokku","permalink":"/use-jenkins-on-dokku"},"nextItem":{"title":"Linux Shell snippets","permalink":"/linux-shell-snippets"}};const assets={"authorsImageUrls":[undefined]};const toc=[];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent(_ref){let{components,...props}=_ref;return (0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)(MDXLayout,(0,_home_runner_work_blog_blog_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z)({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,`Prefer used a domain parked on `,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("a",{href:"https://www.namecheap.com/",target:"_blank"},`namecheap`),`.`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("blockquote",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",{parentName:"blockquote"},`Install `,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("inlineCode",{parentName:"p"},`ddclient`),`, debian base linux distro:`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`sudo apt-get install ddclient -y
+`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`sudo vim /etc/ddclient.conf
+`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,`Use the following content`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre"},`ssl=yes
+use=web, web=dynamicdns.park-your-domain.com/getip
+protocol=namecheap
+server=dynamicdns.park-your-domain.com
+login=dummy-domain.tld
+password=''
+@
+*
+`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,`Get IP info:`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`sudo ddclient -query
+`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,`Restart service:`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`sudo service ddclient restart
+`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,`References:`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("ul",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("li",{parentName:"ul"},(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("a",{parentName:"li","href":"https://www.namecheap.com/support/knowledgebase/article.aspx/43/11/how-do-i-set-up-a-host-for-dynamic-dns/"},`https://www.namecheap.com/support/knowledgebase/article.aspx/43/11/how-do-i-set-up-a-host-for-dynamic-dns/`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("li",{parentName:"ul"},(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("a",{parentName:"li","href":"https://www.namecheap.com/support/knowledgebase/article.aspx/583/11/how-do-i-configure-ddclient/"},`https://www.namecheap.com/support/knowledgebase/article.aspx/583/11/how-do-i-configure-ddclient/`))));};MDXContent.isMDXComponent=true;
 
 /***/ })
 

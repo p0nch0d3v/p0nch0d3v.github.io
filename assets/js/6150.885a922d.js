@@ -5,8 +5,8 @@
 
 "use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Zo": () => (/* binding */ MDXProvider),
-/* harmony export */   "kt": () => (/* binding */ createElement)
+/* harmony export */   Zo: () => (/* binding */ MDXProvider),
+/* harmony export */   kt: () => (/* binding */ createElement)
 /* harmony export */ });
 /* unused harmony exports MDXContext, useMDXComponents, withMDXComponents */
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7294);
@@ -219,7 +219,7 @@ function createElement (type, props) {
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ EditThisPage)
+  Z: () => (/* binding */ EditThisPage)
 });
 
 // EXTERNAL MODULE: ./node_modules/react/index.js
@@ -248,7 +248,7 @@ var clsx_m = __webpack_require__(6010);
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */function EditThisPage(_ref){let{editUrl}=_ref;return/*#__PURE__*/react.createElement("a",{href:editUrl,target:"_blank",rel:"noreferrer noopener",className:ThemeClassNames/* ThemeClassNames.common.editThisPage */.k.common.editThisPage},/*#__PURE__*/react.createElement(IconEdit,null),/*#__PURE__*/react.createElement(Translate/* default */.Z,{id:"theme.common.editThisPage",description:"The link label to edit the current page"},"Edit this page"));}
+ */function EditThisPage(_ref){let{editUrl}=_ref;return/*#__PURE__*/react.createElement("a",{href:editUrl,target:"_blank",rel:"noreferrer noopener",className:ThemeClassNames/* ThemeClassNames */.k.common.editThisPage},/*#__PURE__*/react.createElement(IconEdit,null),/*#__PURE__*/react.createElement(Translate/* default */.Z,{id:"theme.common.editThisPage",description:"The link label to edit the current page"},"Edit this page"));}
 
 /***/ }),
 
@@ -259,7 +259,7 @@ var clsx_m = __webpack_require__(6010);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ Heading)
+  Z: () => (/* binding */ Heading)
 });
 
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
@@ -293,7 +293,7 @@ if(As==='h1'||!id){return/*#__PURE__*/react.createElement(As,(0,esm_extends/* de
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ MDXContent)
+  Z: () => (/* binding */ MDXContent)
 });
 
 // EXTERNAL MODULE: ./node_modules/react/index.js
@@ -379,7 +379,7 @@ lineNumber+=1;continue;}const directive=match.slice(1).find(item=>item!==undefin
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function CodeBlockContainer(_ref){let{as:As,...props}=_ref;const prismTheme=usePrismTheme();const prismCssVariables=getPrismCssVariables(prismTheme);return/*#__PURE__*/react.createElement(As// Polymorphic components are hard to type, without `oneOf` generics
-,(0,esm_extends/* default */.Z)({},props,{style:prismCssVariables,className:(0,clsx_m/* default */.Z)(props.className,styles_module.codeBlockContainer,ThemeClassNames/* ThemeClassNames.common.codeBlock */.k.common.codeBlock)}));}
+,(0,esm_extends/* default */.Z)({},props,{style:prismCssVariables,className:(0,clsx_m/* default */.Z)(props.className,styles_module.codeBlockContainer,ThemeClassNames/* ThemeClassNames */.k.common.codeBlock)}));}
 ;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib/theme/CodeBlock/Content/styles.module.css
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Content_styles_module = ({"codeBlockContent":"codeBlockContent_biex","codeBlockTitle":"codeBlockTitle_Ktv7","codeBlock":"codeBlock_bY9V","codeBlockStandalone":"codeBlockStandalone_MEMb","codeBlockLines":"codeBlockLines_e6Vv","codeBlockLinesWithNumbering":"codeBlockLinesWithNumbering_o6Pm","buttonGroup":"buttonGroup__atx"});
@@ -1008,7 +1008,7 @@ react.createElement("img",(0,esm_extends/* default */.Z)({loading:"lazy"},props,
 const AdmonitionConfigs={note:{infimaClassName:'secondary',iconComponent:NoteIcon,label:/*#__PURE__*/react.createElement(Translate/* default */.Z,{id:"theme.admonition.note",description:"The default label used for the Note admonition (:::note)"},"note")},tip:{infimaClassName:'success',iconComponent:TipIcon,label:/*#__PURE__*/react.createElement(Translate/* default */.Z,{id:"theme.admonition.tip",description:"The default label used for the Tip admonition (:::tip)"},"tip")},danger:{infimaClassName:'danger',iconComponent:DangerIcon,label:/*#__PURE__*/react.createElement(Translate/* default */.Z,{id:"theme.admonition.danger",description:"The default label used for the Danger admonition (:::danger)"},"danger")},info:{infimaClassName:'info',iconComponent:InfoIcon,label:/*#__PURE__*/react.createElement(Translate/* default */.Z,{id:"theme.admonition.info",description:"The default label used for the Info admonition (:::info)"},"info")},caution:{infimaClassName:'warning',iconComponent:CautionIcon,label:/*#__PURE__*/react.createElement(Translate/* default */.Z,{id:"theme.admonition.caution",description:"The default label used for the Caution admonition (:::caution)"},"caution")}};// Legacy aliases, undocumented but kept for retro-compatibility
 const aliases={secondary:'note',important:'info',success:'tip',warning:'danger'};function getAdmonitionConfig(unsafeType){const type=aliases[unsafeType]??unsafeType;const config=AdmonitionConfigs[type];if(config){return config;}console.warn(`No admonition config found for admonition type "${type}". Using Info as fallback.`);return AdmonitionConfigs.info;}// Workaround because it's difficult in MDX v1 to provide a MDX title as props
 // See https://github.com/facebook/docusaurus/pull/7152#issuecomment-1145779682
-function extractMDXAdmonitionTitle(children){const items=react.Children.toArray(children);const mdxAdmonitionTitle=items.find(item=>/*#__PURE__*/react.isValidElement(item)&&item.props?.mdxType==='mdxAdmonitionTitle');const rest=/*#__PURE__*/react.createElement(react.Fragment,null,items.filter(item=>item!==mdxAdmonitionTitle));return{mdxAdmonitionTitle,rest};}function processAdmonitionProps(props){const{mdxAdmonitionTitle,rest}=extractMDXAdmonitionTitle(props.children);return{...props,title:props.title??mdxAdmonitionTitle,children:rest};}function Admonition(props){const{children,type,title,icon:iconProp}=processAdmonitionProps(props);const typeConfig=getAdmonitionConfig(type);const titleLabel=title??typeConfig.label;const{iconComponent:IconComponent}=typeConfig;const icon=iconProp??/*#__PURE__*/react.createElement(IconComponent,null);return/*#__PURE__*/react.createElement("div",{className:(0,clsx_m/* default */.Z)(ThemeClassNames/* ThemeClassNames.common.admonition */.k.common.admonition,ThemeClassNames/* ThemeClassNames.common.admonitionType */.k.common.admonitionType(props.type),'alert',`alert--${typeConfig.infimaClassName}`,Admonition_styles_module.admonition)},/*#__PURE__*/react.createElement("div",{className:Admonition_styles_module.admonitionHeading},/*#__PURE__*/react.createElement("span",{className:Admonition_styles_module.admonitionIcon},icon),titleLabel),/*#__PURE__*/react.createElement("div",{className:Admonition_styles_module.admonitionContent},children));}
+function extractMDXAdmonitionTitle(children){const items=react.Children.toArray(children);const mdxAdmonitionTitle=items.find(item=>/*#__PURE__*/react.isValidElement(item)&&item.props?.mdxType==='mdxAdmonitionTitle');const rest=/*#__PURE__*/react.createElement(react.Fragment,null,items.filter(item=>item!==mdxAdmonitionTitle));return{mdxAdmonitionTitle,rest};}function processAdmonitionProps(props){const{mdxAdmonitionTitle,rest}=extractMDXAdmonitionTitle(props.children);return{...props,title:props.title??mdxAdmonitionTitle,children:rest};}function Admonition(props){const{children,type,title,icon:iconProp}=processAdmonitionProps(props);const typeConfig=getAdmonitionConfig(type);const titleLabel=title??typeConfig.label;const{iconComponent:IconComponent}=typeConfig;const icon=iconProp??/*#__PURE__*/react.createElement(IconComponent,null);return/*#__PURE__*/react.createElement("div",{className:(0,clsx_m/* default */.Z)(ThemeClassNames/* ThemeClassNames */.k.common.admonition,ThemeClassNames/* ThemeClassNames */.k.common.admonitionType(props.type),'alert',`alert--${typeConfig.infimaClassName}`,Admonition_styles_module.admonition)},/*#__PURE__*/react.createElement("div",{className:Admonition_styles_module.admonitionHeading},/*#__PURE__*/react.createElement("span",{className:Admonition_styles_module.admonitionIcon},icon),titleLabel),/*#__PURE__*/react.createElement("div",{className:Admonition_styles_module.admonitionContent},children));}
 ;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib/theme/MDXComponents/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -1031,7 +1031,7 @@ function extractMDXAdmonitionTitle(children){const items=react.Children.toArray(
 
 "use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (/* binding */ PaginatorNavLink)
+/* harmony export */   Z: () => (/* binding */ PaginatorNavLink)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7294);
 /* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6010);
@@ -1052,7 +1052,7 @@ function extractMDXAdmonitionTitle(children){const items=react.Children.toArray(
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ Tag)
+  Z: () => (/* binding */ Tag)
 });
 
 // EXTERNAL MODULE: ./node_modules/react/index.js
@@ -1081,7 +1081,7 @@ var Link = __webpack_require__(9960);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ TagsListInline)
+  Z: () => (/* binding */ TagsListInline)
 });
 
 // EXTERNAL MODULE: ./node_modules/react/index.js
