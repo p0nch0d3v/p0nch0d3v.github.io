@@ -11898,7 +11898,7 @@ module.exports = function shallowEqual(objA, objB, compare, compareContext) {
           ]
         }
       ],
-      "copyright": "Copyright © 2023 Blog."
+      "copyright": "Copyright © 2024 Blog."
     },
     "prism": {
       "theme": {
