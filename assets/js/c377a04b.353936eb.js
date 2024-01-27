@@ -1,5 +1,5 @@
 "use strict";
-(self["webpackChunkblog"] = self["webpackChunkblog"] || []).push([[7318],{
+(self["webpackChunkblog"] = self["webpackChunkblog"] || []).push([[6971],{
 
 /***/ 3905:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
@@ -212,7 +212,7 @@ function createElement (type, props) {
 
 /***/ }),
 
-/***/ 9791:
+/***/ 1269:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -227,8 +227,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home_runner_work_blog_blog_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7462);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7294);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3905);
-/* @jsxRuntime classic */ /* @jsx mdx */ /* @jsxFrag React.Fragment */const frontMatter={title:'About it',slug:'about-it'};const contentTitle='About it';const metadata={"unversionedId":"about-it","id":"about-it","title":"About it","description":"This is not a normal blog, it is an unordered set of tech entries, mostly software development related, kind of log, in order to do not forget how did some stuffs, enjoy it.","source":"@site/docs/about-it.mdx","sourceDirName":".","slug":"/about-it","permalink":"/docs/about-it","draft":false,"tags":[],"version":"current","frontMatter":{"title":"About it","slug":"about-it"},"sidebar":"tutorialSidebar","previous":{"title":"Docs","permalink":"/docs/"}};const assets={};const toc=[];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent(_ref){let{components,...props}=_ref;return (0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)(MDXLayout,(0,_home_runner_work_blog_blog_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z)({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h1",{"id":"about-it"},`About it`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,`This is not a normal blog, it is an unordered set of tech entries, mostly software development related, kind of log, in order to do not forget how did some stuffs, enjoy it.`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("blockquote",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",{parentName:"blockquote"},`"Talk is cheap. Show me the code".
-`,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("em",{parentName:"p"},`― Linus Torvalds`))),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,`It was made using `,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("a",{parentName:"p","href":"https://docusaurus.io/"},`docusaurus`),`.`));};MDXContent.isMDXComponent=true;
+/* @jsxRuntime classic */ /* @jsx mdx */ /* @jsxFrag React.Fragment */const frontMatter={slug:'/',title:'Docs'};const contentTitle='';const metadata={"unversionedId":"index","id":"index","title":"Docs","description":"About it","source":"@site/docs/index.md","sourceDirName":".","slug":"/","permalink":"/docs/","draft":false,"tags":[],"version":"current","frontMatter":{"slug":"/","title":"Docs"},"sidebar":"tutorialSidebar","next":{"title":"About it","permalink":"/docs/about-it"}};const assets={};const toc=[];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent(_ref){let{components,...props}=_ref;return (0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)(MDXLayout,(0,_home_runner_work_blog_blog_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z)({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h1",{"id":""}),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("a",{parentName:"p","href":"/docs/about-it"},`About it`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("a",{parentName:"p","href":"/docs/base-debian-distros"},`Base Debian distos`)));};MDXContent.isMDXComponent=true;
 
 /***/ })
 

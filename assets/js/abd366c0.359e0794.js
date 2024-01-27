@@ -1,5 +1,5 @@
 "use strict";
-(self["webpackChunkblog"] = self["webpackChunkblog"] || []).push([[6971],{
+(self["webpackChunkblog"] = self["webpackChunkblog"] || []).push([[218],{
 
 /***/ 3905:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
@@ -212,7 +212,7 @@ function createElement (type, props) {
 
 /***/ }),
 
-/***/ 1269:
+/***/ 7191:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -227,7 +227,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home_runner_work_blog_blog_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7462);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7294);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3905);
-/* @jsxRuntime classic */ /* @jsx mdx */ /* @jsxFrag React.Fragment */const frontMatter={slug:'/',title:'Docs'};const contentTitle='';const metadata={"unversionedId":"index","id":"index","title":"Docs","description":"About it","source":"@site/docs/index.md","sourceDirName":".","slug":"/","permalink":"/docs/","draft":false,"tags":[],"version":"current","frontMatter":{"slug":"/","title":"Docs"},"sidebar":"tutorialSidebar","next":{"title":"About it","permalink":"/docs/about-it"}};const assets={};const toc=[];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent(_ref){let{components,...props}=_ref;return (0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)(MDXLayout,(0,_home_runner_work_blog_blog_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z)({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h1",{"id":""}),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("p",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("a",{parentName:"p","href":"/docs/about-it"},`About it`)));};MDXContent.isMDXComponent=true;
+/* @jsxRuntime classic */ /* @jsx mdx */ /* @jsxFrag React.Fragment */const frontMatter={title:'Base Debian distros',slug:'base-debian-distros'};const contentTitle='Base Debian distos';const metadata={"unversionedId":"base-debian-distros","id":"base-debian-distros","title":"Base Debian distros","description":"Base packages:","source":"@site/docs/base-debian-distros.md","sourceDirName":".","slug":"/base-debian-distros","permalink":"/docs/base-debian-distros","draft":false,"tags":[],"version":"current","frontMatter":{"title":"Base Debian distros","slug":"base-debian-distros"},"sidebar":"tutorialSidebar","previous":{"title":"About it","permalink":"/docs/about-it"}};const assets={};const toc=[{value:'Base packages:',id:'base-packages',level:2},{value:'Useful scripts',id:'useful-scripts',level:2}];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent(_ref){let{components,...props}=_ref;return (0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)(MDXLayout,(0,_home_runner_work_blog_blog_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z)({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h1",{"id":"base-debian-distos"},`Base Debian distos`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h2",{"id":"base-packages"},`Base packages:`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`sudo apt install -y zsh \\
+     neofetch \\
+     neovim \\
+     git \\
+     openssh-server \\
+     curl \\
+     bat \\
+     wget \\
+     curl \\
+     htop \\
+     nano \\
+     rsync \\
+     wakeonlan \\
+     gnupg \\
+     sudo \\
+     gcc \\
+     make \\
+     linux-headers-amd64 \\
+     linux-headers-$(uname -r)
+`)),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("h2",{"id":"useful-scripts"},`Useful scripts`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("pre",null,(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .kt)("code",{parentName:"pre","className":"language-bash"},`cd ~ && \\
+git clone https://github.com/p0nch0d3v/scripts-labs.git && \\
+sudo bash ~/scripts-labs/debian_package_update.sh
+`)));};MDXContent.isMDXComponent=true;
 
 /***/ })
 
